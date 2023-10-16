@@ -34,3 +34,41 @@ h1 {
 h2 {
   font-size: 24px
 }
+
+h3 {
+  font-size: 20px
+}
+
+.counterButton {
+  font-weight: bold;
+  padding: 6px 10px;
+  border-radius: 4px;
+  /* padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 30px; */
+  background-color:darkslategray;
+}
+
+.controller {
+  text-align: center;
+  width: 50px;
+}
+
+.customCardSet {
+  display: flex;
+  align-items: center;
+}
+
+.error {
+  color: red;
+}
+
+.good {
+  color: green;
+}
+
+.logoDiv{
+  max-height: 80px
+  /* max-width: */
+}
