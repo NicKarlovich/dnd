@@ -72,3 +72,13 @@ h3 {
   max-height: 80px
   /* max-width: */
 }
+
+.organizeIcon {
+  margin  : 5px;
+}
+
+.organizeIconButton {
+  border-radius: 5px;
+  border: 2px grey solid;
+  margin: 5px; 
+}

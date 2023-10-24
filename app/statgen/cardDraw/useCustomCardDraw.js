@@ -42,44 +42,44 @@ export default function useCardDraw() {
 
     const convertDistributionToNumArray = (dist) => {
         let out = []
-        console.log(dist)
+        // console.log(dist)
         for(const [key, val] of Object.entries(dist)) {
             // console.log(key, val)
             for(let i = 0; i < val; i++) {
-                console.log(key, val)
+                // console.log(key, val)
                 switch (key) {
                     case "six":
-                        console.log('six')
+                        // console.log('six')
                         out.push(6)
                         break;
                         // return
                     case "five":
-                        console.log('five')
+                        // console.log('five')
                         out.push(5)
                         break;
                         // return
                     case "four":
-                        console.log('four')
+                        // console.log('four')
                         out.push(4)
                         break;
                         // return
                     case "three":
-                        console.log('three')
+                        // console.log('three')
                         out.push(3)
                         break;
                         // return
                     case "two":
-                        console.log('two')
+                        // console.log('two')
                         out.push(2)
                         break;
                         // return 
                     case "one":
-                        console.log('one')
+                        // console.log('one')
                         out.push(1)
                         break;
                         // return
                     default:
-                        console.log('zero')
+                        // console.log('zero')
                         out.push(0)
                         break;
                         // return
@@ -87,7 +87,7 @@ export default function useCardDraw() {
                 
             }
         }   
-        console.log(out)
+        // console.log(out)
         return out
     }
 

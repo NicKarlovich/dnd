@@ -1,12 +1,14 @@
 export default function GroupStats({cardCount, statTotal}) {
 
-    const MAX = 18;
+    const NUM_CARDS = 18;
 
     return (
         <div style={{display: 'block', paddingLeft: '20px'}}>
-            <p># of Cards: <span className={cardCount > MAX ? "error" : "good"}> {cardCount} </span> / {MAX}</p>
+            <p># of Cards: <span style={{"whiteSpace": "nowrap"}}><span className={cardCount != NUM_CARDS ? "error" : "good"}> {cardCount} </span> / {NUM_CARDS}</span></p>
             <br></br>
-            <p>Stat Point Total: {statTotal}</p>
+            <p 
+            style={{paddingRight: "5px"}}
+            >Stat Point Total: {statTotal}</p>
         </div>
     )
 }

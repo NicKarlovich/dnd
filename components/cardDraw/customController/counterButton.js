@@ -7,7 +7,6 @@ export default function CounterButton({currentVal, isUp, updateFunction}) {
     const MIN = 0
 
     let func = () => {
-        console.log('before', currentVal)
         if (isUp && currentVal < 18) {
             updateFunction(currentVal + 1)
         } if(!isUp && currentVal > 0) {

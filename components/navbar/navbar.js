@@ -4,8 +4,6 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-// import SkaarfLogo from '../../data/skaarf.png';
-
 const Navbar = () => {
     const [nav, setNav] = useState(false);
 
