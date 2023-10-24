@@ -1,5 +1,6 @@
 "use client"
 
+import { prefix } from "@/prefix";
 import Link from "next/link";
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -46,7 +47,7 @@ const Navbar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img className="logoDiv" src={'/skaarf.png'} alt="skaarf logo" />
+            <img className="logoDiv" src={`${prefix}/skaarf.png`} alt="skaarf logo" />
           </a>
         </h1>
       </div>
