@@ -68,6 +68,14 @@ h3 {
   color: green;
 }
 
+.warn {
+  color: yellow;
+}
+
+.white {
+  color: white;
+}
+
 .logoDiv{
   max-height: 80px
   /* max-width: */
@@ -81,4 +89,9 @@ h3 {
   border-radius: 5px;
   border: 2px grey solid;
   margin: 5px; 
+}
+
+.link {
+  color: cornflowerblue;
+  text-decoration: underline;
 }

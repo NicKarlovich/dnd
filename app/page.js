@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <>
       <h1> Skaarf's Page </h1>
-      <Link href="/statgen">Statgen</Link>
+      <Link className="link" href="/statgen">Statgen</Link>
     </>
   );
 }

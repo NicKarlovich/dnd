@@ -1,3 +1,4 @@
+import PlusMinusButton from "@/components/generic/plusMinusButton"
 import { faCircleMinus, faCirclePlus } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
@@ -16,11 +17,7 @@ export default function CounterButton({currentVal, isUp, updateFunction}) {
     }
 
     return (
-        <>
-            <button className="counterButton" onClick={func}>
-                {isUp ? <FontAwesomeIcon icon={faCirclePlus} /> : <FontAwesomeIcon icon={faCircleMinus} />}
-            </button>
-        </>
+        <PlusMinusButton onClick={func} isUp={isUp} />
     )
 
 }

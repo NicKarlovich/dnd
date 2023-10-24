@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import CounterButton from "./counterButton";
-import ValueDisplay from "./valueDisplay";
+import ValueDisplay from "../../generic/valueDisplay";
 import { faD, faDice, faDiceFive, faDiceFour, faDiceOne, faDiceSix, faDiceThree, faDiceTwo } from "@fortawesome/free-solid-svg-icons";
 
 export default function CustomController({currentVal, updateFunction, dieVal}) {
