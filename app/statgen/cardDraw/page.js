@@ -1,20 +1,15 @@
 "use client"
-
 import { useState } from "react";
 import useCardDraw from "./useCardDraw";
 import useCustomCardDraw from "./useCustomCardDraw"
 import textCardDraw from "@/components/cardDraw/textCardDraw";
 import GroupStats from "@/components/cardDraw/customController/groupStats";
 import Card3Set from "@/components/cardDraw/card3Set/card3set";
+import SortButtons from "@/components/cardDraw/sortButtons";
 
 export default function Page() {
 
-    const [windowWidth, setWindowWidth] = useState(window.innerWidth)
     const [viewWidth, setViewWidth] = useState(1100)
-
-    window.addEventListener("resize", () => {
-        setWindowWidth(window.innerWidth)
-    });
 
     const [cardDraw, setCardDraw] = useState(null)
     const abilityArr = ["STR", "DEX", "CON", "INT", "WIS", "CHA"]
@@ -132,28 +127,7 @@ export default function Page() {
                 Generate Card Draw
             </button>
             {cardDraw && cardDraw.map((set, i) => textCardDraw(set, i))}
-            <div style={{
-                display: "flex",
-            }}>
-                <button className="organizeIconButton" onClick={() => setViewWidth(705)}>
-                    <img className="organizeIcon" src={'/flexDownLarge.png'} alt="flex down icon" />
-                </button>
-                {windowWidth > 706 && 
-                <button className="organizeIconButton" onClick={() => setViewWidth(708)}>
-                    <img className="organizeIcon" src={'/twoWideThreeTallLarge.png'} alt="two wide three tall icon" />
-                </button>
-                }
-                {windowWidth > 1068 &&
-                <button className="organizeIconButton"onClick={() => setViewWidth(1068)}>
-                    <img className="organizeIcon" src={'/threeWideTwoTallLarge.png'} alt="three wide two tall icon" />
-                </button>
-                }
-                {windowWidth > 1415 &&
-                <button className="organizeIconButton"onClick={() => setViewWidth(100000)}>
-                    <img className="organizeIcon" src={'/flexRightLarge.png'} alt="flex right icon" />
-                </button>
-                }
-            </div>
+            {cardDraw && <SortButtons setViewWidth={setViewWidth} />}
             <div style={{display: "flex", flexWrap: "wrap", maxWidth: `${viewWidth}px`}}>
             {/* <div style={{display: "flex", flexWrap: "wrap"}}> */}
             {cardDraw && cardDraw.map(

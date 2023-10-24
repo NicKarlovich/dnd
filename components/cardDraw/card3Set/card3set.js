@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import ModDisplay from "./modDisplay";
 import PlayingCard from "./playingCard";
 import { EB_Garamond } from 'next/font/google'
@@ -8,9 +8,6 @@ const eb_garamond = EB_Garamond({
     subsets: ['latin'],
     display: 'swap',
 })
-
-
-
 
 export default function Card3Set({ cardValues, initialAbility, index = -1, onSwap, swap = null}) {
 
