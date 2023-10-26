@@ -35,12 +35,14 @@ export default function CustomController({currentVal, updateFunction, dieVal}) {
                 currentVal={currentVal}
                 updateFunction={updateFunction}
                 isUp={true}
+                dieVal={dieVal}
             />
             <ValueDisplay valueToDisplay={currentVal}/>
             <CounterButton
                 currentVal={currentVal}
                 updateFunction={updateFunction}
                 isUp={false}
+                dieVal={dieVal}
             />
             <div style={{paddingTop: "10px"}}>
                 <FontAwesomeIcon icon={dieValue} size="2xl"/>

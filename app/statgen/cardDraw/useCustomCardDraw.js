@@ -33,12 +33,45 @@ export default function useCardDraw() {
     const originalDeploymentDescription = "3x6, 4x5/4/3, 3x2, total 72"
     // const upgradedDescription = "4x6/5, 3x4, 4x3, 2x2, 1x1, total 74"
 
-    let sixUnit = <CustomController currentVal={numSix} updateFunction={setNumSix} dieVal={6}/>
-    let fiveUnit = <CustomController currentVal={numFive} updateFunction={setNumFive} dieVal={5}/>
-    let fourUnit = <CustomController currentVal={numFour} updateFunction={setNumFour} dieVal={4}/>
-    let threeUnit = <CustomController currentVal={numThree} updateFunction={setNumThree} dieVal={3}/>
-    let twoUnit = <CustomController currentVal={numTwo} updateFunction={setNumTwo} dieVal={2}/>
-    let oneUnit = <CustomController currentVal={numOne} updateFunction={setNumOne} dieVal={1}/>
+    function modifyDistribution(dieVal, change) {
+        let temp;
+        switch (dieVal) {
+            case 6:
+                temp = {...distribution, six: distribution.six + change}
+                setDistribution(temp)
+                break;
+            case 5:
+                temp = {...distribution, five: distribution.five + change}
+                setDistribution(temp)
+                break;
+            case 4:
+                temp = {...distribution, four: distribution.four + change}
+                setDistribution(temp)
+                break;
+            case 3:
+                temp = {...distribution, three: distribution.three + change}
+                setDistribution(temp)
+                break;
+            case 2:
+                temp = {...distribution, two: distribution.two + change}
+                setDistribution(temp)
+                break;
+            case 1:
+                temp = {...distribution, one: distribution.one + change}
+                setDistribution(temp)
+                break;
+            default:
+                // don't do anything.
+                break;
+        }
+    }
+
+    let sixUnit = <CustomController currentVal={numSix} updateFunction={modifyDistribution} dieVal={6}/>
+    let fiveUnit = <CustomController currentVal={numFive} updateFunction={modifyDistribution} dieVal={5}/>
+    let fourUnit = <CustomController currentVal={numFour} updateFunction={modifyDistribution} dieVal={4}/>
+    let threeUnit = <CustomController currentVal={numThree} updateFunction={modifyDistribution} dieVal={3}/>
+    let twoUnit = <CustomController currentVal={numTwo} updateFunction={modifyDistribution} dieVal={2}/>
+    let oneUnit = <CustomController currentVal={numOne} updateFunction={modifyDistribution} dieVal={1}/>
 
     const convertDistributionToNumArray = (dist) => {
         let out = []

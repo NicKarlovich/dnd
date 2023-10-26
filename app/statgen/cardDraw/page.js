@@ -108,28 +108,29 @@ export default function Page() {
             <br/>
             <button onClick={
                 () => setDistribution({six: 3, five: 4, four: 4, three: 4, two: 3, one: 0})}>
-            {/* <button onClick={handleOriginal}> */}
                 Set Standard Preset [Total 72]
-
             </button>
             <br/>
             <button onClick={
                 () => setDistribution({six: 4, five: 4, four: 4, three: 3, two: 2, one: 1})}>
-            {/* <button onClick={handleModified}> */}
                 Set Modified Preset [Total 74]
-                {/* Generate Card Draw for Modified Stats: */}
             </button>
             <h3>Card Draw</h3>
             <div className="customCardSet">
             {sixUnit} {fiveUnit} {fourUnit} {threeUnit} {twoUnit} {oneUnit} <GroupStats cardCount={cardTotal} statTotal={statTotal}/>
             </div>
-            <button onClick={generateCardDraw}>
+            <button 
+                style={{
+                    padding: "10px",
+                    margin: "5px",
+                    border: "1px solid grey",
+                }}
+                onClick={cardTotal === 18 ? generateCardDraw : () => {}}>
                 Generate Card Draw
             </button>
             {cardDraw && cardDraw.map((set, i) => textCardDraw(set, i))}
             {cardDraw && <SortButtons setViewWidth={setViewWidth} />}
             <div style={{display: "flex", flexWrap: "wrap", maxWidth: `${viewWidth}px`}}>
-            {/* <div style={{display: "flex", flexWrap: "wrap"}}> */}
             {cardDraw && cardDraw.map(
                 (set, i) => 
                 <Card3Set 
