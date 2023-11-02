@@ -25,7 +25,7 @@ export default function Page() {
             <br />
             You could modify the standard array slightly for your campaign, but Standard Array has been tried and true 
             for many years (almost a decade at this point) and if you're looking for some customization aspect in your character creation,
-            I'd suggest looking at <Link className="link" href="statgen/cardDraw">Point Buy</Link>
+            I'd suggest looking at <Link className="link" href="/statgen/pointBuy">Point Buy</Link>
 
 
         </div>

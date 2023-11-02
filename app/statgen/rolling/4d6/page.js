@@ -29,10 +29,8 @@ export default function Page() {
         <>
         <h1> 4d6 Drop Lowest</h1>
         <p>This method involves rolling 4d6 then adding up the 3 highest values and ignoring the 4th, lowest value.</p>
-            <button onClick={handle4d6}>
+            <button className="clickButton" onClick={handle4d6}>
                 Generate 4d6 drop lowest:
-                {/* Generate 4d6 drop lowest [{four.value}, {four.value}, {four.value}] */}
-                {/* ${`Generate 4d6 drop lowest [${four.value[0]}, ${four.value[1]}, ${four.value[2]}`} */}
             </button>
             {fourDsixStats && fourDsixStats.map((abilityScore, i) => text4d6Drop(abilityScore.dropped, abilityScore.value, true, i + 1))}
             {fourDsixStats && 

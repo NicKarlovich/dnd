@@ -106,12 +106,12 @@ export default function Page() {
             Provided below are some common presets of the distributions of these cards.
             <br/>
             <br/>
-            <button onClick={
+            <button className="clickButton" onClick={
                 () => setDistribution({six: 3, five: 4, four: 4, three: 4, two: 3, one: 0})}>
                 Set Standard Preset [Total 72]
             </button>
-            <br/>
-            <button onClick={
+            {/* <br/> */}
+            <button className="clickButton" onClick={
                 () => setDistribution({six: 4, five: 4, four: 4, three: 3, two: 2, one: 1})}>
                 Set Modified Preset [Total 74]
             </button>
@@ -120,11 +120,7 @@ export default function Page() {
             {sixUnit} {fiveUnit} {fourUnit} {threeUnit} {twoUnit} {oneUnit} <GroupStats cardCount={cardTotal} statTotal={statTotal}/>
             </div>
             <button 
-                style={{
-                    padding: "10px",
-                    margin: "5px",
-                    border: "1px solid grey",
-                }}
+                className="clickButton"
                 onClick={cardTotal === 18 ? generateCardDraw : () => {}}>
                 Generate Card Draw
             </button>

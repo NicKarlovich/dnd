@@ -1,7 +1,7 @@
 import ValueDisplay from "../generic/valueDisplay"
 import PlusMinusButton from "../generic/plusMinusButton"
 
-export default function AbilityScoreDisplay({abilityScore, abilityScoreText, handleIncrease, handleDecrease, maxAbilityScore}) {
+export default function AbilityScoreDisplay({abilityScore, abilityScoreText, handleIncrease, handleDecrease, maxAbilityScore, minAbilityScore }) {
 
     return (
         <div className="controller"
@@ -23,7 +23,7 @@ export default function AbilityScoreDisplay({abilityScore, abilityScoreText, han
             <ValueDisplay valueToDisplay={abilityScore} />
             <PlusMinusButton 
                 isUp={false}
-                disabled={abilityScore <= 8}
+                disabled={abilityScore <= minAbilityScore}
                 onClick={() => handleDecrease(abilityScoreText)}
             >
                 down

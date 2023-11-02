@@ -95,3 +95,9 @@ h3 {
   color: cornflowerblue;
   text-decoration: underline;
 }
+
+button.clickButton {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid grey;
+}
