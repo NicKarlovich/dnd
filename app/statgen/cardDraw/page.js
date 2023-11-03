@@ -13,28 +13,28 @@ export default function Page() {
 
     const [cardDraw, setCardDraw] = useState(null)
     const abilityArr = ["STR", "DEX", "CON", "INT", "WIS", "CHA"]
-    const [swap, setSwap] = useState(null)
+    const [cardSwap, setCardSwap] = useState(null)
+    const [abilitySwap, setAbilitySwap] = useState(null)
 
     /*
-    There can only ever be 1 element in swap
-    if we get a 2nd variable, we do the swap
+    There can only ever be 1 element in cardSwap
+    if we get a 2nd variable, we do the cardSwap
     its essentially a boolean. so we can write some kinda
     weird logic here where we just ignore cases we don't allow to occur.
-
     */
-    function doSwap(indexOfSwap) {
-        let isFound = swap === indexOfSwap
+    function doCardSwap(indexOfSwap) {
+        let isFound = cardSwap === indexOfSwap
 
         if (!isFound) { // not found , 2 possibilities
-            if(swap !== null) { // swap !== null means there is an int of another swappable index
-                //do swap logic
+            if(cardSwap !== null) { // cardSwap !== null means there is an int of another swappable index
+                //do cardSwap logic
 
                 //convert indicies into cardDraw 2D indicies
                 let val1Idx_i = Math.floor(indexOfSwap / 3)
                 let val1Idx_j = indexOfSwap % 3
 
-                let val2Idx_i = Math.floor(swap / 3)
-                let val2Idx_j = Math.floor(swap % 3)
+                let val2Idx_i = Math.floor(cardSwap / 3)
+                let val2Idx_j = Math.floor(cardSwap % 3)
 
                 // save current values
                 let val1 = cardDraw[val1Idx_i][val1Idx_j]
@@ -48,14 +48,44 @@ export default function Page() {
                 newCardDraw[val2Idx_i][val2Idx_j] = val1
 
                 setCardDraw(newCardDraw)
-                setSwap(null)
-            } else if (swap === null) { // swap === null means nothing is saved yet, so save a value.
-                setSwap(indexOfSwap)
+                setCardSwap(null)
+            } else if (cardSwap === null) { // cardSwap === null means nothing is saved yet, so save a value.
+                setCardSwap(indexOfSwap)
             }
         } else { //found somewhere
             // if we find our element in there we want to remove it
             // simulating the user unselecting their current option.
-            setSwap(null)
+            setCardSwap(null)
+        }
+    }
+
+    // abilityIdx is an idx of the high level 3x1 array that contains the 3 card draws
+    // todo in the future, possibly standarize this with 4d6 version.
+    function doAbilitySwap(abilityIdx) {
+        let isFound = abilitySwap === abilityIdx
+        if(!isFound) {
+            if(abilitySwap !== null) {
+                let output = []
+                // go through each set of 3
+                //  if idx === one of the sets to swap, use the other set in it's place
+                for(let i = 0; i < cardDraw.length; i++) {
+                    if(i === abilityIdx) {
+                        output.push(cardDraw[abilitySwap])
+                    } else if(i === abilitySwap) {
+                        output.push(cardDraw[abilityIdx])
+                    } else {
+                        output.push(cardDraw[i])
+                    }
+                }
+                setCardDraw(output) //set new value
+                setAbilitySwap(null) //clear swap setting
+            } else if (abilitySwap === null) { // abilitySwap === null means nothing is saved yet, so save a value.
+                setAbilitySwap(abilityIdx)
+            }
+        } else { 
+            // if we find our element on a onClick event, that means the 
+            //user is unselecting their current option.
+            setAbilitySwap(null)
         }
     }
 
@@ -124,45 +154,47 @@ export default function Page() {
                 onClick={cardTotal === 18 ? generateCardDraw : () => {}}>
                 Generate Card Draw
             </button>
-            {cardDraw && cardDraw.map((set, i) => textCardDraw(set, i))}
-            {cardDraw && <SortButtons setViewWidth={setViewWidth} componentWidth={350}/>}
+            {/* {cardDraw && cardDraw.map((set, i) => textCardDraw(set, i))} */}
+            {cardDraw && <SortButtons setViewWidth={setViewWidth} componentWidth={400}/>}
             <div style={{display: "flex", flexWrap: "wrap", maxWidth: `${viewWidth}px`}}>
             {cardDraw && cardDraw.map(
                 (set, i) => 
-                <Card3Set 
-                    cardValues={set} 
-                    initialAbility={abilityArr[i]}
-                    index={i}
-                    onSwap={doSwap}
-                    swap={swap}
-                />
+                    <Card3Set 
+                        cardValues={set} 
+                        initialAbility={abilityArr[i]}
+                        index={i}
+                        onCardSwap={doCardSwap}
+                        cardSwap={cardSwap}
+                        onAbilitySwap={() => doAbilitySwap(i)}
+                        abilitySwap={abilitySwap}
+                    />
                 )}
 
 {/* for debugging look of cards */}
-            {cardDraw && false && (
+            {/* {cardDraw && false && (
                 <>
-                    <Card3Set cardValues={[6, 6, 8]} initialAbility={"DEX"} onSwap={console.log('ban')}/>
-                    <Card3Set cardValues={[6, 6, 7]} initialAbility={"DEX"} onSwap={console.log('ban')}/>
-                    <Card3Set cardValues={[6, 6, 6]} initialAbility={"DEX"} onSwap={console.log('ban')}/> 
-                    <Card3Set cardValues={[6, 6, 5]} initialAbility={"DEX"} onSwap={console.log('ban')}/>
-                    <Card3Set cardValues={[6, 6, 4]} initialAbility={"DEX"} onSwap={console.log('ban')}/>
-                    <Card3Set cardValues={[6, 6, 3]} initialAbility={"DEX"} onSwap={console.log('ban')}/>
-                    <Card3Set cardValues={[6, 6, 2]} initialAbility={"DEX"} onSwap={console.log('ban')}/>
-                    <Card3Set cardValues={[6, 6, 1]} initialAbility={"DEX"} onSwap={console.log('ban')}/>
-                    <Card3Set cardValues={[6, 6, 0]} initialAbility={"DEX"} onSwap={console.log('ban')}/>
-                    <Card3Set cardValues={[6, 6, -1]} initialAbility={"DEX"} onSwap={console.log('ban')}/>
-                    <Card3Set cardValues={[6, 6, -2]} initialAbility={"DEX"} onSwap={console.log('ban')}/>
-                    <Card3Set cardValues={[6, 6, -3]} initialAbility={"DEX"} onSwap={console.log('ban')}/>
-                    <Card3Set cardValues={[6, 6, -4]} initialAbility={"DEX"} onSwap={console.log('ban')}/>
-                    <Card3Set cardValues={[6, 6, -5]} initialAbility={"DEX"} onSwap={console.log('ban')}/>
-                    <Card3Set cardValues={[6, 6, -6]} initialAbility={"DEX"} onSwap={console.log('ban')}/>
-                    <Card3Set cardValues={[6, 6, -7]} initialAbility={"DEX"} onSwap={console.log('ban')}/>
-                    <Card3Set cardValues={[6, 6, -8]} initialAbility={"DEX"} onSwap={console.log('ban')}/>
-                    <Card3Set cardValues={[6, 6, -9]} initialAbility={"DEX"} onSwap={console.log('ban')}/>
-                    <Card3Set cardValues={[6, 6, -10]} initialAbility={"DEX"} onSwap={console.log('ban')}/>
-                    <Card3Set cardValues={[6, 6, -11]} initialAbility={"DEX"} onSwap={console.log('ban')}/>
+                    <Card3Set cardValues={[6, 6, 8]} initialAbility={"DEX"} onCardSwap={console.log('ban')}/>
+                    <Card3Set cardValues={[6, 6, 7]} initialAbility={"DEX"} onCardSwap={console.log('ban')}/>
+                    <Card3Set cardValues={[6, 6, 6]} initialAbility={"DEX"} onCardSwap={console.log('ban')}/> 
+                    <Card3Set cardValues={[6, 6, 5]} initialAbility={"DEX"} onCardSwap={console.log('ban')}/>
+                    <Card3Set cardValues={[6, 6, 4]} initialAbility={"DEX"} onCardSwap={console.log('ban')}/>
+                    <Card3Set cardValues={[6, 6, 3]} initialAbility={"DEX"} onCardSwap={console.log('ban')}/>
+                    <Card3Set cardValues={[6, 6, 2]} initialAbility={"DEX"} onCardSwap={console.log('ban')}/>
+                    <Card3Set cardValues={[6, 6, 1]} initialAbility={"DEX"} onCardSwap={console.log('ban')}/>
+                    <Card3Set cardValues={[6, 6, 0]} initialAbility={"DEX"} onCardSwap={console.log('ban')}/>
+                    <Card3Set cardValues={[6, 6, -1]} initialAbility={"DEX"} onCardSwap={console.log('ban')}/>
+                    <Card3Set cardValues={[6, 6, -2]} initialAbility={"DEX"} onCardSwap={console.log('ban')}/>
+                    <Card3Set cardValues={[6, 6, -3]} initialAbility={"DEX"} onCardSwap={console.log('ban')}/>
+                    <Card3Set cardValues={[6, 6, -4]} initialAbility={"DEX"} onCardSwap={console.log('ban')}/>
+                    <Card3Set cardValues={[6, 6, -5]} initialAbility={"DEX"} onCardSwap={console.log('ban')}/>
+                    <Card3Set cardValues={[6, 6, -6]} initialAbility={"DEX"} onCardSwap={console.log('ban')}/>
+                    <Card3Set cardValues={[6, 6, -7]} initialAbility={"DEX"} onCardSwap={console.log('ban')}/>
+                    <Card3Set cardValues={[6, 6, -8]} initialAbility={"DEX"} onCardSwap={console.log('ban')}/>
+                    <Card3Set cardValues={[6, 6, -9]} initialAbility={"DEX"} onCardSwap={console.log('ban')}/>
+                    <Card3Set cardValues={[6, 6, -10]} initialAbility={"DEX"} onCardSwap={console.log('ban')}/>
+                    <Card3Set cardValues={[6, 6, -11]} initialAbility={"DEX"} onCardSwap={console.log('ban')}/>
                 </>
-                )}
+                )} */}
             </div>
             <div style={{height: "1000px"}}></div>
         </div>

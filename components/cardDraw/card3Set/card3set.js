@@ -2,6 +2,7 @@ import { useState } from "react";
 import ModDisplay from "../../generic/modDisplay";
 import PlayingCard from "../../generic/playingCard";
 import { EB_Garamond } from 'next/font/google'
+import SwapButton from "@/components/generic/swapButton";
 
 const eb_garamond = EB_Garamond({
     weight: '700',
@@ -9,8 +10,8 @@ const eb_garamond = EB_Garamond({
     display: 'swap',
 })
 
-export default function Card3Set({ cardValues, initialAbility, index = -1, onSwap, swap = null}) {
-
+export default function Card3Set({ cardValues, initialAbility, index = -1, onCardSwap, cardSwap = null, onAbilitySwap = () => {}, abilitySwap}) {
+    
     const [scale, setScale] = useState(window.innerWidth > 375 ? 1 : Math.max(window.innerWidth / 375, 0.5))
 
     window.addEventListener("resize", () => {
@@ -29,7 +30,7 @@ export default function Card3Set({ cardValues, initialAbility, index = -1, onSwa
             className={eb_garamond.className} 
             style={{
                 border: "2px solid grey",
-                width: `${scale * 350}px`,
+                width: `${scale * 400}px`,
                 marginRight: "3px",
                 marginTop: "3px",
             }}
@@ -41,27 +42,36 @@ export default function Card3Set({ cardValues, initialAbility, index = -1, onSwa
                     abilityScore={cardValues.reduce((prev, cur) => prev + cur, 0)} 
                     scale={scale} 
                     defaultAbility={initialAbility}/>
+                <SwapButton 
+                    scale={scale} 
+                    onAbilitySwap={onAbilitySwap} 
+                    abilitySwap={abilitySwap}
+                    index={index}
+                />
                 <div style={{
                     display: "flex",
                 }}>
                     {cardValues.map(
-                        (card, i) => 
-                        (
-                            <div style={{
-                                paddingTop: `${scale * 5}px`,
-                                paddingBottom: `${scale * 5}px`,
-                                paddingLeft: `${i === 1 ? 0 : scale * 5}px`,
-                                paddingRight: `${i === 1 ? 0 : scale * 5}px`,
-                            }}>
-                                <PlayingCard 
-                                    val={card} 
-                                    scale={scale} 
-                                    totalPosition={3 * index + i}
-                                    onSwap={onSwap}
-                                    swap={swap}
-                                />
-                            </div>
-                        )
+                        (card, i) => {
+                            let flattenedIdx = 3 * index + i
+                            return (
+                                <div style={{
+                                    paddingTop: `${scale * 5}px`,
+                                    paddingBottom: `${scale * 5}px`,
+                                    paddingLeft: `${i === 1 ? 0 : scale * 5}px`,
+                                    paddingRight: `${i === 1 ? 0 : scale * 5}px`,
+                                }}>
+                                    <PlayingCard 
+                                        val={card} 
+                                        scale={scale} 
+                                        totalPosition={flattenedIdx}
+                                        onCardSwap={() => onCardSwap(flattenedIdx)}
+                                        cardSwap={cardSwap}
+                                    />
+                                </div>
+                            )
+                        }
+                        
                     )}
                 </div>
             </div>

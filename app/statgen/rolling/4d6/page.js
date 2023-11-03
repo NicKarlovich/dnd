@@ -9,6 +9,7 @@ export default function Page() {
 
     const [viewWidth, setViewWidth] = useState(1100)
     const [fourDsixStats, setFourDsixStats] = useState(null);
+    const [abilitySwap, setAbilitySwap] = useState(null)
     const abilityArr = ["STR", "DEX", "CON", "INT", "WIS", "CHA"]
 
     const {
@@ -29,6 +30,32 @@ export default function Page() {
         )
     }
 
+    function doAbilitySwap(abilityIdx) {
+        let isFound = abilitySwap === abilityIdx
+        if(!isFound) {
+            if(abilitySwap !== null) {
+                let output = []
+                for(let i = 0; i < fourDsixStats.length; i++) {
+                    if(i === abilityIdx) {
+                        output.push(fourDsixStats[abilitySwap])
+                    } else if(i === abilitySwap) {
+                        output.push(fourDsixStats[abilityIdx])
+                    } else {
+                        output.push(fourDsixStats[i])
+                    }
+                }
+                setFourDsixStats(output)
+                setAbilitySwap(null)
+            } else if (abilitySwap === null) { // abilitySwap === null means nothing is saved yet, so save a value.
+                setAbilitySwap(abilityIdx)
+            }
+        } else { //found somewhere
+            // if we find our element in there we want to remove it
+            // simulating the user unselecting their current option.
+            setAbilitySwap(null)
+        }
+    }
+
     return (
         <>
         <h1> 4d6 Drop Lowest</h1>
@@ -42,11 +69,11 @@ export default function Page() {
                     For a stat total of: <span style={{textDecorationLine: "underline"}}><strong>{getStatTotalFrom4d6(fourDsixStats)}</strong></span>
                 </h3>
             }
-            {fourDsixStats && <SortButtons setViewWidth={setViewWidth} componentWidth={435}/>}
+            {fourDsixStats && <SortButtons setViewWidth={setViewWidth} componentWidth={485}/>}
             <div style={{display: "flex", flexWrap: "wrap", maxWidth: `${viewWidth}px`}}>
                 {fourDsixStats && fourDsixStats.map(
                     (set, i) => 
-                    <Card4Set key={i} cardValues={set} initialAbility={abilityArr[i]} onSwap={null}/>
+                    <Card4Set key={i} cardValues={set} initialAbility={abilityArr[i]} onCardSwap={null} onAbilitySwap={() => doAbilitySwap(i)} abilitySwap={abilitySwap}/>
                 )}
             </div>
            

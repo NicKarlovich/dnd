@@ -2,6 +2,7 @@ import { useState } from "react";
 import { EB_Garamond } from 'next/font/google'
 import ModDisplay from "../generic/modDisplay";
 import PlayingCard from "../generic/playingCard";
+import SwapButton from "../generic/swapButton";
 
 const eb_garamond = EB_Garamond({
     weight: '700',
@@ -9,7 +10,7 @@ const eb_garamond = EB_Garamond({
     display: 'swap',
 })
 
-export default function Card4Set({ cardValues, initialAbility, index = -1, onSwap, swap = null}) {
+export default function Card4Set({ cardValues, initialAbility, index = -1, onCardSwap, cardSwap = null, onAbilitySwap, abilitySwap}) {
 
     const [scale, setScale] = useState(window.innerWidth > 375 ? 1 : Math.max(window.innerWidth / 375, 0.5))
     cardValues = cardValues.sort()
@@ -29,7 +30,7 @@ export default function Card4Set({ cardValues, initialAbility, index = -1, onSwa
             className={eb_garamond.className} 
             style={{
                 border: "2px solid grey",
-                width: `${scale * 435}px`,
+                width: `${scale * 485}px`,
                 marginRight: "3px",
                 marginTop: "3px",
             }}
@@ -41,6 +42,12 @@ export default function Card4Set({ cardValues, initialAbility, index = -1, onSwa
                     abilityScore={cardValues.slice(1).reduce((prev, cur) => prev + cur, 0)} 
                     scale={scale} 
                     defaultAbility={initialAbility}/>
+                <SwapButton 
+                    scale={scale} 
+                    onAbilitySwap={onAbilitySwap} 
+                    abilitySwap={abilitySwap}
+                    index={index}
+                />
                 <div style={{
                     display: "flex",
                 }}>
@@ -57,8 +64,8 @@ export default function Card4Set({ cardValues, initialAbility, index = -1, onSwa
                                     val={card} 
                                     scale={scale} 
                                     totalPosition={3 * index + i}
-                                    onSwap={onSwap}
-                                    swap={swap}
+                                    onCardSwap={onCardSwap}
+                                    cardSwap={cardSwap}
                                     doNotCount={i === 0}
                                     isDisabled={true}
                                 />

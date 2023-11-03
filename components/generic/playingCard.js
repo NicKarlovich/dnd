@@ -1,8 +1,7 @@
-import Head from "next/head"
 import { useEffect, useState } from "react"
 
 
-export default function PlayingCard({ val, scale, totalPosition, onSwap, swap, doNotCount = false, isDisabled = false}) {
+export default function PlayingCard({ val, scale, totalPosition, onCardSwap, cardSwap, doNotCount = false, isDisabled = false}) {
 
     let cardRatio = 3.5/2.5
     let desktopWidth = 80 * scale
@@ -11,19 +10,19 @@ export default function PlayingCard({ val, scale, totalPosition, onSwap, swap, d
     let backgroundColor = doNotCount ? "#FF0000" : `${selected}`
 
     useEffect(() => {
-        if(swap === totalPosition) {
+        if(cardSwap === totalPosition) {
             setSelected("#00FF00") //green
-        } else {
+        } else if(cardSwap !== null) {
+            setSelected("#99DDFF") // can be swapped blue
+        } else if(cardSwap === null) {
             setSelected("#FFFFFF") //white
         }
-    }, [swap])
+    }, [cardSwap])
     
     return (
         <>
             <button 
-                onClick={() => {
-                    onSwap(totalPosition)
-                }}
+                onClick={onCardSwap}
                 style={{
                     borderRadius: `${desktopWidth / 12}px`,
                     display: 'flex', 
