@@ -3,8 +3,12 @@ import AbilityScoreDisplay from "@/components/pointBuy/abilityScoreDisplay"
 import usePointBuy from "./usePointBuy"
 import PointBuyStats from "@/components/pointBuy/pointBuyStats"
 import HorizontalIncrementer from "@/components/pointBuy/horizontalIncrementer"
+import { useState } from "react"
+import AbilityScoreModifierTable from "@/components/generic/abilityScoreModifierTable"
 
 export default function Page() {
+
+    const [toggleAbilityScoreModifierTable, setToggleAbilityScoreModifierTable] = useState(false)
 
     const {
         str, dex, con,  int,  wis, cha,
@@ -20,9 +24,23 @@ export default function Page() {
             <h2>
                 Point Buy Method
             </h2>
-
-            Point Buy is where the
-
+                Point Buy is where the player is given a certain number of points.  Each score has a number of points assocaited with it, 
+                with higher ability scores costing more points.  They must choose how they allocate their points to build their character.
+                <br />
+                <br />
+                With standard point buy, you are given 27 points, any one ability score can range between 8 and 15.  Others have also suggested
+                using custom values to allow for either 
+                <ul>
+                    <li>(A) more points</li> 
+                    <li>(B) a wider range of available ability scores 
+                            (including ones below 8 which cost negative points, essentially allowing you to be compensated for taking more aggressive negative ability scores)</li>
+                    <li>(C) modifying the amount of points each ablity score costs</li>
+                    <li>(D) any combination of those!</li>
+                </ul>
+                {/* <br /> */}
+                The default values given are standard point buy you'll see at most tables that use point buy rules.  There isn't a standard for values beyond the 8 - 15 range
+                so I've provided one possible distribution, but feel free to modify as it fits your ideas!
+            <br />
             <div style={{
                     display: "flex",
                 }}
@@ -31,7 +49,8 @@ export default function Page() {
                     display: 'flex',
                     alignItems: "center",
                     paddingBottom: "5px",
-                    borderBottom: "2px solid grey"
+                    borderBottom: "2px solid grey",
+                    borderTop: "2px solid grey"
                 }}
                 >
                     <AbilityScoreDisplay abilityScore={str} abilityScoreText={"STR"} handleDecrease={handleDec} handleIncrease={handleInc} maxAbilityScore={maxAbilityScore} minAbilityScore={minAbilityScore}/>
@@ -43,6 +62,12 @@ export default function Page() {
                     <PointBuyStats maxPoints={maxPoints} points={points}/>
                 </div>
             </div>
+            <button className="clickButton" onClick={() => setToggleAbilityScoreModifierTable(!toggleAbilityScoreModifierTable)}>
+                {toggleAbilityScoreModifierTable ? "Hide Ability Score Modifier Table" : "Show Ability Score Modifier Table"}
+            </button>
+            {toggleAbilityScoreModifierTable &&
+                <AbilityScoreModifierTable />
+            }
             <h3>Custom Modifiers</h3>
             <button className="clickButton" onClick={toggleCustomElements}>
                 {useCustomPointBuy ? "Disable Custom Modifiers?" : "Enable Custom Modifiers?"}
@@ -90,7 +115,7 @@ export default function Page() {
                                     downFunction={() => setPointValues({...pointValues, [abilityScore[0]]: abilityScore[1] - 1})}
                                     horizontalLabel={
                                         <div style={{"paddingRight": "5px"}}>
-                                            <h3>{abilityScore[0]}</h3>
+                                            {abilityScore[0]}
                                         </div>
                                     }
                                     redGreenGradientValue={true}

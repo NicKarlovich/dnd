@@ -1,6 +1,18 @@
+"use client"
+import ModDisplay from "@/components/generic/modDisplay";
 import Link from "next/link";
+import { EB_Garamond } from 'next/font/google'
+
+const eb_garamond = EB_Garamond({
+    weight: '700',
+    subsets: ['latin'],
+    display: 'swap',
+})
 
 export default function Page() {
+
+    const standardArray = [15, 14, 13, 12, 10, 8]
+
 
     return (
         <div style={{marginLeft: "5px"}}>
@@ -20,7 +32,17 @@ export default function Page() {
             When people say they use "standard array" they most likely mean the following standard array:
             <br />
             <h3> Standard Array</h3>
-            15, 14, 13, 12, 10, 8
+            <br />
+            <div
+                className={eb_garamond.className}  
+                style={{
+                    display: "flex",
+                    borderLeft: "2px solid grey",
+            }}>
+                {standardArray.map((val, i) => 
+                    <ModDisplay abilityScore={val} scale={1} defaultAbility={null} />
+                )}
+            </div>
             <br />
             <br />
             You could modify the standard array slightly for your campaign, but Standard Array has been tried and true 

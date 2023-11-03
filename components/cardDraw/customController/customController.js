@@ -36,6 +36,7 @@ export default function CustomController({currentVal, updateFunction, dieVal}) {
                 updateFunction={updateFunction}
                 isUp={true}
                 dieVal={dieVal}
+                isDisabled={false}
             />
             <ValueDisplay valueToDisplay={currentVal}/>
             <CounterButton
@@ -43,6 +44,7 @@ export default function CustomController({currentVal, updateFunction, dieVal}) {
                 updateFunction={updateFunction}
                 isUp={false}
                 dieVal={dieVal}
+                isDisabled={currentVal === 0}
             />
             <div style={{paddingTop: "10px"}}>
                 <FontAwesomeIcon icon={dieValue} size="2xl"/>

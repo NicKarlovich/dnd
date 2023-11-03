@@ -2,10 +2,14 @@
 import { useState } from "react";
 import use4d6Drop from "./use4d6Drop";
 import text4d6Drop from "@/components/4d6Drop/text4d6Drop";
+import Card4Set from "@/components/4d6Drop/card4Set";
+import SortButtons from "@/components/cardDraw/sortButtons";
 
 export default function Page() {
 
+    const [viewWidth, setViewWidth] = useState(1100)
     const [fourDsixStats, setFourDsixStats] = useState(null);
+    const abilityArr = ["STR", "DEX", "CON", "INT", "WIS", "CHA"]
 
     const {
         generate4d6DropLowest,
@@ -32,12 +36,20 @@ export default function Page() {
             <button className="clickButton" onClick={handle4d6}>
                 Generate 4d6 drop lowest:
             </button>
-            {fourDsixStats && fourDsixStats.map((abilityScore, i) => text4d6Drop(abilityScore.dropped, abilityScore.value, true, i + 1))}
+            <br />
             {fourDsixStats && 
-                <>
-                    For a stat total of: {getStatTotalFrom4d6(fourDsixStats)}
-                </>
+                <h3>
+                    For a stat total of: <span style={{textDecorationLine: "underline"}}><strong>{getStatTotalFrom4d6(fourDsixStats)}</strong></span>
+                </h3>
             }
+            {fourDsixStats && <SortButtons setViewWidth={setViewWidth} componentWidth={435}/>}
+            <div style={{display: "flex", flexWrap: "wrap", maxWidth: `${viewWidth}px`}}>
+                {fourDsixStats && fourDsixStats.map(
+                    (set, i) => 
+                    <Card4Set key={i} cardValues={set} initialAbility={abilityArr[i]} onSwap={null}/>
+                )}
+            </div>
+           
         </>
     )
 }

@@ -125,7 +125,7 @@ export default function Page() {
                 Generate Card Draw
             </button>
             {cardDraw && cardDraw.map((set, i) => textCardDraw(set, i))}
-            {cardDraw && <SortButtons setViewWidth={setViewWidth} />}
+            {cardDraw && <SortButtons setViewWidth={setViewWidth} componentWidth={350}/>}
             <div style={{display: "flex", flexWrap: "wrap", maxWidth: `${viewWidth}px`}}>
             {cardDraw && cardDraw.map(
                 (set, i) => 

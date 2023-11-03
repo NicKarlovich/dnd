@@ -1,7 +1,7 @@
 import { prefix } from "@/prefix";
 import { useState } from "react";
 
-export default function SortButtons({setViewWidth}) {
+export default function SortButtons({setViewWidth, isWider = false, componentWidth}) {
 
     const [windowWidth, setWindowWidth] = useState(100000)
 
@@ -13,20 +13,20 @@ export default function SortButtons({setViewWidth}) {
         <div style={{
             display: "flex",
         }}>
-            <button className="organizeIconButton" onClick={() => setViewWidth(705)}>
+            <button className="organizeIconButton" onClick={() => setViewWidth(componentWidth * 2 + 5)}>
                 <img className="organizeIcon" src={`${prefix}/flexDownLarge.png`} alt="flex down icon" />
             </button>
-            {windowWidth > 706 && 
-            <button className="organizeIconButton" onClick={() => setViewWidth(708)}>
+            {windowWidth > componentWidth * 2 + 6 && 
+            <button className="organizeIconButton" onClick={() => setViewWidth(componentWidth * 2 + 8)}>
                 <img className="organizeIcon" src={`${prefix}/twoWideThreeTallLarge.png`} alt="two wide three tall icon" />
             </button>
             }
-            {windowWidth > 1068 &&
-            <button className="organizeIconButton"onClick={() => setViewWidth(1068)}>
+            {windowWidth > componentWidth * 3 + 13 &&
+            <button className="organizeIconButton"onClick={() => setViewWidth(componentWidth * 3 + 13)}>
                 <img className="organizeIcon" src={`${prefix}/threeWideTwoTallLarge.png`} alt="three wide two tall icon" />
             </button>
             }
-            {windowWidth > 1415 &&
+            {windowWidth > componentWidth * 4 + 15 &&
             <button className="organizeIconButton"onClick={() => setViewWidth(100000)}>
                 <img className="organizeIcon" src={`${prefix}/flexRightLarge.png`} alt="flex right icon" />
             </button>

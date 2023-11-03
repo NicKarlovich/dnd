@@ -1,6 +1,14 @@
 import PlusMinusButton from "../generic/plusMinusButton";
 import ValueDisplay from "../generic/valueDisplay";
 
+import { EB_Garamond } from 'next/font/google'
+
+const eb_garamond = EB_Garamond({
+    weight: '700',
+    subsets: ['latin'],
+    display: 'swap',
+})
+
 export default function HorizontalIncrementer({
     currentVal, 
     upFunction, 
@@ -45,11 +53,13 @@ export default function HorizontalIncrementer({
                         "width": "159px",
                     }}
                 >
-                    <div style={{
-                        minWidth: "36px",
-                        fontWeight: "bolder",
-                        textDecorationLine: "underline",
-                        textUnderlineOffset: 5,
+                    <div
+                        className={eb_garamond.className}  
+                        style={{
+                            minWidth: "36px",
+                            fontWeight: "bolder",
+                            fontSize: "30px",
+                            textUnderlineOffset: 5,
                     }}>
                         {horizontalLabel}
                     </div>

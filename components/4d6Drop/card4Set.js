@@ -1,7 +1,7 @@
 import { useState } from "react";
-import ModDisplay from "../../generic/modDisplay";
-import PlayingCard from "../../generic/playingCard";
 import { EB_Garamond } from 'next/font/google'
+import ModDisplay from "../generic/modDisplay";
+import PlayingCard from "../generic/playingCard";
 
 const eb_garamond = EB_Garamond({
     weight: '700',
@@ -9,10 +9,10 @@ const eb_garamond = EB_Garamond({
     display: 'swap',
 })
 
-export default function Card3Set({ cardValues, initialAbility, index = -1, onSwap, swap = null}) {
+export default function Card4Set({ cardValues, initialAbility, index = -1, onSwap, swap = null}) {
 
     const [scale, setScale] = useState(window.innerWidth > 375 ? 1 : Math.max(window.innerWidth / 375, 0.5))
-
+    cardValues = cardValues.sort()
     window.addEventListener("resize", () => {
         const windowWidth = window.innerWidth;
         
@@ -29,7 +29,7 @@ export default function Card3Set({ cardValues, initialAbility, index = -1, onSwa
             className={eb_garamond.className} 
             style={{
                 border: "2px solid grey",
-                width: `${scale * 350}px`,
+                width: `${scale * 435}px`,
                 marginRight: "3px",
                 marginTop: "3px",
             }}
@@ -37,8 +37,8 @@ export default function Card3Set({ cardValues, initialAbility, index = -1, onSwa
             <div style={{
                 display: "flex",
             }}>
-                <ModDisplay 
-                    abilityScore={cardValues.reduce((prev, cur) => prev + cur, 0)} 
+                <ModDisplay //slice(1) to not count 1st value
+                    abilityScore={cardValues.slice(1).reduce((prev, cur) => prev + cur, 0)} 
                     scale={scale} 
                     defaultAbility={initialAbility}/>
                 <div style={{
@@ -51,7 +51,7 @@ export default function Card3Set({ cardValues, initialAbility, index = -1, onSwa
                                 paddingTop: `${scale * 5}px`,
                                 paddingBottom: `${scale * 5}px`,
                                 paddingLeft: `${i === 1 ? 0 : scale * 5}px`,
-                                paddingRight: `${i === 1 ? 0 : scale * 5}px`,
+                                paddingRight: `${i === 2 || i === 1 ? 0 : scale * 5}px`,
                             }}>
                                 <PlayingCard 
                                     val={card} 
@@ -59,6 +59,8 @@ export default function Card3Set({ cardValues, initialAbility, index = -1, onSwa
                                     totalPosition={3 * index + i}
                                     onSwap={onSwap}
                                     swap={swap}
+                                    doNotCount={i === 0}
+                                    isDisabled={true}
                                 />
                             </div>
                         )

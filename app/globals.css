@@ -40,14 +40,17 @@ h3 {
 }
 
 .counterButton {
+  min-height: 37px;
+  min-width: 37px;
   font-weight: bold;
-  padding: 6px 10px;
+  font-size: 24px;
+  line-height: 0;
   border-radius: 4px;
-  /* padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 100px;
-  padding-right: 30px; */
-  background-color:darkslategray;
+  background-color: #696773;
+}
+
+.counterButton:disabled{
+  background-color: #363946;
 }
 
 .controller {
@@ -100,4 +103,13 @@ button.clickButton {
     padding: 10px;
     margin: 5px;
     border: 1px solid grey;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+
+td {
+  text-align: center;
+  width: 55px
 }

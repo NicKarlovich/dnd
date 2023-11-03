@@ -1,6 +1,6 @@
 import PlusMinusButton from "@/components/generic/plusMinusButton"
 
-export default function CounterButton({currentVal, isUp, updateFunction, dieVal}) {
+export default function CounterButton({currentVal, isUp, updateFunction, dieVal, isDisabled}) {
 
     const MAX = 18
     const MIN = 0
@@ -14,7 +14,7 @@ export default function CounterButton({currentVal, isUp, updateFunction, dieVal}
     }
 
     return (
-        <PlusMinusButton onClick={func} isUp={isUp} />
+        <PlusMinusButton onClick={func} isUp={isUp} isDisabled={isDisabled}/>
     )
 
 }
