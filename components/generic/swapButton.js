@@ -23,6 +23,7 @@ export default function SwapButton({scale, onAbilitySwap, abilitySwap, index}) {
             overflow: "visible",
             justifyContent: "center",
             alignContent: "center",
+            width: `${scale * 50}px`,
         }}>
             <button 
                 onClick={onAbilitySwap}
