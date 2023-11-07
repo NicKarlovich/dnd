@@ -125,3 +125,12 @@ td {
   text-align: center;
   width: 55px
 }
+
+.rotateText {
+  writing-mode: vertical-rl;
+  text-orientation : mixed;
+  -moz-writing-mode: vertical-rl;
+  -o-writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode : vertical-rl;
+}

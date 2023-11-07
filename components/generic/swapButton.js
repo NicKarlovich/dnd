@@ -15,20 +15,18 @@ export default function SwapButton({scale, onAbilitySwap, abilitySwap, index}) {
     }, [abilitySwap])
 
     return (
-        <div style={{
+        <div className="rotateText"
+            style={{
             transform: "rotate(180deg)",
             whiteSpace: "nowrap",
             display: "inline-block",
             overflow: "visible",
-            writingMode: "vertical-rl",
             justifyContent: "center",
             alignContent: "center",
-            textOrientation: "mixed",
-            WebkitWritingMode: "vertical-rl",
-            msWritingMode: "vertical-rl",
         }}>
             <button 
                 onClick={onAbilitySwap}
+                className="rotateText"
                 style={{
                     display: "block",
                     width: "100%",
@@ -38,15 +36,13 @@ export default function SwapButton({scale, onAbilitySwap, abilitySwap, index}) {
                     background: `${selected}`,
                     whiteSpace: "nowrap",
                     overflow: "visible",
-                    writingMode: "vertical-rl",
-                    justifyContent: "center",
                     alignContent: "center",
-                    textOrientation: "mixed",
-                    WebkitWritingMode: "vertical-rl",
-                    msWritingMode: "vertical-rl",
+                    justifyContent: "center",
                 }}
                 >
-                    SWAP
+                    <span className="rotateText">
+                        SWAP
+                    </span>
             </button>
         </div>
     )
