@@ -5,6 +5,7 @@ import PointBuyStats from "@/components/pointBuy/pointBuyStats"
 import HorizontalIncrementer from "@/components/pointBuy/horizontalIncrementer"
 import { useState } from "react"
 import AbilityScoreModifierTable from "@/components/generic/abilityScoreModifierTable"
+import LI from "@/components/generic/LI"
 
 export default function Page() {
 
@@ -31,11 +32,11 @@ export default function Page() {
                 With standard point buy, you are given 27 points, any one ability score can range between 8 and 15.  Others have also suggested
                 using custom values to allow for either 
                 <ul>
-                    <li>(A) more points</li> 
-                    <li>(B) a wider range of available ability scores 
-                            (including ones below 8 which cost negative points, essentially allowing you to be compensated for taking more aggressive negative ability scores)</li>
-                    <li>(C) modifying the amount of points each ablity score costs</li>
-                    <li>(D) any combination of those!</li>
+                    <LI>(A) more points</LI> 
+                    <LI>(B) a wider range of available ability scores 
+                            (including ones below 8 which cost negative points, essentially allowing you to be compensated for taking more aggressive negative ability scores)</LI>
+                    <LI>(C) modifying the amount of points each ablity score costs</LI>
+                    <LI>(D) any combination of those!</LI>
                 </ul>
                 {/* <br /> */}
                 The default values given are standard point buy you'll see at most tables that use point buy rules.  There isn't a standard for values beyond the 8 - 15 range
@@ -59,7 +60,7 @@ export default function Page() {
                     <AbilityScoreDisplay abilityScore={int} abilityScoreText={"INT"} handleDecrease={handleDec} handleIncrease={handleInc} maxAbilityScore={maxAbilityScore} minAbilityScore={minAbilityScore}/>
                     <AbilityScoreDisplay abilityScore={wis} abilityScoreText={"WIS"} handleDecrease={handleDec} handleIncrease={handleInc} maxAbilityScore={maxAbilityScore} minAbilityScore={minAbilityScore}/>
                     <AbilityScoreDisplay abilityScore={cha} abilityScoreText={"CHA"} handleDecrease={handleDec} handleIncrease={handleInc} maxAbilityScore={maxAbilityScore} minAbilityScore={minAbilityScore}/>
-                    <PointBuyStats maxPoints={maxPoints} points={points}/>
+                    <PointBuyStats maxPoints={maxPoints} points={points} isCustomModEnabled={useCustomPointBuy}/>
                 </div>
             </div>
             <button className="clickButton" onClick={() => setToggleAbilityScoreModifierTable(!toggleAbilityScoreModifierTable)}>
@@ -74,7 +75,14 @@ export default function Page() {
             </button>
             {useCustomPointBuy && (
                 <>
-                    <h4>Modify Point Budget</h4>
+                    <br/>
+                    With custom modifiers on, you can
+                    <ul>
+                        <LI>Modify the total number of points to allocate</LI>
+                        <LI>Go above 15 and below 8 in your ability scores</LI>
+                        <LI>Modify how much each ability score costs in points</LI>
+                    </ul>
+                    <h3>Modify Point Budget</h3>
                     <HorizontalIncrementer
                         currentVal={maxPoints}
                         upFunction={increaseMaxPoints}

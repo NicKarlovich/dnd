@@ -10,7 +10,7 @@ export default function SwapButton({scale, onAbilitySwap, abilitySwap, index}) {
         } else if(abilitySwap !== null) {
             setSelected("#0077B3") // can be swapped blue
         } else if(abilitySwap === null) {
-            setSelected("#000000") //white
+            setSelected("#000000") //black
         }
     }, [abilitySwap])
 
