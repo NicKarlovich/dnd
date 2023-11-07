@@ -12,15 +12,24 @@ const eb_garamond = EB_Garamond({
 
 export default function Card3Set({ cardValues, initialAbility, index = -1, onCardSwap, cardSwap = null, onAbilitySwap = () => {}, abilitySwap}) {
     
-    const [scale, setScale] = useState(window.innerWidth > 375 ? 1 : Math.max(window.innerWidth / 375, 0.5))
+    // const [scale, setScale] = useState(window.innerWidth > 425 ? 1 : Math.max(window.innerWidth / 425, 0.5))
+    const [scale, setScale] = useState(
+        window.matchMedia("(max-width: 800px)").matches 
+        ? Math.max(window.innerWidth / 800, 0.5) 
+        : (
+            window.innerWidth > 425 
+            ? 1 
+            : Math.max(window.innerWidth / 425, 0.5)
+          )
+        )
 
     window.addEventListener("resize", () => {
         const windowWidth = window.innerWidth;
         
-        if(windowWidth > 375) {
+        if(windowWidth > 425) {
             setScale(1)
         } else {
-            setScale(Math.max(windowWidth / 375, 0.5))
+            setScale(Math.max(windowWidth / 425, 0.5))
         }
         console.log(scale)
     });
