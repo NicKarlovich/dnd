@@ -23,6 +23,7 @@ export default function SwapButton({scale, onAbilitySwap, abilitySwap, index}) {
             writingMode: "vertical-rl",
             justifyContent: "center",
             alignContent: "center",
+            textOrientation: "mixed",
         }}>
             <button 
                 onClick={onAbilitySwap}
@@ -32,7 +33,13 @@ export default function SwapButton({scale, onAbilitySwap, abilitySwap, index}) {
                     height: "100%",
                     fontSize: `${scale * 32}px`,
                     borderLeft: "2px solid grey", //called border left but appears on right because we rotated button 180 so writingMode would work properly
-                    background: `${selected}`
+                    background: `${selected}`,
+                    whiteSpace: "nowrap",
+                    overflow: "visible",
+                    writingMode: "vertical-rl",
+                    justifyContent: "center",
+                    alignContent: "center",
+                    textOrientation: "mixed",
                 }}
                 >
                     SWAP
