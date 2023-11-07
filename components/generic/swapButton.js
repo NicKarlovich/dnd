@@ -24,6 +24,8 @@ export default function SwapButton({scale, onAbilitySwap, abilitySwap, index}) {
             justifyContent: "center",
             alignContent: "center",
             textOrientation: "mixed",
+            WebkitWritingMode: "vertical-rl",
+            msWritingMode: "vertical-rl",
         }}>
             <button 
                 onClick={onAbilitySwap}
@@ -40,6 +42,8 @@ export default function SwapButton({scale, onAbilitySwap, abilitySwap, index}) {
                     justifyContent: "center",
                     alignContent: "center",
                     textOrientation: "mixed",
+                    WebkitWritingMode: "vertical-rl",
+                    msWritingMode: "vertical-rl",
                 }}
                 >
                     SWAP
