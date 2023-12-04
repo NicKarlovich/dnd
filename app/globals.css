@@ -11,15 +11,15 @@
 /* @media (prefers-color-scheme: dark) { */
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 24, 24, 24;
+    --background-end-rgb: 24, 24, 24;
   }
 /* } */
 
 ul{
   padding-left: 10px;
   padding-right: 1px;
-  list-style-type:square;
+  list-style-type: square;
   color: white;
   list-style-position: inside;
 }
@@ -133,4 +133,243 @@ td {
   -o-writing-mode: vertical-rl;
   -webkit-writing-mode: vertical-rl;
   -ms-writing-mode : vertical-rl;
+}
+
+.markdown * {
+  font-family: sans-serif;
+}
+
+.markdown h1 {
+  font-family: Georgia;
+}
+
+#markdownContainer {
+  overflow-y: scroll;
+}
+
+@media print {
+    .pagebreak { page-break-before: always;}
+}
+
+.markdown h1, .markdown h2 {
+    font-family: Georgia;
+    /* border-bottom: 1px solid #6C655D; */
+    border-bottom: 1px solid #3694F2;
+    margin-bottom: 0.25em;
+}
+
+.markdown h3 {
+    font-size: 1.2em;
+    margin-top: 0.3em;
+    margin-bottom: 0;
+}
+
+.markdown h3, .markdown h4 {
+    font-weight: bold
+}
+
+.markdown h4 {
+  margin-top: 4px;
+  padding-top: 7px;
+}
+
+.markdown blockquote {
+    color: #21e2e2;
+    border-left: 4px solid #21e2e2;
+    padding-left: 5px;
+}
+
+.markdown p {
+    margin: 0.5em 0;
+}
+
+.markdown a {
+    color: #3694F2;
+}
+
+.markdown .spoiler {
+    color: red;
+}
+
+.markdown td, .markdown th {
+  width: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.markdown table td,
+.markdown table th {
+  white-space: break-word;
+  width: auto;
+  max-width: 500px;
+  /* this max-width bs is done to fix skybreaker text box, but maybe it'd be better in the future
+  to find some other way to store this data, not in a table, it works but for how long (and at all on mobile?) */
+}
+
+.markdown td {
+  border-top-width: 0px;
+  border-bottom-width: 1px;
+  border-color:#696773;
+}
+
+.markdown tr {
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+}
+
+.markdown table {
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  max-width: 900px;
+  width: auto;
+  border-collapse: collapse;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.markdown thead {
+  border-top-width: 0px;
+}
+
+/* makes it so that when clicking on links it doesn't go behind stickied header */
+* {
+  @media (min-height: 32em) {
+    scroll-margin-top: 80px;
+  }
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#navBody {
+  width: 320px;
+  background: #333333;
+  overflow-y: scroll;
+  min-width: 320px;
+  max-height: 800px;
+}
+
+nav .tocnav  {
+  min-width: 250px;
+  align-self: flex-start;
+  position: -webkit-sticky;
+  position: sticky;
+  overflow: auto;
+}
+
+
+.tocnav ul li {
+  margin-bottom: 0px;
+}
+
+.markdown li p {
+  display: inline;
+}
+
+.head1 {
+  margin-left: 0px;
+}
+
+.head2 {
+  margin-left: 20px;
+}
+
+.head3 {
+  margin-left: 40px;
+}
+
+li .head3 {
+  list-style-type: circle;
+}
+
+.head4 {
+  margin-left: 60px;
+}
+
+li .head4 {
+  list-style-type: square;
+}
+
+.markdown ol {
+  list-style: decimal;
+}
+
+.markdown p, 
+.markdown li,
+.markdown th,
+.markdown td,
+.markdown i {
+  font-size: 14 px;
+}
+
+.markdown ul {
+  list-style-position: outside;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.markdown ol {
+  padding-left: 20px;
+}
+
+.markdown ol li {
+  padding-bottom: 10px;
+}
+
+.markdown li::marker {
+  color: #3694F2;
+}
+
+.markdown sup {
+  padding-left: 2px;
+}
+
+a[href="#windrunner-order"] {
+  color: #0d213d; 
+  font-weight: 600;
+ }
+
+a[href="#edgedancer-order"] {
+  color: #A1C19E;
+  font-weight: 600;
+}
+
+a[href="#lightweaver-order"] {
+  color: #8a0221;
+  font-weight: 600;
+}
+
+a[href="#stoneward-order"] {
+  color: #D46424;
+  font-weight: 600;
+}
+
+a[href="#skybreaker-order"] {
+  color: #5F5E65;
+  font-weight: 600;
+}
+
+
+a[href^="http"]::after,
+a[href^="https://"]::after
+{
+  content: "";
+  width: 11px;
+  height: 11px;
+  margin-left: 4px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
 }

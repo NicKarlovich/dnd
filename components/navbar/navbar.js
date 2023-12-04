@@ -6,7 +6,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
-    const [nav, setNav] = useState(false);
+    const [nav, setNav] = useState(false)
 
   const links = [
     {
@@ -33,6 +33,11 @@ const Navbar = () => {
       id: 5,
       displayText: "contact",
       link: "/contact",
+    },
+    {
+      id: 6,
+      displayText: <span style={{  color: "#3694F2" }}>herald</span>,
+      link: "/homebrew/herald",
     },
   ];
 
