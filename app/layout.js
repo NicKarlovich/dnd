@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar />
         <div 
-          style={{ "paddingTop": "48px"}}
+          style={{ "marginTop": "48px"}}
         >
           {children}
         </div>

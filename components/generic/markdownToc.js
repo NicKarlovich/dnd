@@ -164,20 +164,22 @@ export default function MarkdownToc() {
                     {topLevelOutput}
                 </ul>
             }
-            <button
-                className='tocOpenCloseButton'
-                onClick={() => {
-                    console.log('toggle state')
-                    setTocOpen(!tocOpen)
-                }}
-            >
-                <img
-                    style={{
-                        "rotate": tocOpen ? "180deg" : "0deg"
+            <div className='tocOpenCloseButtonBackground'>
+                <button
+                    className='tocOpenCloseButton'
+                    onClick={() => {
+                        console.log('toggle state')
+                        setTocOpen(!tocOpen)
                     }}
-                    className="tocOpenCloseIcon" src={`${prefix}/chevron.png`} alt="open/close sidebar chevron"
-                />
-            </button>
+                >
+                    <img
+                        style={{
+                            "rotate": tocOpen ? "180deg" : "0deg"
+                        }}
+                        className="tocOpenCloseIcon" src={`${prefix}/chevron.png`} alt="open/close sidebar chevron"
+                    />
+                </button>
+            </div>
         </nav>
     )
 }

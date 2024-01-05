@@ -22,11 +22,6 @@ export default function HeraldMarkdown() {
     return <>
         <div
             className="markdown" 
-            style={{
-                margin: "0 auto",
-                marginLeft: "10px",
-                marginTop: "5px",
-            }}
             id="markdownContainer"
         >
             <div className="spoiler">
