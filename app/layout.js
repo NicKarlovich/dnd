@@ -14,10 +14,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
-        <div style={{ "paddingTop": "80px"}}>
-        {children}
+        <div 
+          style={{ "paddingTop": "48px"}}
+        >
+          {children}
         </div>
-        </body>
+      </body>
     </html>
   )
 }

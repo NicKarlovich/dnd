@@ -26,7 +26,6 @@ export default function HeraldMarkdown() {
                 margin: "0 auto",
                 marginLeft: "10px",
                 marginTop: "5px",
-                maxHeight: `800px`,
             }}
             id="markdownContainer"
         >

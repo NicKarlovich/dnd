@@ -1,9 +1,11 @@
 "use client"
 import { useEffect, useState } from 'react';
+import { prefix } from "@/prefix";
 
 export default function MarkdownToc() {
 
     const [headings, setHeadings] = useState([])
+    const [tocOpen, setTocOpen] = useState(true)
 
     useEffect(() => {
         const elements = Array.from(document.querySelectorAll("h2, h3, h4"))
@@ -153,11 +155,29 @@ export default function MarkdownToc() {
     // initial call to begin building ToC
     let topLevelOutput = recurseGetChildren(headings)
 
+    let navId = tocOpen ? "navBody" : "closedNavBody"
+
     return (
-        <nav id="navBody" className="tocnav">
-            <ul className="tocnav">
-                {topLevelOutput}
-            </ul>
+        <nav id={navId} className="tocnav">
+            {tocOpen &&
+                <ul className="tocnav">
+                    {topLevelOutput}
+                </ul>
+            }
+            <button
+                className='tocOpenCloseButton'
+                onClick={() => {
+                    console.log('toggle state')
+                    setTocOpen(!tocOpen)
+                }}
+            >
+                <img
+                    style={{
+                        "rotate": tocOpen ? "180deg" : "0deg"
+                    }}
+                    className="tocOpenCloseIcon" src={`${prefix}/chevron.png`} alt="open/close sidebar chevron"
+                />
+            </button>
         </nav>
     )
 }
