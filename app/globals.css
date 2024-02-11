@@ -338,29 +338,8 @@ td {
   }
 }
 
-/* on mobile screens have side-nav fill entire screen. */
-@media screen and (max-width: 469px) {
-  .navBody {
-    width: 469px;
-    min-width: 469px;
-    /* most cursed shit in this entire project */
-    /* for some reason when it tries to just render a solid color as background
-      when the details tags get opened and go beyond height of the screen, the opacity will get applied twice
-      which then makes it not transparent at all so we lose the alpha value...
-      BUT... if you make it a gradient, it must use a different engine or something becaues the issue goes away
-      its hacky but sometimes you just need to get it done.
-     */
-    background: linear-gradient(to bottom, rgba(51, 51, 51, 0.97), rgba(51, 51, 51, 0.97));
-  }
-
-  .closedNavBody {
-    background: linear-gradient(to bottom, rgba(51, 51, 51, 0.97), rgba(51, 51, 51, 0.97));
-  }
-
-}
-
 nav .tocnav  {
-  min-width: 250px;
+  min-width: 320px;
   align-self: flex-start;
   position: -webkit-sticky;
   position: sticky;
@@ -472,4 +451,29 @@ a[href^="https://"]::after
   background-repeat: no-repeat;
   background-size: contain;
   display: inline-block;
+}
+
+/* on mobile screens have side-nav fill entire screen. */
+@media screen and (max-width: 469px) {
+  .navBody {
+    width: 469px;
+    min-width: 469px;
+    /* most cursed shit in this entire project */
+    /* for some reason when it tries to just render a solid color as background
+      when the details tags get opened and go beyond height of the screen, the opacity will get applied twice
+      which then makes it not transparent at all so we lose the alpha value...
+      BUT... if you make it a gradient, it must use a different engine or something becaues the issue goes away
+      its hacky but sometimes you just need to get it done.
+     */
+    background: linear-gradient(to bottom, rgba(51, 51, 51, 0.97), rgba(51, 51, 51, 0.97));
+  }
+
+  .closedNavBody {
+    background: linear-gradient(to bottom, rgba(51, 51, 51, 0.97), rgba(51, 51, 51, 0.97));
+  }
+
+  .tocnav ul{
+    padding-left: 30px; /* so close button doesn't overlay links */
+  }
+
 }
