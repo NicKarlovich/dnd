@@ -296,7 +296,7 @@ td {
     position: fixed;
     left: 0;
     width: 320px;
-    background: rgba(51, 51, 51, 0.97);
+    background: linear-gradient(to bottom, rgba(51, 51, 51, 0.97), rgba(51, 51, 51, 0.97));
     overflow-y: scroll;
     min-width: 320px;
     max-height: var(--markdown-vh);
@@ -308,7 +308,7 @@ td {
     position: fixed;
     left: 0;
     width: 0px;
-    background: rgba(51, 51, 51, 0.97);
+    background: linear-gradient(to bottom, rgba(51, 51, 51, 0.97), rgba(51, 51, 51, 0.97));
     overflow-y: scroll;
     min-width: 0px;
     max-height: var(--markdown-vh);
@@ -350,6 +350,10 @@ td {
       BUT... if you make it a gradient, it must use a different engine or something becaues the issue goes away
       its hacky but sometimes you just need to get it done.
      */
+    background: linear-gradient(to bottom, rgba(51, 51, 51, 0.97), rgba(51, 51, 51, 0.97));
+  }
+
+  .closedNavBody {
     background: linear-gradient(to bottom, rgba(51, 51, 51, 0.97), rgba(51, 51, 51, 0.97));
   }
 
