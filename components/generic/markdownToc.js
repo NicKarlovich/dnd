@@ -5,7 +5,7 @@ import { prefix } from "@/prefix";
 export default function MarkdownToc() {
 
     const [headings, setHeadings] = useState([])
-    const [tocOpen, setTocOpen] = useState(true)
+    const [tocOpen, setTocOpen] = useState(window.innerWidth > 799 ? true: false) //if using overlay version of table of contents, don't show on page load 
     const [scrollPosition, setScrollPosition] = useState()
 
     const navBar = createRef()
@@ -160,6 +160,7 @@ export default function MarkdownToc() {
     let topLevelOutput = recurseGetChildren(headings)
 
     let navClass = tocOpen ? "navBody" : "closedNavBody"
+    let tocBackgroundClass = tocOpen ? "tocOpenButtonBackground" : "tocClosedButtonBackground"
 
     // when the state changes to showing the tocbar, set the scroll to be last saved scroll position.
     // this has to be in a use effect because we want the logic to trigger AFTER the element has already
@@ -178,7 +179,7 @@ export default function MarkdownToc() {
             <ul className="tocnav" hidden={!tocOpen}>
                 {topLevelOutput}
             </ul>
-            <div className='tocOpenCloseButtonBackground'>
+            <div className={tocBackgroundClass}>
                 <button
                     className='tocOpenCloseButton'
                     onClick={() => {
@@ -191,7 +192,8 @@ export default function MarkdownToc() {
                 >
                     <img
                         style={{
-                            "rotate": tocOpen ? "180deg" : "0deg"
+                            "rotate": tocOpen ? "180deg" : "0deg",
+                            "transition": "0.5s",
                         }}
                         className="tocOpenCloseIcon" src={`${prefix}/chevron.png`} alt="open/close sidebar chevron"
                     />
