@@ -343,7 +343,14 @@ td {
   .navBody {
     width: 469px;
     min-width: 469px;
-    background: rgba(51, 51, 51, 0.97); /* mobile phone needs redeclaration here for some reason... */
+    /* most cursed shit in this entire project */
+    /* for some reason when it tries to just render a solid color as background
+      when the details tags get opened and go beyond height of the screen, the opacity will get applied twice
+      which then makes it not transparent at all so we lose the alpha value...
+      BUT... if you make it a gradient, it must use a different engine or something becaues the issue goes away
+      its hacky but sometimes you just need to get it done.
+     */
+    background: linear-gradient(to bottom, rgba(51, 51, 51, 0.97), rgba(51, 51, 51, 0.97));
   }
 
 }
