@@ -286,35 +286,65 @@ td {
 }
 
 .wrapper{
-  /* display: flex; */
+  display: flex;
   justify-content: center;
 }
 
-#navBody {
-  height: 100%;
-  position: fixed;
-  left: 0;
-  z-index: 10;
-  width: 320px;
-  /* background: #333333; */
-  background: rgba(51, 51, 51, 0.97);
-  overflow-y: scroll;
-  min-width: 320px;
-  max-height: var(--markdown-vh);
-  transition: 0.5s;
+@media screen and (max-width: 799px) {
+  .navBody {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    width: 320px;
+    background: rgba(51, 51, 51, 0.97);
+    overflow-y: scroll;
+    min-width: 320px;
+    max-height: var(--markdown-vh);
+    transition: all 0.5s ease;
+  }
+
+  .closedNavBody {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    width: 0px;
+    background: rgba(51, 51, 51, 0.97);
+    overflow-y: scroll;
+    min-width: 0px;
+    max-height: var(--markdown-vh);
+    transition: all 0.5s ease;
+  }
 }
 
-#closedNavBody {
-  height: 100%;
-  position: fixed;
-  left: 0;
-  z-index: 10;
-  width: 0px;
-  background: #333333;
-  overflow-y: scroll;
-  min-width: 0px;
-  max-height: var(--markdown-vh);
-  transition: 0.5s;
+
+@media screen and (min-width: 800px) {
+
+  .navBody {
+    width: 320px;
+    background: #333333;
+    overflow-y: scroll;
+    min-width: 320px;
+    max-height: var(--markdown-vh);
+    transition: all 0.5s ease;
+  }
+
+  .closedNavBody {
+    width: 0px;
+    background: #333333;
+    overflow-y: scroll;
+    min-width: 0px;
+    max-height: var(--markdown-vh);
+    transition: all 0.5s ease;
+  }
+}
+
+/* on mobile screens have side-nav fill entire screen. */
+@media screen and (max-width: 469px) {
+  .navBody {
+    width: 469px;
+    min-width: 469px;
+  }
+
 }
 
 nav .tocnav  {

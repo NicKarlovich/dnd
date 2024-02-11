@@ -1,15 +1,19 @@
 "use client"
-import { useEffect, useState } from 'react';
+import { useEffect, useState, createRef } from 'react';
 import { prefix } from "@/prefix";
 
 export default function MarkdownToc() {
 
     const [headings, setHeadings] = useState([])
     const [tocOpen, setTocOpen] = useState(true)
+    const [scrollPosition, setScrollPosition] = useState()
+
+    const navBar = createRef()
 
     useEffect(() => {
         const elements = Array.from(document.querySelectorAll("h2, h3, h4"))
             .map((elem, i) => ({
+                key: elem.id,
                 id: elem.id,
                 text: elem.innerText,
                 level: Number(elem.nodeName.charAt(1)),
@@ -155,20 +159,33 @@ export default function MarkdownToc() {
     // initial call to begin building ToC
     let topLevelOutput = recurseGetChildren(headings)
 
-    let navId = tocOpen ? "navBody" : "closedNavBody"
+    let navClass = tocOpen ? "navBody" : "closedNavBody"
+
+    // when the state changes to showing the tocbar, set the scroll to be last saved scroll position.
+    // this has to be in a use effect because we want the logic to trigger AFTER the element has already
+    // begun to be rendered (as there are elements that are hidden/shown based on tocOpen state)
+    // if we were to include in the onClick() function below, we could set the scrollTop of the variable before
+    // it was actually un-hidden and for some reason that means the value wouldn't be saved... idk, this works
+    // gonna leave it like this.
+    useEffect(() => {
+        if(tocOpen) {
+            navBar.current.scrollTop = scrollPosition
+        }
+    }, [tocOpen])
 
     return (
-        <nav id={navId} className="tocnav">
-            {tocOpen &&
-                <ul className="tocnav">
-                    {topLevelOutput}
-                </ul>
-            }
+        <nav ref={navBar} id="navId" className={`${navClass} tocnav`}>
+            <ul className="tocnav" hidden={!tocOpen}>
+                {topLevelOutput}
+            </ul>
             <div className='tocOpenCloseButtonBackground'>
                 <button
                     className='tocOpenCloseButton'
                     onClick={() => {
                         console.log('toggle state')
+                        if(tocOpen) { //if navbar is currently open, save its current scroll value
+                            setScrollPosition(navBar.current.scrollTop)
+                        }
                         setTocOpen(!tocOpen)
                     }}
                 >
