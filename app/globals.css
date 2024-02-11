@@ -513,6 +513,7 @@ a[href^="https://"]::after
     transition: 0.5s;
   }
 
+
   .tocClosedButtonBackground {
     left: 0px;
     transition: 0.5s;

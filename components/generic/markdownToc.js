@@ -5,10 +5,16 @@ import { prefix } from "@/prefix";
 export default function MarkdownToc() {
 
     const [headings, setHeadings] = useState([])
-    const [tocOpen, setTocOpen] = useState(window.innerWidth > 799 ? true: false) //if using overlay version of table of contents, don't show on page load 
+    const [tocOpen, setTocOpen] = useState(false)
     const [scrollPosition, setScrollPosition] = useState()
 
     const navBar = createRef()
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            setTocOpen(window.innerWidth > 799); //if using overlay version of table of contents, don't show on page load 
+        }
+    }, []); // Empty dependency array to run only once on mount
 
     useEffect(() => {
         const elements = Array.from(document.querySelectorAll("h2, h3, h4"))
