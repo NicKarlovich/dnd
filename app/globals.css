@@ -136,7 +136,6 @@ h3 {
   left: 0;
 }
 
-
 .tocOpenCloseButton {
   border-radius: 5px;
   border: 2px grey solid;
@@ -305,6 +304,55 @@ td {
   justify-content: center;
 }
 
+/* don't combine this with media query at bottom of page, causes bugs don't know why */
+@media screen and (max-width: 799px) {
+  .navBody {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    width: 320px;
+    background: linear-gradient(to bottom, rgba(51, 51, 51, 0.97), rgba(51, 51, 51, 0.97));
+    overflow-y: scroll;
+    min-width: 320px;
+    max-height: var(--markdown-vh);
+    transition: all 0.5s ease;
+  }
+
+  .closedNavBody {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    width: 0px;
+    background: linear-gradient(to bottom, rgba(51, 51, 51, 0.97), rgba(51, 51, 51, 0.97));
+    overflow-y: scroll;
+    min-width: 0px;
+    max-height: var(--markdown-vh);
+    transition: all 0.5s ease;
+  }
+}
+
+/* don't combine this with media query at bottom of page, causes bugs don't know why */
+@media screen and (min-width: 800px) {
+
+  .navBody {
+    width: 320px;
+    background: #333333;
+    overflow-y: scroll;
+    min-width: 320px;
+    max-height: var(--markdown-vh);
+    transition: all 0.5s ease;
+  }
+
+  .closedNavBody {
+    width: 0px;
+    background: #333333;
+    overflow-y: scroll;
+    min-width: 0px;
+    max-height: var(--markdown-vh);
+    transition: all 0.5s ease;
+  }
+}
+
 nav .tocnav  {
   min-width: 20px;
   align-self: flex-start;
@@ -423,24 +471,6 @@ a[href^="https://"]::after
 /* full sized screen */
 @media screen and (min-width: 800px) {
 
-  .navBody {
-    width: 320px;
-    background: #333333;
-    overflow-y: scroll;
-    min-width: 320px;
-    max-height: var(--markdown-vh);
-    transition: all 0.5s ease;
-  }
-
-  .closedNavBody {
-    width: 0px;
-    background: #333333;
-    overflow-y: scroll;
-    min-width: 0px;
-    max-height: var(--markdown-vh);
-    transition: all 0.5s ease;
-  }
-
   .tocOpenButtonBackground {
     left: calc(320px - 43px);
     transition: 0.5s;
@@ -454,29 +484,6 @@ a[href^="https://"]::after
 
 /* not full sized, so overlay table of contents, but not mobile screen. */
 @media screen and (min-width: 470px) and (max-width: 799px) {
-  .navBody {
-    height: 100%;
-    position: fixed;
-    left: 0;
-    width: 320px;
-    background: linear-gradient(to bottom, rgba(51, 51, 51, 0.97), rgba(51, 51, 51, 0.97));
-    overflow-y: scroll;
-    min-width: 320px;
-    max-height: var(--markdown-vh);
-    transition: all 0.5s ease;
-  }
-
-  .closedNavBody {
-    height: 100%;
-    position: fixed;
-    left: 0;
-    width: 0px;
-    background: linear-gradient(to bottom, rgba(51, 51, 51, 0.97), rgba(51, 51, 51, 0.97));
-    overflow-y: scroll;
-    min-width: 0px;
-    max-height: var(--markdown-vh);
-    transition: all 0.5s ease;
-  }
 
   .tocOpenButtonBackground {
     left: calc(320px - 43px);
