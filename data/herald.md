@@ -278,7 +278,7 @@ Upon speaking the words, you gain a weath of abilities that allow you to excel i
 ### Gravitational Adhesion
 At 9th level you have progressed and are now a fully fledged member of the Windrunners and can now begin taking on squires.  The following words come to you:
 
->*I will protect even those that I hate, so long as it is right*[^windrunner2]
+>*I will protect even those that I hate, so long as it is right*<span class="footnote">[^windrunner2]<span class="tooltip">A tool tip</span></span>
 <!-- <sup><a id="windrunner1b" href="#windrunner1">[1]</a></sup> -->
 
 As the bond to your spren grows even stronger, your ability to bind things together using stormlight grows as well and you gain the following abilities:
@@ -390,15 +390,15 @@ Once can use this feature a proficiency number of times.  You regain all uses of
 #### Conditional Justice
 As an executor of law, you have and will continue to gain the capabilities to inflict additional conditions upon your judgements.  When you use your Stormlight Smite feature, you can choose to forgo extra damage dice in order to inflict additional features upon your smite, as described in the table below.  All saving throws are made against your Skybreaker DC.
 
-| Name | Level Required | Dice Forgone | Condition Inflicted |
-| ---  |    ---         | ---          |    ---      |
-| Interrogating Justice | 3rd | 1 | When you hit your target, metal chains appear at the point of impact and latch onto the creature.  The target must succeed on a Strength saving throw or be restrained by magical chains for 1 minute.  While a creature is restrained by these chains, they cannot speak a deliberate lie.  If the target succeeds on the save, the chains fall off harmlessly and disappear.  A creature restrained by the chains or one that can touch the creature can use its action to make a Strength check against your Skybreaker DC.  On a success, the target is freed.
-| Frightening Justice | 3rd | 1 | When you hit your target, they must make a Wisdom saving throw or be frightened of you. At the end of each of its turns, the affected creature can retry the saving throw to end the effect. |
-| Thunderous Justice | 3rd | 1 | When you hit your target, they must make a Strength saving throw or be pushed 10 feet away from you and knocked prone. |
-| Branding Justice | 6th | 1 | When you hit your target the creature loses the invisible condition if it has it as it is shrouded in dim blue light, and they can't become invisible for the next minute. |
-| Blinding Justice | 9th | 1 | When you hit your target, they must make a Constitution saving throw or be blinded. At the end of each of its turns, the affected creature can retry the saving throw to end the effect. |
-| Staggering Justice | 13th | 2 | When you hit your target, they must make an Intelligence saving throw. On a failed save, it has disadvantage on attack rolls and ability checks, and can't take reactions. At the end of each of its turns, the affected creature can retry the saving throw to end the effect. |
-| Stunning Justice | 18th | 2 | When you hit your target, they must make an Constitution saving throw or be stunned. At the end of each of its turns, the affected creature can retry the saving throw to end the effect. |
+| Name | Level Required | Dice Forgone | Saving Throw | Condition Inflicted on Fail | End Condition
+| ---  |    ---         | ---          |    ---      | --- |  --- |
+| Interrogating Justice | 3rd | 1 | Strength, advantage for Large or larger creatures | Restrained by stormlight chains which render the restrained creature unable to speak a deliberate lie | Action for creature within 5 feet (including restrained creature) to make Athletics (Strength) check against your Skybreaker DC
+| Frightening Justice | 3rd | 1 | Wisdom | Frightened | End of affected creature's turn, can repeat save |
+| Thunderous Justice | 3rd | 1 | Strength | Pushed 10 feet away and knocked prone | N/A
+| Branding Justice | 6th | 1 | None | Affected creature loses invisible condition and cannot gain it for the next minute | N/A |
+| Blinding Justice | 9th | 1 | Constitution | Blinded | End of affected creature's turn, can repeat save |
+| Staggering Justice | 13th | 2 | Intelligence | Disadvantage on attack rolls and ability checks, and can't take reactions. | End of affected creature's turn, can repeat save |
+| Stunning Justice | 18th | 2 | Constitution | Stunned | End of affected creature's turn, can repeat save |
 
 <!-- ### Basic Lashing
 Upon speaking the first ideal at 3rd level, your path along within Windrunner Order begins as a squire and you gain the ability to fly.  At any time, you can expend two stormlight charges (no action required) to gain a 30 ft. fly (hover) speed until the start of your next turn.
@@ -420,7 +420,7 @@ Upon taking this oath you gain further abilities that allow you to administer th
 
 * **Extra Attack:** You can attack twice, instead of once, whenever you take the attack action on your turn.
 * **Clarity of Intent:** As a skybreaker you cannot allow yourself to be easily swayed by those who wish to decieve you.  You are immune to the charmed condition.
-* **Gravitational Law:** Your laws are inescapable, and as such you gain the ability to use the surge of gravitation to pull creatures into your grasp.  Before you take the attack action on your turn, you can expend stormlight to force a creature of your size or smaller that you can see within 30 feet of you, not behind any physical cover, to make a Strength saving throw.  On failure, they are pulled 10 feet for every stormlight charge you expend towareds you stopping within 5 feet of you.  On success there is no effect.
+* **Gravitational Law:** Your laws are inescapable, and as such you gain the ability to use the surge of gravitation to pull creatures into your grasp.  Before you take the attack action on your turn, you can expend stormlight to force a creature of your size or smaller that you can see within 30 feet of you who is also not behind any physical cover, to make a Strength saving throw.  On failure, they are pulled 10 feet for every stormlight charge you expend towareds you stopping within 5 feet of you.  On success there is no effect.  When you reach the 4th ideal at level 13, the range you can pull creatures from increses to 60 feet.
 
 <!-- ### Combat Prowess
 At 6th level, the bond with your spren and your dedication to the Order of Windrunners grows, and the second ideal's words come to you
@@ -466,7 +466,7 @@ In your quest you are bequeathed with the following boon(s):
 ### Ideal of Law
 At 18th level, you become the embodiment of law and truth.  You know your truths held by you and thus shed the crutches of your earlier ideals:
 
->*I will be true*
+>*I am the law*
 
 As the emobiment of law, you inherintely can discern truth from deceit.  You know if you hear a deliberate lie
 
