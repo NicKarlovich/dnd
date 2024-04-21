@@ -1,5 +1,5 @@
 # Herald
-##### Version: *v0.5.2* 
+##### Version: *v0.6.0* 
 ## Base Herald Class
 
 To begin upon the path of herald, you must be chosen by a spren.  The spren for each order is different, but they are the beings that grant you your powers.  These powers that your spren bequeath to you, must be unlocked by speaking a series of five Ideals.  These five ideals are often powerful statements of purpose and dedication which align your goals with those of your order.
@@ -92,6 +92,7 @@ At your DM's discretion, a muting caused by internal crisis' of faith, belief, h
 | Windrunners | [Weapon Mastery](#windrunner-weapon-mastery), [Fighting Style](#windrunner-fighting-style), Extra Attack granted by [Combat Prowess](#combat-prowess) | All other features |
 | Skybreakers | [Weapon Mastery](#skybreaker-weapon-mastery), [Fighting Style](#windrunner-fighting-style), Extra Attack granted by [Ideal of Justice](#ideal-of-justice) | All other features |
 | Edgedancer | [Elusive Defense](#elusive-defense), [Fighting Style](#edgedancer-fighting-style) | All other features |
+| Truthwatcher | [Truthwatcher Cantrips](#truthwatcher-spellasting) | All other features |
 | Lightweaver | [Lightweaver Cantrips](#lightweaver-spellcasting) | All other features |
 | Elsecaller | [Elsecaller Cantrips](#elsecaller-spellcasting) | [Inkspren Archive](#inkspren-archive), All other features |
 | Stoneward | [Weapon Mastery](#stoneward-weapon-mastery), [Fighting Style](#stoneward-fighting-style), Extra Attack granted by [Ideal of Justice](#shifting-earth), [Vorin Stances](#vorin-stances), [Earthly Essence](#earthly-essence) | All other features |
@@ -126,10 +127,14 @@ Each order also has an ability score, tool and spren, each of which are used to 
 | --- | --- | --- | --- | --- | --- |
 | [Windrunner Order](#windrunner-order) | I will protect | Dexterity | Navigation Tools | [Honorspren](https://coppermind.net/wiki/Honorspren) | A fighter based around protecting others with powers to create storms and fly |
 | [Skybreaker Order](#skybreaker-order) | I will seek justice | Strength | Forgery Kit | [Highspren](https://coppermind.net/wiki/Highspren) | An enforcer of laws using stormlight to administer justice |
+| [Dustbringer Order] | I will seek self-mastery | Intelligence | Tinker's Tools | [Ashspren](https://coppermind.net/wiki/Ashspren) | A tinkerer who utilizes arcane fabrials which destroy to allow for creations anew |
 | [Edgedancer Order](#edgedancer-order) | I will remember | Wisdom | Herbalism Kit | [Cultivationspren](https://coppermind.net/wiki/Cultivationspren) | A graceful healer and slippery combatant |
+| [Truthwatcher Order](#truthwatcher-order) | I will seek truth | Intelligence or Wisdom | [Fortune Telling Tools](#fortune-telling-tools) | [Mistspren](https://coppermind.net/wiki/Mistspren) | A scholarly and wise sage with the ability to foretell and heal |
 | [Lightweaver Order](#lightweaver-order) | I will speak my truth | Charisma | Thieves' Tools | [Cryptic](https://coppermind.net/wiki/Cryptic) | A wielder of illusions to deceive and discover |
-| [Elsecaller Order](#elsecaller-order) | I will reach my potential | Intelligence | Cartographer's Tools | [Inkspren](https://coppermind.net/wiki/Inkspren) | A powerful mage with limited powerful bursts of arcane energy |
-| [Stoneward Order](#stoneward-order) | I will be there when I'm needed | Constitution  | Mason's Tools | [Peakspren](https://coppermind.net/wiki/Peakspren) | A tank with diverse fighting styles and earth-based powers |
+| [Elsecaller Order](#elsecaller-order) | I will reach my potential | Intelligence | Cartographer's Tools | [Inkspren](https://coppermind.net/wiki/Inkspren) | A powerful mage with limited potent bursts of arcane energy |
+| [Willshaper Order] | I will seek freedom | Intelligence, Wisdom, or Charisma | Any artisan's tool | [Lightspren](https://coppermind.net/wiki/Lightspren) | A friend of the natural world, working to help creatures become their true selves |
+| [Stoneward Order](#stoneward-order) | I will be there when I'm needed | Constitution  | Mason's Tools | [Peakspren](https://coppermind.net/wiki/Peakspren) | A tank with diverse fighting styles and a deep connection to the earth |
+| [Bondsmith Order] | I will unite | Charisma | Calligrapher's Supplies | Unique | A diplomat who can not wield a weapon, instead choosing to seek peace and augment allies to his cause |
 
 *More subclasses coming in the future!*
 <!-- 
@@ -229,7 +234,7 @@ At 15th level your bond with your spren has grown significantly.  Any weapon you
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 
 ### Font of Stormlight
-Beginning when you reach 5th level, you regain a number of stormlight charges, up to your maximum, equal to your [Order Modifier](#radiant-order) + your proficiency bonus when you finish a short rest.
+Beginning when you reach 5th level, you regain a number of stormlight charges, up to your maximum, equal to your [Order Ability Score](#radiant-order) + your proficiency bonus when you finish a short rest.
 
 <!-- ## Second Ideal
 Your dedication towards your ideal grows stronger within you.  The powers gained from your Second Ideal is based on your [Radiant Order](#radiant-order) -->
@@ -263,8 +268,8 @@ Once you use this ability, you cannot do so again until you finish a long rest.
 <!-- ## Fifth Ideal
 When you reach 18th level, you become the Herald of your order.  You are the epitome of your Ideal and to unlock the fifth ideal is something truly legendary.  When you swear your fifth and final ideal and become the herald of your order you gain a powerful boon according to your [Radiant Order](#radiant-order) -->
 
-### Stormlight Regeneration
-When you reach 20th level, your connection to the material plane is unmatched you have unlocked total mastery over stormlight.  So much so that it is naturally drawn to you.  Every 5 minutes, you regain 1 stormlight charge up to your maximum.
+### Stormlight Soul
+When you reach 20th level, your connection to the material plane is unmatched you have unlocked total mastery over stormlight.  So much so that it is naturally drawn to you.  Once per long rest, you can as a bonus action regain 20 expended stormlight charges as you pull stormlight from your soul itself to empower your abilities.
 
 Additionally, while your heart and brain are connected, you can regrow any amputated limbs at a rate of 2lb of flesh per minute.
 
@@ -275,14 +280,14 @@ The windrunner order primarily represents protecting anyone and everyone that th
 As a windrunner, the spren you bond with is an Honorspren.  They are the children of Honor, an ancient being which embodied oaths, agreements and binding truths to those who swear them.  Spren typically appear as ribbons of glowing white-blue light.  They generally prefer a humanoid form, although typically only about a handspan tall, but they can grow to be as a large as a regular person.
 
 ### Hit Points
-*1st-level Windrunner feature*
+###### 1st-level Windrunner feature
 
 * **Hit Die:** 1d10 per windrunner level
 * **Hit Points at 1st Level:** 10 + your Constitution modifier
 * **Hit Points at Higher Levels:** 1d10 (or 6) + your Constitution modifier (minimum of 1) per herald level after 1st
 
 ### Proficiencies:
-*1st-level Windrunner feature*
+###### 1st-level Windrunner feature
 
 * **Armor:** Light armor, medium armor, shields
 * **Weapons:** Simple melee weapons, rapier, scimitar, shortsword, [skylance](#skylance)
@@ -291,7 +296,7 @@ As a windrunner, the spren you bond with is an Honorspren.  They are the childre
 * **Skills:** Choose two skills from Acrobatics, Athletics, History, Medicine, Investigation, Perception, Stealth, Survival
 
 ### Equipment:
-*1st-level Windrunner feature*
+###### 1st-level Windrunner feature
 
 * (a) chain shirt or (b) leather armor
 * a simple weapon, a spear, and a shield
@@ -301,21 +306,21 @@ As a windrunner, the spren you bond with is an Honorspren.  They are the childre
 Alternatively, you can ignore the equipment from your class and background, and start with 5d4 x 10 gp.
 
 ### Windrunner DC
-*1st-level Windrunner feature*
+###### 1st-level Windrunner feature
 
 Some Windrunner abilities and spells will require your Windrunner DC which is calculated as 8 + your proficiency bonus + your Dexterity modifier.
 
 ### Windrunner Weapon Mastery
-*1st-level Windrunner feature*  
+###### 1st-level Windrunner feature  
 
 Your training as a windrunner allows you to use the Mastery property of two kinds of weapons which you are proficient with.  Whenever you level up, you can change the weapons that you have mastery with.  You gain an additional weapon mastery at 4th and 10th level.
 
 ### Windrunner Fighting Style:
-*1st-level Windrunner feature*
+###### 1st-level Windrunner feature
 
 As windrunners are naturally protectors, you automatically gain the *Dexterous Protector* fighting style.  
 
-**Dexterous Protector:** When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.  Additionally, you can use Dexterity instead of Strength for the attacks and damage rolls of weapons that you are proficient with through the Windrunner class.
+**Dexterous Protector:** When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.  Additionally, you can use Dexterity instead of Strength for the attacks and damage rolls of weapons that you are proficient with through the Windrunner subclass.  The range at which you can protect creatures increases by 5 feet at 6th, 9th, 13th, and 18th level.
 
 Additionally, at 1st level, you adopt a style of fighting as your specialty.  Choose one of the following options.  You can't take a Fighting Style option more than once, even if you later get to choose again.
 
@@ -331,18 +336,22 @@ Additionally, at 1st level, you adopt a style of fighting as your specialty.  Ch
 * **Two Weapon Fighting:** When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.
 
 ### Basic Lashing
-Upon speaking the first ideal at 3rd level, your path along within Windrunner Order begins as a squire and you gain the ability to fly.  At any time, you can expend two stormlight charges (no action required) to gain a 30 ft. fly (hover) speed until the start of your next turn.
+###### 3rd-level Windrunner feature
+Upon speaking the first ideal, your path along within Windrunner Order begins as a squire and you gain the ability to fly.  At any time, you can expend two stormlight charges (no action required) to gain a 30 ft. fly (hover) speed until the start of your next turn.
 
 Your fly speed increases to 40 ft. fly (hover), 50 ft. fly (hover), and 60 ft. fly (hover) at 7th, 13th, and 17th level respectively.
 
 ### Light as a Feather
-At 3rd level, you can cast feather fall by expending one stormlight charge.
+###### 3rd-level Windrunner feature
+You can cast feather fall by expending one stormlight charge.
 
 ### Stormlight Tempo
+###### 3rd-level Windrunner feature
 Also at 3rd level, stormlight is beginning to flow through your body freely, its power enhancing every action you make.  When you take the attack action or use stormlight during your turn, you can, as a bonus action, expend stormlight to make a number of attacks equal to the number of charges you expend.  You can use this ability a number of times equal to your Dexterity modifier per short rest.  At 3rd level you can expend only one stormlight charge per bonus action.  This limit increases to two at 11th level and to three at 20th level.
 
 ### Combat Prowess
-At 6th level, the bond with your spren and your dedication to the Order of Windrunners grows, and the second ideal's words come to you
+###### 6th-level Windrunner feature
+The bond with your spren and your dedication to the Order of Windrunners grows, and the second ideal's words come to you
 
 >*I will protect those who cannot protect themselves*
 
@@ -353,7 +362,8 @@ Upon speaking the words, you gain a wealth of abilities that allow you to excel 
 * **Empowered Flight:** As an action, you can expend 8 stormlight charges to cast Fly on yourself at 3rd level without any components.  You must maintain concentration on the spell, and make concentration checks as if you cast the spell with a spell slot.
 
 ### Gravitational Adhesion
-At 9th level you have progressed and are now a fully fledged member of the Windrunners and can now begin taking on squires.  The following words come to you:
+###### 9th-level Windrunner feature
+You have progressed and are now a fully fledged member of the Windrunners and can now begin taking on squires.  The following words come to you:
 
 >*I will protect even those that I hate, so long as it is right*[^windrunner2]
 <!-- <sup><a id="windrunner1b" href="#windrunner1">[1]</a></sup> -->
@@ -363,25 +373,28 @@ As the bond to your spren grows even stronger, your ability to bind things toget
 * **Reverse Lashing:** When a creature within 20 feet of you including you is targeted by a ranged attack, you can use your reaction to expend two stormlight charges to draw all nearby ranged attacks towards you.  Until the beginning of your next turn, all ranged attacks targeting any creature within 20 feet of you targets you instead of the original target.  All ranged attacks originally targeting a creature other than you require a new attack roll against you.  All attacks that originally target you are made normally and do not require a new attack roll.  If you are wielding a shield when you make this reaction, add a bonus to your AC equal to your Dexterity modifier against all ranged attacks made against you until the beginning of your next turn.
 * **Resonance:** [DM Approval Required for use at 9th level, this feature may not fit all campaigns] Your stormlight seems to resonate outwards from you giving you the ability to empower other nearby individuals with basic windrunner flight.  You gain the ability to expend 10 stormlight charges to cast Wind Walk.[^windrunner3]
 
+    You and your allies cannot regain stormlight while you Wind Walk in this way.
+
 ### Resonant Shardplate
-At 13th level you become a master within the Order of Windrunners.  The fourth ideal comes to you:
+###### 13th-level Windrunner feature
+You become a master within the Order of Windrunners.  The fourth ideal comes to you:
 
 > *I accept that there will be those I cannot protect*
 
-* **Resonance:** If you didn't gain the resonance feature at 9th level you gain it now.
-* **Shardplate:** You gain a bonus to your AC equal to your half your proficiency bonus rounded down.  In addition, as a reaction when an ally within 60 feet of you is targeted by an attack, you can transfer your shardplate to that ally.  You lose your bonus to your AC granted by your *Shardplate* and the ally gains a bonus to their AC equal to your proficiency bonus until the start of your next turn. 
+You gain a wealth of features upon reaching the fourth ideal.  
+* If you didn't gain the ***Resonance*** feature at 9th level you gain it now.  
+* You also gain your shardplate, a translucent blue glowing set of plate armour that protects you and your allies from attacks.  Your Shardplate grants you an AC bonus equal to half your proficiency bonus rounded down
+  * In addition, as a reaction when an ally within 60 feet of you is targeted by an attack, you can transfer your shardplate to that ally.  You lose your bonus to your AC granted by your *Shardplate* and your ally gains that same AC bonus until the start of your next turn. 
 
-Additionally, you can now use your **Empowered Flight** ability on willing creatures other than yourself.
-
-Along with gaining squires, you also gain your shardplate, a translucent blue glowing set of plate armour that protects you and your allies from attacks.  Your [Dexterous Protector](#windrunner-fighting-style) fighting style can now be used on allies that are within 30 feet of you, and if the target is still hit by the attack, you can expend one stormlight to grant that protected creature 2d6 temporary hit points which are applied before the damage of the attack.
-<!-- <sup><a id="windrunner2b" href="#windrunner2">[^windrunner2]</a></sup> -->
-
-You and your allies cannot regain stormlight while you Wind Walk in this way.
-
-Additionally, you gain the ability to enter the **infused** [Lifestance](#lifestance) vorin stance.
+Finally, your existing windrunner skills also see some valuable improvements:
+* When you use your [Dexterous Protector](#windrunner-fighting-style) fighting style to protect another creature while you have no reactions left, you can expend one stormlight to gain a reaction in order to impose disadvantage on the attack roll.  Once you regain a reaction in this way, you cannot do so again until the start of your next turn. 
+* Additionally, if the creature you protect with your Dexterous Protector fighting style is still hit by the attack, you can expend one stormlight to reduce the incoming attack's damage by 1d6.
+* Your **Empowered Flight** feature can be used on any willing creature you can touch.
+* You learn how to enter the **infused** voin stance: [Lifestance](#lifestance).
 
 ### Herald of the Highstorm
-At 18th level, you discover the final ideal of the Windrunners making you the Herald of the Windrunners:
+###### 18th-level Windrunner feature
+You discover the final ideal of the Windrunners making you the Herald of the Windrunners:
 
 >*I will protect all this world*[^windrunner4]
 <!-- <sup><a id="windrunner3b" href="#windrunner3">[3]</a></sup> -->
@@ -404,14 +417,14 @@ Truth and devotion towards upholding their code are the central tenets of the Sk
 As a skybreaker, the powers that grant you the power of justice are derived from Highspren.  Many other spren dislike them for their inflexibility in life, as such, they are known as isolationists, appearing as black slits in the air, which can pull open to reveal stars shining within.
 
 ### Hit Points
-*1st-level Skybreaker feature*
+###### 1st-level Skybreaker feature
 
 * **Hit Die:** 1d10 per skybreaker level
 * **Hit Points at 1st Level:** 10 + your Constitution modifier
 * **Hit Points at Higher Levels:** 1d10 (or 6) + your Constitution modifier (minimum of 1) per herald level after 1st
 
 ### Proficiencies:
-*1st-level Skybreaker feature*
+###### 1st-level Skybreaker feature
 
 * **Armor:** Light armor, medium armor, heavy armor, shields
 * **Weapons:** Simple and martial melee weapons, [skylance](#skylance)
@@ -420,7 +433,7 @@ As a skybreaker, the powers that grant you the power of justice are derived from
 * **Skills:** Choose two skills from Acrobatics, Athletics, History, Insight, Intimidation, Investigation, Perception, Persuasion, Religion
 
 ### Equipment:
-*1st-level Skybreaker feature*
+###### 1st-level Skybreaker feature
 
 * (a) a martial weapon and a shield or (b) two martial weapons
 * (a) five javelins or (b) any simple melee weapon
@@ -430,17 +443,17 @@ As a skybreaker, the powers that grant you the power of justice are derived from
 Alternatively, you can ignore the equipment from your class and background, and start with 5d4 x 10 gp.
 
 ### Skybreaker DC
-*1st-level Skybreaker feature*
+###### 1st-level Skybreaker feature
 
 Some Skybreaker abilities and spells will require your Skybreaker DC which is calculated as 8 + your proficiency bonus + your Strength modifier.
 
 ### Skybreaker Weapon Mastery
-*1st-level Skybreaker feature*  
+###### 1st-level Skybreaker feature  
 
 Your training as a skybreaker allows you to use the Mastery property of two kinds of weapons which you are proficient with.  Whenever you level up, you can change the weapons that you have mastery with.  You gain an additional weapon mastery at 4th and 10th level.
 
 ### Skybreaker Fighting Style:
-*1st-level Skybreaker feature*
+###### 1st-level Skybreaker feature
 
 As skybreaker are naturally protectors, you automatically gain the *Gravitational Repositioning* fighting style.  
 
@@ -464,7 +477,8 @@ Additionally, at 1st level, you adopt a style of fighting as your specialty.  Ch
 At the start of each of your turns, you can deal 1d4 bludgeoning damage to one creature grappled by you. 
 
 ### Stormlight Smite
-At 3rd level you begin on your path towards truth and law within the Skybreaker Order.  As such you have been bequeathed the power to smite creatures using stormlight.
+###### 3rd-level Skybreaker feature
+You begin on your path towards truth and law within the Skybreaker Order.  As such you have been bequeathed the power to smite creatures using stormlight.
 
 Immediately after hitting a creature with a melee weapon or unarmed strike, you may use your bonus action to infuse your strike with stormlight energy by expending up to your proficiency bonus number of stormlight charges.  Your damage roll gains extra radiant damage of 2d4 for 1 stormlight charge, plus 1d4 for each additional stormlight charge.  This damage die increases as you gain Herald levels to a d6 at level 5, d8 at level 9, d10 at level 13, and d12 at level 17.
 
@@ -494,7 +508,8 @@ As an executor of law, you have and will continue to gain the capabilities to in
 | Stunning Justice | 18th | 2 | Constitution | Stunned | End of affected creature's turn, can repeat save |
 
 ### Ideal of Justice
-At 6th level, you speak your first oath to seek and administer justice.  This can include finding a person or thing to act as a teacher or guide who can help you craft your first oath.
+###### 6th-level Skybreaker feature
+As your second ideal, you speak your first oath to seek and administer justice.  This can include finding a person or thing to act as a teacher or guide who can help you craft your first oath.
 
 >*I swear to seek justice, to let it guide me*
 
@@ -505,7 +520,8 @@ Upon taking this oath you gain further abilities that allow you to administer th
 * **Gravitational Law:** Your laws are inescapable, and as such you gain the ability to use the surge of gravitation to pull creatures into your grasp.  Before you take the attack action on your turn, you can expend stormlight to force a creature of your size or smaller that you can see within 30 feet of you who is also not behind any physical cover, to make a Strength saving throw.  On failure, they are pulled 10 feet for every stormlight charge you expend towards you stopping within 5 feet of you.  On success there is no effect.  When you reach the 4th ideal at level 13, the range you can pull creatures from increases to 60 feet.
 
 ### Ideal of Dedication
-At 9th level you speak your oath to dedicate yourself to a greater truth, typically a code or a person.
+###### 9th-level Skybreaker feature
+For your 3rd ideal, you speak your oath to dedicate yourself to a greater truth, typically a code or a person.
 
 >*I swear to follow the laws of Pelor*
 
@@ -517,6 +533,7 @@ you gain the following benefits:
     Additionally, while you are falling, you can use your reaction to expend 1 stormlight charge to become resistant to the next source of fall damage until the start of your next turn.
 
 ### Ideal of Crusade
+###### 13th-level Skybreaker feature
 At 13th level you begin a personal quest that will likely define your contributions in this life:
 
 > *I will cleanse the Shin of their false leaders*[^skybreaker1]
@@ -525,7 +542,8 @@ In your quest you are bequeathed with the following boon(s):
 [[TODO]]
 
 ### Ideal of Law
-At 18th level, you become the embodiment of law and truth.  You know your truths held by you and thus shed the crutches of your earlier ideals:
+###### 18th-level Skybreaker feature
+You become the embodiment of law and truth.  You know your truths held by you to be true, and thus shed the crutches of your earlier ideals:
 
 >*I am the law*
 
@@ -547,14 +565,14 @@ Edgedancers channel the surges of Abrasion and Progression.  Abrasion allowing t
 As an edgedancer, you gain your powers through your bond with Cultivationspren.  They are the purest expression of Cultivation, the god of change and growth.  Cultivationspren typically are seen in the physical realm as a growing vine with crystals.
 
 ### Hit Points
-*1st-level Edgedancer feature*
+###### 1st-level Edgedancer feature
 
 * **Hit Die:** 1d8 per edgedancer level
 * **Hit Points at 1st Level:** 8 + your Constitution modifier
 * **Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier (minimum of 1) per herald level after 1st
 
 ### Proficiencies:
-*1st-level Edgedancer feature*
+###### 1st-level Edgedancer feature
 
 * **Armor:** Light armor, shields
 * **Weapons:** Simple weapons, scimitar, shortsword
@@ -563,7 +581,7 @@ As an edgedancer, you gain your powers through your bond with Cultivationspren. 
 * **Skills:** Choose two skills from Acrobatics, Athletics, History, Medicine, Nature, Religion, Perception, Stealth
 
 ### Equipment:
-*1st-level Edgedancer feature*
+###### 1st-level Edgedancer feature
 
 * (a) shortbow and quiver of 20 arrows or (b) any simple weapon
 * (a) a priest's pack or (b) an explorer's pack 
@@ -576,7 +594,7 @@ Alternatively, you can ignore the equipment from your class and background, and 
 Beginning at 1st level, while you are wearing no armor, your AC equals 10 + your Dexterity modifier + your Wisdom modifier. 
 
 ### Edgedancer Fighting Style:
-*1st-level Edgedancer feature*
+###### 1st-level Edgedancer feature
 
 At 1st level, you adopt a style of fighting as your specialty.  Choose one of the following options.  You can't take a Fighting Style option more than once, even if you later get to choose again.
 
@@ -589,10 +607,11 @@ At 1st level, you adopt a style of fighting as your specialty.  Choose one of th
 * **Thrown Weapon Fighting:** You can draw a weapon that has the thrown property as part of the attack you make with the weapon. In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll.
 * **Two Weapon Fighting:** When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.
 * **Unarmed Fighting:** Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier on a hit. If you aren't wielding any weapons or a shield when you make the attack roll, the d6 becomes a d8.
-
-At the start of each of your turns, you can deal 1d4 bludgeoning damage to one creature grappled by you. 
+  
+  At the start of each of your turns, you can deal 1d4 bludgeoning damage to one creature grappled by you. 
 
 ### Edgedancer Spellcasting
+###### 3rd-level Edgedancer feature
 
 | Level | 1st | 2nd | 3rd | 4th | 5th |
 | ---- | - | - | - | - | - |
@@ -642,9 +661,11 @@ Wisdom is your spellcasting ability for your edgedancer spells.  You use your Wi
 You can use your Shardblade as a spellcasting focus for casting edgedancer spells.
 
 ### Remember the Forgotten
+###### 3rd-level Edgedancer feature
 You learn the Spare the Dying Cantrip
 
 ### Healing Hands Spells
+###### 3rd-level Edgedancer feature
 As an edgedancer, healing is your specialty and as such when you reach the respective edgedancer levels you learn the following spells and always have them prepared, and they do not count against the number of spells prepared:
 
 | Level | Spells |
@@ -656,6 +677,7 @@ As an edgedancer, healing is your specialty and as such when you reach the respe
 | 17th  | Mass Cure Wounds, Greater Restoration | 
 
 ### Slickness
+###### 3rd-level Edgedancer feature
 As a bonus action you can expend one stormlight charge to become *slick* for 1 minute which gives the following benefits:
 * Your movement is unaffected by difficult terrain
 * Spells and other magical effects can neither reduce your speed or cause you to become paralyzed or restrained
@@ -671,7 +693,8 @@ Additionally, while you are *slick*, at the beginning of each of your turns you 
 * The Haste spell has no effect on you while you are *untouchable*
 
 ### Memoirs of the Forgotten
-At 6th level, the bond with your spren and your dedication to the people of the world grows and the second ideal's words come to you.
+###### 6th-level Edgedancer feature
+The bond with your spren and your dedication to the people of the world grows and the second ideal's words come to you.
 
 >*I will remember those who have been forgotten*
 
@@ -685,6 +708,7 @@ As a reaction when a creature dies within 60 ft of you or as an action upon phys
 * While you have at least one *memoir* in your possession, the thought of their memory empowers you allowing you to attack twice, instead of once, whenever you take the Attack action on your turn.
 
 ### Attentive Personality
+###### 9th-level Edgedancer feature
 At 9th level you have progressed far within the Order of Edgedancers and the following words come to you:
 
 >*I will listen to those who have been ignored*
@@ -707,16 +731,17 @@ You gain the following abilities as you connect and listen to the people of the 
 
 
 ### Slip from the Mind
+###### 13th-level Edgedancer feature
 <!-- Maybe expand upon this -->
-At 13th level you become a master within the Order of Edgedancers.  The fourth ideal comes to you:
+You become a master within the Order of Edgedancers.  The fourth ideal comes to you:
 
 >*I will recognize there are some so evil, forgetting their memory will save others*
 
 * When you are targeted by an attack, you can expend 2 stormlight charges to cause that attack to have disadvantage (no action required)
 
 ### Tree of Life
-
-At 18th level you become an embodiment of healing and good will. The fifth and final ideal comes to you:
+###### 18th-level Edgedancer feature
+You become an embodiment of healing and good will. The fifth and final ideal comes to you:
 
 >*I will never forget what makes this world worth living*
 
@@ -895,8 +920,373 @@ Raise Dead
 Reincarnate  
 Wrath of Nature   -->
   
+## Truthwatcher Order
+Truthwatcher's tend to live more solitary lives, mostly spent with their heads down in a library or a tomb seeking out truths, especially older truths that may have been forgotten.  They seek to find the fundamental truths of the universe, and if they learn something important or valuable, they share it with the rest of the world.  greatly concerned with the actions of the powerful and might be likened to investigative reporters. The order will make their opinions known loudly and forcefully, particularly if they think someone in power is abusing that power or lying about fundamental truths. They tend to attract scientists, scholars, or thinkers of all types. 
+
+### Spren
+As a truthwatcher, your powers are bound to mistspren.  In the material world, they are most similar to the shimmer light makes when it is reflected through a crystal.  When they stay still, light grows upwards from them in the shape of plants, which retreats when they start to move.
+
+In general they are curious; the idea of seeing something through a new perspective, or finding out how other creatures think, seems interesting to them.
+
+### Hit Points
+###### 1st-level Truthwatcher feature
+
+* **Hit Die:** 1d6 per truthwatcher Level
+* **Hit Points at 1st Level:** 6 + your Constitution modifier
+* **Hit Points at Higher Levels:** 1d6 (or 4) + your Constitution modifier (minimum of 1) per herald level after 1st
+
+### Proficiencies:
+###### 1st-level Truthwatcher feature
+
+* **Armor:** None
+* **Weapons:** Simple melee weapons
+* **Tools:** [Fortune Telling Tools](#fortune-telling-tools)
+* **Saving Throws:** Intelligence, Wisdom
+* **Skills:** Choose three skills from Arcana, Animal Handling, Deception, History, Insight, Investigation, Medicine, Persuasion, Religion
+
+### Equipment
+###### 1st-level Truthwatcher feature
+
+* any simple weapon
+* (a) a component pouch or (b) an arcane focus
+* (a) diplomat's pack or (b) a scholar's pack
+* Two daggers and [Fortune telling tools](#fortune-telling-tools)
+
+Alternatively, you can ignore the equipment from your class and background, and start with 3d4 x 10 gp.
+
+### Truthwatcher Order Ability Score
+###### 1st-level Truthwatcher feature
+When you become a truthwatcher, you must choose your Order Ability Score.  It can be either Intelligence or Wisdom.  When truthwatcher abilities say to use your Order Ability Score, use the ability score you chose here for those features.
+
+At your DM's discretion you may change your Order Ability Score when you gain a level in this class, though it should not be something that is changed often.
+
+### Truthwatcher Spellcasting
+###### 1st-level Truthwatcher feature
+
+Through your bond with your spren you gain the ability to cast powerful spells as described below:
+
+| Level | Cantrips Known | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+| ---- | - | - | - | - | - | - | - | - | - | - |
+| 1st  | 3 | 2 | 
+| 2nd  | 3 | 3 | 
+| 3rd  | 3 | 4 | 2
+| 4th  | 4 | 4 | 3
+| 5th  | 4 | 4 | 3 | 2
+| 6th  | 4 | 4 | 3 | 3
+| 7th  | 4 | 4 | 3 | 3 | 1
+| 8th  | 4 | 4 | 3 | 3 | 2
+| 9th  | 4 | 4 | 3 | 3 | 3 | 1
+| 10th | 5 | 4 | 3 | 3 | 3 | 2
+| 11th | 5 | 4 | 3 | 3 | 3 | 2 | 1 |
+| 12th | 5 | 4 | 3 | 3 | 3 | 2 | 1 |
+| 13th | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 |
+| 14th | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 |
+| 15th | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |
+| 16th | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |
+| 17th | 5 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1 |
+| 18th | 5 | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1 |
+| 19th | 5 | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |
+| 20th | 5 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 |
+
+#### Cantrips
+You learn three cantrips: [Lecture](#lecture), and two other cantrips of your choice from the [Truthwatcher spell list](#truthwatcher-spell-list). You learn additional truthwatcher cantrips of your choice at higher levels, learning a 4th cantrip at 4th level and a 5th at 10th level.  You can replace one cantrip you know with another from the truthwatcher spell list when you gain a level in this class.
+
+#### Preparing and Casting Spells
+The truthwatcher Spellcasting table shows how many spell slots you have to cast your truthwatcher spells of 1st level or higher.  To cast one of these spells, you must expend a slot of the spell's level or higher.  You regain all expended spell slots when you finish a long rest
+
+As a truthwatcher, you have every spell in your spell list prepared at all times.  Any spell in your spell list can be cast by you as long as you have the spell slots to cast it.
+
+#### Spellcasting Ability
+Your [Order Ability Score](#truthwatcher-order-ability-score) is your spellcasting ability for your truthwatcher spells.  You use your Order Ability Score whenever a spell refers to your spellcasting ability.  In addition, you can use your Order Ability Score modifier when setting the saving throw DC for a truthwatcher spell you cast and when making an attack roll with one.
+
+**Spell save DC** = 8 + your proficiency bonus + your Order Ability Score modifier
+
+**Spell attack modifier** = your proficiency bonus + your Order Ability Score modifier
+
+#### Ritual Casting
+You can cast a truthwatcher spell as a ritual if that spell has the ritual tag, you have the spell prepared, and it is not a spell gained through your [Historical Research](#historical-research) feature.
+
+#### Spellcasting Focus
+You can use [Fortune telling tools](#fortune-telling-tools) as a spellcasting focus for casting truthwatcher spells.
+
+### Historical Research
+###### 1st-level Truthwatcher feature
+As a life-long scholar you spend much of your time researching and as such have discovered how to cast spells from outside of your area of expertise as a truthwatcher.
+
+Starting at 1st level you learn two spells from any spell list and add them to your *Researched List*.  Spells on your *Researched List* are truthwatcher spells for you and are considered prepared, though they are not on the truthwatcher spell list.  
+
+Each spell on your *Researched List* can only be cast once per long rest.  Casting a spell from your *Researched List* requires you to expend a spell slot and stormlight equal to the spell slot's level.  You can cast the spell at any level for which you have slots, but once you cast a spell from your *Researched List*, you cannot cast that spell again until you take a long rest.
+
+You can cast a spells from your *Researched List* a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+
+Additionally, when you gain a new level in this class, you learn one additional spell and can add it to your *Researched List* and can swap out any number of spells in your *Researched List* for any other spell.  Swapping out spells in your *Researched List* can only be done when you gain a level in this class, not long rest.
+
+### Clairvoyant Healing
+###### 3rd-level Truthwatcher feature
+When you swear your first ideal as a truthwatcher, your stormlight abilities begin to manifest:
+
+* When you use your Stormlight Restoration feature, you can target any willing creature you can touch rather than only targeting yourself.
+* Additionally, when you heal a creature using your Stormlight Restoration feature, you can choose to give that creature Inspiration[^truthwatcher1].  You can grant Inspiration in this way a number of times equal to your proficiency bonus per long rest.
+
+### Predictive Protection
+###### 6th-level Truthwatcher feature
+You swear the 2nd ideal of the truthwatchers, and you delve further into your study and discovery of truths amongst the natural world
+
+> *I will seek truths wherever they hide*
+
+When you or an ally within 30 feet is targeted by an attack or is forced to make a saving throw, you can use your reaction to expend stormlight to cast a protective abjuration spell listed below.  You must expend stormlight equal to the value listed under the Stormlight Cost column in the table below in addition to the spell slot required for the spell.  Additionally, if the spell has a range of touch, its range is increased to 30 feet.
+
+| Spell Name | Stormlight Cost |
+| --- | --- |
+| Dispel Evil and Good | 6 |
+| Fizban's Platinum Shield | 10 |
+| Freedom of Movement | 2 |
+| Intellect Fortress | 3 |
+| Mind Blank | 10 |
+| Primordial Ward | 8 | 
+| Protection from Energy | 4 |
+| Protection from Evil and Good | 3 |
+| Protection from Poison | 2 | 
+| Stoneskin | 5 |
+| Warding Bond | 3 |
+
+### Draw from the Past
+###### 9th-level Truthwatcher feature
+When you speak the 3rd ideal of the truthwatchers you recognize the powers and knowledge that truth's from the past can hold and help guide to future.
+
+> *I will reveal truths so long as it is right*
+
+You gain the following features by attuning to knowledge from the past:
+* **Expertise:** You gain expertise in one skill which you have proficiency in, which means your proficiency bonus is doubled for any ability check you make with it.  The skill you choose must be one that isn't already benefitting from a feature, such as Expertise, that doubles your proficiency bonus.
+* **Experience History:** You gain the ability to call upon the spirits of the world in order to relieve a moment in history through the eyes of a spirit who experienced the event.  To do so, you must spend 1 minute in ritual practice, at the end of which you expend 5 stormlight to be mentally transported back in time to a vision of the past.  You will perceive this vision through the eyes of a creature who experienced it and will last as long as the spirits see fit for you to gain the knowledge you sought.  No matter how long the vision lasts for you, only 1 round passes to all outside observers.
+* **Library of Knowledge:** As an action, you can expend 3 stormlight to extract knowledge you've gained over the course of your studies and share it with a willing creature you can touch.  When you do so, choose one skill in which you are proficient or expertised in, the targeted creature gains the same level of proficiency in that skill if they aren't already, until you take a long rest.
+  * For example, if you are proficient (or expertised) in stealth and share your proficiency in stealth with another creature who isn't proficient, that creature gains proficiency (or expertise) in that skill and when they make stealth checks (until your next long rest) they add their Dexterity bonus and their proficiency bonus(es) to the roll.
+
+  You can use this feature a number of times equal to your proficiency bonus per long rest.
+
+### Combat Premonition
+###### 13th-level Truthwatcher feature
+Your ability to see truth has begun to spread to seeing the future, as such you see what needs to be said as you speak the fourth ideal
+
+> *I know truths that cannot be shared*
+
+Upon speaking these words, you are constantly aware of your surroundings, and thus can't be surprised while conscious.  Additionally, when you roll initiative, you can treat a d20 roll of 9 or lower as a 10.
+
+### Future Truths
+###### 18th-level Truthwatcher feature
+As you speak the final words, your awareness of the world is unparalleled, you live your life a few seconds ahead of all other creatures.
+
+> *I see all truths*
+
+When you start your turn, you can choose to expend 4 stormlight charges to gain the benefits of the *foresight* spell.  The effect of the spell lasts until the start of your next turn.
+
+### Truthwatcher Spell List
+
+| Cantrips | 1st Level | 2nd Level | 3rd Level | 4th Level | 
+| --- | --- | --- | --- | --- |
+|Blade Ward|Absorb Elements|Aid|Clairvoyance|Arcane Eye|
+|Control Flames|Alarm|Arcane Lock|Counterspell|Banishment|
+|Dancing Lights|Armor of Agathys|Augury|Dispel Magic|Death Ward|
+|Friends|Beast Bond|Borrowed Knowledge|Glyph of Warding|Divination|
+|Frostbite|Ceremony|Find Traps|Intellect Fortress|Freedom of Movement|
+|Guidance|Color Spray|Fortune's Favor|Magic Circle|Greater Invisibility|
+|[Lecture](#lecture)|Comprehend Languages|Healing Spirit|Mass Healing Word|Locate Creature|
+|Mage Hand|Cure Wounds|Invisibility|Nondetection|Mordenkainen's Private Sanctum|
+|Message|Detect Evil and Good|Lesser Restoration|Protection From Energy|Raulothim's Psychic Lance|
+|Mind Sliver|Detect Magic|Locate Animals or Plants|Remove Curse|Staggering Smite|
+|Minor Illusion|Detect Poison and Disease|Locate Object|Revivify|Stoneskin|
+|Prestidigitation|Dissonant Whispers|Magic Mouth|||
+|Resistance|Gift of Alacrity|Mind Spike|||
+|True Strike|Healing Word|Mirror Image|||
+|Vicious Mockery|Hunter's Mark|Nystul's Magic Aura|||
+||Identify|Protection From Poison|||
+||Mage Armor|See Invisibility|||
+||Protection from Evil and Good|Silence|||
+||Sanctuary|Tasha's Mind Whip|||
+||Shield|Warding Bond|||
+||Shield of Faith||||
+||Silent Image||||
+||Snare||||
+||Speak with Animals||||
+
+
+| 5th Level | 6th Level | 7th Level | 8th Level | 9th Level |
+| --- | --- | --- | --- | --- |
+|Antilife Shell|Find the Path|Mordenkainen's Magnificent Mansion|Antimagic Field|Astral Projection|
+|Banishing Smite|Fizban's Platinum Shield|Resurrection|Feeblemind|Foresight|
+|Circle of Power|Forbiddance|Sequester|Mind Blank|Imprisonment|
+|Commune with Nature|Globe of Invulnerability|Simulacrum||Invulnerability|
+|Contact Other Plane|Guards and Wards|Symbol||Mass Heal|
+|Dispel Evil and Good|Heal|||Power Word Heal|
+|Greater Restoration|Primordial Ward|||Prismatic Wall|
+|Legend Lore|Programmed Illusion|||True Resurrection|
+|Mass Cure Wounds|True Seeing|||Weird|
+|Planar Binding|||||
+|Rary's Telepathic Bond|||||
+|Scrying|||||
+|Synaptic Static||||
+
+
+
+<!-- #### Cantrips:
+Current ideas, get every spell listed below
+PROBLEM: Very passive, what can they do on their turn?  Maybe add a few more psychic spells
+
+At level 1, you learn 2 spells from any spell list (at a level for which you have slots) and add them to your "Spell Notes" which is a list of spells you've discovered over time through your studies.  Each spell in your spell notes can only be cast once per long rest.  Casting a spell from your Spell Notes requires you to expend a spell slot and stormlight equal to the spell slot's level. You can cast the spell at any level for which you have slots, but once you cast a spell from your "Spell Notes" you cannot cast that spell again until you take a long rest.
+
+When you level up, you learn 1 additional spell and can add them to your "Spell Notes", additionally, you can swap out any number of spells in your "Spell Notes" for any other spell for which you have spell slots for.  Swapping out spells in your "Spell Notes" can only be done on level up, not long rest.
+
+Cantrips:
+Blade Ward
+Control Flames
+Dancing Lights
+Friends
+Frostbite
+Guidance
+Lecture
+Mage Hand
+Message
+Mind Sliver
+Minor Illusion
+Prestidigitation
+Resistance
+True Strike
+Vicious Mockery
+
+1st Level:
+Absorb Elements
+Alarm
+Armor of Agathys
+Beast Bond
+Ceremony
+Color Spray
+Comprehend Languages
+Cure Wounds
+Detect Evil and Good
+Detect Magic
+Detect Poison and Disease
+Dissonant Whispers
+Gift of Alacrity
+Healing Word
+Hunter's Mark
+Identify
+Mage Armor
+Protection from Evil and Good
+Sanctuary
+Shield
+Shield of Faith
+Silent Image
+Snare
+Speak with Animals
+
+2nd Levels
+Aid
+Arcane Lock
+Augury
+Borrowed Knowledge
+Find Traps
+Fortune's Favor
+Healing Spirit
+Invisibility
+Lesser Restoration
+Locate Animals or Plants
+Locate Object
+Magic Mouth
+Mind Spike
+Mirror Image
+Nystul's Magic Aura
+Protection From Poison
+See Invisibility
+Silence
+Tasha's Mind Whip
+Warding Bond
+
+3rd Level:
+Clairvoyance
+Counterspell
+Dispel Magic
+Glyph of Warding
+Intellect Fortress
+Magic Circle
+Mass Healing Word
+Nondetection
+Protection From Energy
+Remove Curse
+Revivify
+
+4th Level:
+Arcane Eye
+Banishment
+Death Ward
+Divination
+Freedom of Movement
+Greater Invisibility
+Locate Creature
+Mordenkainen's Private Sanctum
+Raulothim's Psychic Lance
+Staggering Smite
+Stoneskin
+
+5th Level:
+Antilife Shell
+Banishing Smite
+Circle of Power
+Commune with Nature
+Contact Other Plane
+Dispel Evil and Good
+Greater Restoration
+Legend Lore
+Mass Cure Wounds
+Planar Binding
+Rary's Telepathic Bond
+Scrying
+Synaptic Static
+
+6th Level:
+Find the Path
+Fizban's Platinum Shield
+Forbiddance
+Globe of Invulnerability
+Guards and Wards
+Heal
+Primordial Ward
+Programmed Illusion
+True Seeing
+
+7th Level:
+Mordenkainen's Magnificent Mansion
+Resurrection
+Sequester
+Simulacrum
+Symbol
+
+8th Level:
+Antimagic Field
+Feeblemind
+Mind Blank
+
+9th Level:
+Foresight
+Imprisonment
+Invulnerability
+Mass Heal
+Power Word Heal
+Prismatic Wall
+True Resurrection
+Weird
+
+
+
+
+
+
+
+
+
+ -->
+
 ## Lightweaver Order
-Lightweaver's live their lives on the razor's edge of deception.  Whether that deception is used to create beautiful artwork that transports the viewer to another world, or to build illusions to allow for decpetion, espionage, and subterfuge.  To build these illusions, their oaths revolve around speaking powerful truths about themselves, often deep personal realizations about their own lives that most people would choose to ignore, for understanding truths is what allows them create lies that can masquerade as truths even to the most trained eye.
+Lightweaver's live their lives on the razor's edge of deception.  Whether that deception is used to create beautiful artwork that transports the viewer to another world, or to build illusions to allow for deception, espionage, and subterfuge.  To build these illusions, their oaths revolve around speaking powerful truths about themselves, often deep personal realizations about their own lives that most people would choose to ignore, for understanding truths is what allows them create lies that can masquerade as truths even to the most trained eye.
 
 Lightweavers are most interested in the arts, including all kinds of visual arts and theater.  They range widely in personality from the quiet and introspective painter to the gregarious stage performer, with everything in between.  What unites them tends to be a love of art, the importance of entertainment, beauty, and art in a person's life, and striving to make sure that the world doesn't just live through any danger, because mere survival isn't enough unless there is something to live for.
 
@@ -904,14 +1294,14 @@ Lightweavers are most interested in the arts, including all kinds of visual arts
 As a lightweaver, you gain your powers through Cryptics.  Cryptics are creatures of logic, and they enjoy learning about truths and the lies that can be weaved between them.  The more powerful the truths the more likely powerful lies are to exist in the cracks.  Cryptics in the material plane appears as constantly shifting patterns of lines, shapes, or other manifestations.  When you try to look at one, it is impossible to fully grasp the entire shape of the pattern as it is constantly shifting and changing, and there are always more details to be found in their scintillating shape.
 
 ### Hit Points
-*1st-level Lightweaver feature*
+###### 1st-level Lightweaver feature
 
-* **Hit Die:** 1d8 per windrunner Level
+* **Hit Die:** 1d8 per lightweaver Level
 * **Hit Points at 1st Level:** 8 + your Constitution modifier
 * **Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier (minimum of 1) per herald level after 1st
 
 ### Proficiencies:
-*1st-level Lightweaver feature*
+###### 1st-level Lightweaver feature
 
 * **Armor:** Light armor
 * **Weapons:** Simple melee weapons
@@ -920,7 +1310,7 @@ As a lightweaver, you gain your powers through Cryptics.  Cryptics are creatures
 * **Skills:** Choose three skills from Deception, Insight, Investigation, Performance, Persuasion, Slight of Hand, Stealth
 
 ### Equipment:
-*1st-level Lightweaver feature*
+###### 1st-level Lightweaver feature
 
 * (a) a component pouch or (b) an arcane focus
 * (a) a poisoner's kit, (b) a disguise kit, (c) an artisan's tool, or (d) a musical instrument
@@ -930,11 +1320,11 @@ As a lightweaver, you gain your powers through Cryptics.  Cryptics are creatures
 Alternatively, you can ignore the equipment from your class and background, and start with 4d4 x 10 gp.
 
 ### Lightweaver Spellcasting
-*1st-level Lightweaver feature*
+###### 1st-level Lightweaver feature
 
-Through your bond with your spren you gain the ability to create powerful effects and then modifiy them with stormlight.
+Through your bond with your spren you gain the ability to create powerful effects and then modify them with stormlight.
 
-| Level | Canrips Known | Spells | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+| Level | Cantrips Known | Spells | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
 | ---- | - | -- | - | - | - | - | - | - | - | - | - |
 | 1st  | 4 | 4  | 2 | 
 | 2nd  | 4 | 5  | 3 | 
@@ -958,17 +1348,14 @@ Through your bond with your spren you gain the ability to create powerful effect
 | 20th | 6 | 16 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 |
 
 #### Cantrips
-
-You learn four cantrips: [Illusory Onslaught](#illusory-onslaught), Minor Illusion, and two other cantrips of your choice from the [Lightweaver spell list](#lightweaver-spell-list).  You learn additional lightweaver cantrips of your choice at higher levels, learning a 5th cantrip at 4th level and a 6th at 10th level.
+You learn four cantrips: [Illusory Onslaught](#illusory-onslaught), Minor Illusion, and two other cantrips of your choice from the [Lightweaver spell list](#lightweaver-spell-list).  You learn additional lightweaver cantrips of your choice at higher levels, learning a 5th cantrip at 4th level and a 6th at 10th level. You can replace one cantrip you know with another from the lightweaver spell list when you gain a level in this class.
 
 #### Spell Slots
-
 The Lightweaver Spellcasting table shows how many spell slots you have to cast your lightweaver spells of 1st level or higher.  To cast one of these spells, you must expend a slot of the spell's level or higher.  You regain all expended spell slots when you finish a long rest
 
-You start with two 1st-level spell slots at lightweaver level 1, and gain more as you gain more lightweaver levels.
+<!-- You start with two 1st-level spell slots at level 1, and gain more as you gain more lightweaver levels. -->
 
 #### Spells Known
-
 You know three 1st level [lightweaver spells](#lightweaver-spell-list) of your choice.  Additionally you always know the spell *Disguise Self* and it doesn't count against your number of lightweaver spells known.
 
 The Spells Known column of the Lightweaver Spellcasting table shows when you learn more lightweaver spells of 1st level or higher.  Each of these spells must be of a level for which you have spell slots.   For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.
@@ -976,19 +1363,20 @@ The Spells Known column of the Lightweaver Spellcasting table shows when you lea
 Whenever you take a long rest you can replace one of the lightweaver spells you know with another spell of your choice from the lightweaver spell list.  The new spell must be of a level for which you have spell slots.
 
 #### Spellcasting Ability
-
 Charisma is your spellcasting ability for your lightweaver spells.  You use your Charisma whenever a spell refers to your spellcasting ability.  In addition, you can use your Charisma modifier when setting the saving throw DC for a lightweaver spell you cast and when making an attack roll with one.
 
 **Spell save DC** = 8 + your proficiency bonus + your Charisma modifier
 
 **Spell attack modifier** = your proficiency bonus + your Charisma modifier
 
-#### Spellcasting Focus
+#### Ritual Casting
+You can cast any lightweaver spell you know as a ritual if that spell has the ritual tag. 
 
+#### Spellcasting Focus
 You can use your Shardtool, artisan tool, or musical instrument as a spellcasting focus for casting Lightweaver spells.
 
 ### Shardtool
-*3rd-level Lightweaver feature which replaces the Shardblade feature*
+###### 3rd-level Lightweaver feature which replaces the Shardblade feature
 
 At 3rd level, your bond to your spren has evolved to the point where you gain the ability to summon them in the material plane. You can use your action to summon your Shardtool in your empty hand.  The Shardtool acts as a spellcasting focus for your spells.  You can choose the form that this tool takes each time you create it. The form of the tool must be a tool with which you are proficient.
 
@@ -998,17 +1386,17 @@ Your Shardtool disappears if it is more than 5 feet away from you for 1 minute o
 You also gain the ability to absorb magic tools which you are proficient with and meld them into your shardtool.  You can absorb a magic tool into your shardtool by performing a special ritual while you hold the tool. You perform the ritual over the course of 1 hour, which can be done during a short rest.  You can't affect an artifact or a sentient tool in this way.  Once completed, when you summon your shardtool, you can instead choose to summon the magical tool you absorbed which acts as your shardtool, but doesn't gain the benefits of being Awakened, Ascendant or Exalted.  You can dismiss this tool into an extradimensional space as if it were your shardtool.  You can only absorb one magical tool at a time. The magical tool ceases to be absorbed by your shardtool if you die, if you perform the 1-hour ritual on a different tool, or if you use a 1-hour ritual to break your bond to it. The tool appears at your feet if it is in the extradimensional space when the bond breaks. 
 
 #### Awakened Shardtool
-*7th-level Lightweaver feature which replaces the Awakened Shardblade feature*
+###### 7th-level Lightweaver feature which replaces the Awakened Shardblade feature
 
 At 7th level you become more attuned with your spren and your Shardtool becomes more responsive to your commands. Any tool you create with your Shardtool feature has a +1 bonus to its spell attack rolls and damage dealt by spell attacks.
 
 #### Ascendant Shardtool
-*11th-level Lightweaver feature which replaces the Ascendant Shardblade feature*
+###### 11th-level Lightweaver feature which replaces the Ascendant Shardblade feature
 
 At 11th level your bond with your spren has grown significantly. Any tool you create with your Shardtool feature has a +2 bonus to its spell attack rolls and damage dealt by spell attacks.
 
 #### Exalted Shardtool
-*15th-level Lightweaver feature which replaces the Exalted Shardblade feature*
+###### 15th-level Lightweaver feature which replaces the Exalted Shardblade feature
 
 At 15th level your bond with your spren has grown to new heights. Any tool you create with your Shardtool feature has a +3 bonus to its spell attack rolls and damage dealt by spell attacks.
 
@@ -1020,24 +1408,24 @@ When you speak your ideals at 6th, 9th, 13th, and 18th level, it should be a tru
 There are a few examples of ideals from the Stormlight Archives in the Footnotes below (SPOILERS BEWARE)[^lightweaver1]
 
 ### Stormlight Powered Illusions
-*3rd-level Lightweaver feature*
+###### 3rd-level Lightweaver feature
 
 When you cast an *illusion* spell that has a duration that is greater than or equal to 10 minutes, you can choose to expend a number of stormlight charges equal to the spell's level to cast the spell without expending a spell slot.  The spell still requires material components that are consumed upon casting.
 
 ### Improved Minor Illusion
-*3rd-level Lightweaver feature*
+###### 3rd-level Lightweaver feature
 
 When you cast Minor Illusion, you can create both a sound and an image with a single casting of the spell. 
 
 ### Personal Disguise
-*3rd-level Lightweaver feature*
+###### 3rd-level Lightweaver feature
 
 You can cast disguise self using a stormlight charge instead of a spell slot.  Additionally, when you cast disguise self, you can expend one additional stormlight charge to give it a range of touch.  Any creature you touch with this ability must be willing.  
 
 You can only have your proficiency bonus number of Personal Disguise's cast at once (including disguise self cast on yourself).  If you use Personal Disguise when you already have your maximum reached, the oldest casting of disguise self ends immediately.
 
 ### Stormlight Empowered Illusions
-*6th-level Lightweaver feature*
+###### 6th-level Lightweaver feature
 
 When you cast a lightweaver illusion spell, you can expend one charge per spell level to extend the duration according to the table below.  Illusion cantrips can be extended at no cost.
 
@@ -1054,19 +1442,19 @@ When you cast a lightweaver illusion spell, you can expend one charge per spell 
 | Until Dispelled | Until Dispelled |
 
 ### Malleable Illusions
-*6th-level Lightweaver feature*
+###### 6th-level Lightweaver feature
 
 Starting at 6th level, when you cast an illusion spell that has a duration of 1 minute or longer, you can use your action to change the nature of that illusion (using the spell's normal parameters for the illusion), provided that you can see the illusion. 
 
 ### Body of Lies
-*9th-level Lightweaver feature*
+###### 9th-level Lightweaver feature
 
 When you are hit by an attack roll you can see, you can use your reaction to expend 5 stormlight charges to summon an illusory duplicate of yourself in your space.  When you do so, the triggering attack automatically misses you and the illusion then dissipates.  Additionally, you may teleport up to 10 feet away to an unoccupied space that you can see.[^lightweaver2]
 
 Once you use this feature, you can't use it again until you finish a short or long rest.
 
 ### Intimate Riposte
-*9th-level Lightweaver feature*
+###### 9th-level Lightweaver feature
 
 As you become more comfortable with the truth's you've awakened in yourself you've gained the ability to see through lies that others make to conceal the dark intimate truths they dare not even acknowledge, and to use those truths as leverage.  As an action, you magically telepathically communicate with a creature within 30 feet of you.  The target must make an Intelligence saving throw against your spell save DC.  The target automatically succeeds on the save if it is a construct.  On a successful saving throw this attempted infiltration has no effect.
 
@@ -1079,12 +1467,12 @@ When the effect ends, the creature realizes that your knowledge of their intimat
 Once you use this feature, you can't use it again until you finish a long rest. 
 
 ### Omnipotent Illusions
-*13th-level Lightweaver feature*
+###### 13th-level Lightweaver feature
 
 As an action you can cast Mirage Arcane and Project Image each once per long rest without expending a spell slot.
 
 ### Illusory Army
-*18th-level Lightweaver feature*
+###### 18th-level Lightweaver feature
 
 You learn the spell [Army of the Mind](#army-of-the-mind), it is a lightweaver spell and it doesn't count against your number known lightweaver spells.
 
@@ -1275,14 +1663,14 @@ Perfection of ones self is of utmost importance amongst those in the order of El
 With oily black skin and angular features, Inkspren are the spren behind the Nahel Bond required to create an elsecaller.  They tend to dislike humans for their irrational and unchanging nature but have formed bonds with humans who are capable of being cautious, logical, and unemotional.
 
 ### Hit Points
-*1st-level Elsecaller feature*
+###### 1st-level Elsecaller feature
 
 * **Hit Die:** 1d6 per elsecaller level
 * **Hit Points at 1st Level**: 6 + your Constitution modifier
 * **Hit Points at Higher Levels:** 1d6 (or 4) + your Constitution modifier (minimum of 1) per herald level after 1st
 
 ### Proficiencies:
-*1st-level Elsecaller feature*
+###### 1st-level Elsecaller feature
 
 * **Armor:** Light armor
 * **Weapons:** Darts, daggers, slings, quarterstaffs
@@ -1291,13 +1679,13 @@ With oily black skin and angular features, Inkspren are the spren behind the Nah
 * **Skills:** Choose three skills from Arcana, Deception, History, Insight, Investigation, Medicine, Religion, Slight of Hand
 
 ### Equipment:
-*1st-level Elsecaller feature*
+###### 1st-level Elsecaller feature
 * (a) a quarterstaff or (b) a dagger
 * (a) a component pouch or (b) an arcane focus
 * (a) a Scholar's pack or (b) an Explorer's pack
 
 ### Elsecaller Spellcasting
-*1st-level Elsecaller feature*
+###### 1st-level Elsecaller feature
 
 You seek perfection of self and mastery over your areas of study.  As such you've drawn the interest of inkspren, spren of logic who grant arcane powers to those who they see as worthy in their pursuit of knowledge and perfection.
 
@@ -1351,7 +1739,7 @@ You seek perfection of self and mastery over your areas of study.  As such you'v
 
 #### Cantrips
 
-You learn four cantrips of your choice from the [Elsecaller spell list](#elsecaller-spell-list).  You learn additional elsecaller cantrips of your choice at higher levels, learning a 5th cantrip at 4th level and 6th at 10th level.
+You learn four cantrips of your choice from the [Elsecaller spell list](#elsecaller-spell-list).  You learn additional elsecaller cantrips of your choice at higher levels, learning a 5th cantrip at 4th level and 6th at 10th level. You can replace one cantrip you know with another from the elsecaller spell list when you gain a level in this class.
 
 #### Inkspren Archive
 At 1st level, you form a bond with your spren, an Inkspren, which becomes the home of your arcane archive.  Your archive of arcane knowledge is stored within the mind of your spren and thus only you can access the knowledge stored there via your connection with your spren. Upon formation of your bond, your archive contains six 1st level elsecaller spells of your choice.  Your archive is the repository of the elsecaller spells you know, except your cantrips, which are fixed in your mind.
@@ -1398,7 +1786,6 @@ Intelligence is your spellcasting ability for your elsecaller spells. You use yo
 ***Spell Attack modifier*** = your proficiency bonus + your Intelligence modifier
 
 #### Ritual Casting
-
 You can cast an elsecaller spell as a ritual if that spell has the ritual tag and you have the spell in your archive. You don't need to have the spell prepared.
 
 #### Spellcasting Focus
@@ -1411,6 +1798,7 @@ You know four 1st level [elsecaller spells](#elsecaller-spell-list) of your choi
 At higher levels, the elsecaller spellcasting table will show you how many spell slots of 1st level or higher that you have.  As an elsecaller, at higher levels you will lose some of your lower level spell slots.  This does not remove your ability to cast lower level spells, only the spell slots.  Each spell that you learn as you level up, must be of a level for which you have spell slots.  For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.
 
 ### Stormlight Empowered Spells
+###### 3rd-level Elsecaller feature
 When you swear your first ideal as a Knight Radiant of the Elsecallers at 3rd level, you gain powers through your stormlight which to enhance your arcane prowess:
 
 **Forceful Spells:** By expending one stormlight when you begin casting a spell, you can add your intelligence modifier to one damage roll of any elsecaller spell you cast.
@@ -1433,14 +1821,16 @@ Once you regain a slot of a given level, you cannot regain another slot of that 
 | 35 | 9 | 18th
 
 ### Soulcast Spells
-At 6th level, you speak the 2nd ideal of the elsecallers.
+###### 6th-level Elsecaller feature
+At 6th level, you speak the second ideal of the elsecallers.
 
 >*I swear to seek a higher calling, to dedicate myself to it*
 
 When you cast a spell that deals a type of damage from the following list, you can spend 3 stormlight charges to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder. When you reach 13th level, force damage is added to the above list of damage types you can change between.
 
 ### Shardplate of the Commander
-Upon speaking the third ideal of the elsecallers at 9th level, you learn to draw experience from those around you, especially those in the world of martial skills.
+###### 9th-level Elsecaller feature
+Upon speaking the third ideal of the elsecallers, you learn to draw experience from those around you, especially those in the world of martial skills.
 
 >*I will not steal accomplishments of those unaware, if I am to reach my calling it will be by my skill alone*
 
@@ -1459,7 +1849,7 @@ Once per long rest, you can use your bonus action to don your shardplate made of
   * [Terran Strike](#terran-strike)
 
 ### Shadesmar
-
+###### 13th-level Elsecaller feature
 Your mastery over the cognitive realm has grown greatly and thus you are ready to swear the 4th ideal of the elsecallers
 
 >*I will see the value in wisdom of others, even if they are wrong*
@@ -1471,15 +1861,12 @@ Additionally, when you are forced to make a death saving throw, you can instead 
 Once you activate your Shadesmar Hideaway spell in this way, you cannot do so again until you finish a long rest.
 
 ### Shadesmar Storm
-18th level feature
+###### 18th-level Elsecaller feature
+You have become a master of this world and an expert in manipulating matter and shadesmar like clay, as such the fifth ideal comes naturally to you.
 
 >*I acknowledge that lies have their place for serving the greater good*
 
-TODO
-
-
-
-
+You learn the spell [Shadesmar Storm](#shadesmar-storm) which doesn't count against your number of prepared spells but is always prepared.
 
 ### Elsecaller Spell List
 
@@ -1754,14 +2141,14 @@ In battle, they served as the frontline troops.  In times of peace, on the other
 The spren of the stonewards are Peakspren, they tend to appear as rocks or stone creatures who wear human clothing and tend to be bald with their heads sporting more cracks than the ret of their bodies.  They also like to share traditions with the Unkalaki, a race of people who live on the tops of mountains.
 
 ### Hit Points
-*1st-level Stoneward feature*
+###### 1st-level Stoneward feature
 
 * **Hit Die:** 1d12 per stoneward level
 * **Hit Points at 1st Level:** 12 + your Constitution modifier
 * **Hit Points at Higher Levels:** 1d12 (or 7) + your Constitution modifier (minimum of 1) per herald level after 1st
 
 ### Proficiencies:
-*1st-level Stoneward feature*
+###### 1st-level Stoneward feature
 
 * **Armor:**  Light armor, medium armor, heavy armor, shields
 * **Weapons:** Simple melee weapons, Martial melee weapons
@@ -1770,7 +2157,7 @@ The spren of the stonewards are Peakspren, they tend to appear as rocks or stone
 * **Skills:** Choose two skills from Animal Handling, Athletics, History, Intimidation, Nature, Persuasion, Survival
 
 ### Equipment:
-*1st-level Stoneward feature*
+###### 1st-level Stoneward feature
 
 * (a) chain mail or (b) leather armor
 * (a) a greataxe or (b) any martial melee weapon
@@ -1780,7 +2167,7 @@ The spren of the stonewards are Peakspren, they tend to appear as rocks or stone
 Alternatively, you can ignore the equipment from your class and background, and start with 4d4x10 gp.
 
 ### Stoneward DC
-*1st-level Stoneward feature*
+###### 1st-level Stoneward feature
 
 Some Stoneward abilities and spells will require your Stoneward DC which is calculated as 8 + your proficiency bonus + your Constitution modifier.
 
@@ -1790,7 +2177,7 @@ Beginning at 1st level, while you are wearing no armor and not wielding a shield
 Additionally, you learn the Mold Earth cantrip if you don't know it already  
 
 ### Stoneward Fighting Style:
-*1st-level Stoneward feature*
+###### 1st-level Stoneward feature
 
 At 1st level, you adopt a style of fighting as your specialty.  Choose one of the following options.  You can't take a Fighting Style option more than once, even if you later get to choose again.
 
@@ -1807,7 +2194,7 @@ At 1st level, you adopt a style of fighting as your specialty.  Choose one of th
 At the start of each of your turns, you can deal 1d4 bludgeoning damage to one creature grappled by you. 
 
 ### Stoneward Weapon Masteries:
-*1st-level Stoneward feature*  
+###### 1st-level Stoneward feature  
 Your lifestyle of training and practice with weapons allows you to use the Mastery property of three kinds of Simple or Martial melee weapons of your choice.  Whenever you long rest, you can practice weapon drills and change one weapon of your choice out for another.    
 
 When you reach certain Stoneward levels, you gain the ability to use the Mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Stoneward table.
@@ -1837,22 +2224,26 @@ When you reach certain Stoneward levels, you gain the ability to use the Mastery
 | 20th | 10 | 4 | 5 |
 
 ### Vorin Stances
-Upon reaching 3rd level as a fledgling stoneward, your path begins with the extensive training in the different methods of mastering your shardblade, also known as vorin stances.  Each stance has it's strengths and weaknesses and it is common for different shardbearers to favor one or a few stances, but to be proficient in many, in order to best suit their combat situation.
+###### 3rd-level Stoneward feature
+Upon being knighted as a fledgling stoneward, your path begins with the extensive training in the different methods of mastering your shardblade, also known as vorin stances.  Each stance has it's strengths and weaknesses and it is common for different shardbearers to favor one or a few stances, but to be proficient in many, in order to best suit their combat situation.
 
 To begin your training, you learn two vorin stances.  When you swear your greater oaths at higher levels, you will learn additional vorin stances and gain infusions to  upgrade one stance you know (including one you just learned).  How many you have of each is shown in the Vorin Stances and Infusions columns of the Stoneward Table.
 
 You can switch out one stance you know for another one on level up.
 
 ### Shardplate
+###### 3rd-level Stoneward feature
 As a Bonus Action on your turn, you can expend any number of stormlight to summon stormlight infused shardplate around your body, granting yourself temporary hit points equal to your constitution modifier + a number of d12's equal to the number of stormlight charges you expended.  These temporary hit points disappear after 1 hour or when you finish a short rest.
  
 ### Roots of Stone
-When you reach the 3rd level in this class you learn the basics of how to control the earth around you.  You gain the ability to cast the spell Earth Tremor as a Bonus Action by expending 1 stormlight.  You can expend up to your proficiency bonus number of additional charges to increase the spell's level by one for each additional charge. 
+###### 3rd-level Stoneward feature
+You learn the basics of how to control the earth around you and gain the ability to cast the spell Earth Tremor as a Bonus Action by expending 1 stormlight.  You can expend up to your proficiency bonus number of additional charges to increase the spell's level by one for each additional charge. 
 
 You are immune to any difficult terrain created by this spell, and while casting you can expend any number of stormlight charges to allow you to choose that same number of creatures to be immune to the damage and difficult terrain created by this spell.
 
 ### Shifting Earth
-At 6th level, your bond with your peakspren is beginning to grow allowing you to stand more freely within your stone form as the second ideal's words come to you.
+###### 6th-level Stoneward feature
+Your bond with your peakspren is beginning to grow allowing you to stand more freely within your stone form as the second ideal's words come to you.
 
 > *I will stand where other's fall*
 
@@ -1863,14 +2254,16 @@ Upon speaking the words, you gain the following abilities to help you in combat 
 * **Infusions** You gain the ability to infuse your vorin stances with stormlight.  Your number of infusions are listed in the Infusions Column in the [Stoneward Table](#stoneward-table).  Over the course of a long rest you can change which stances you infuse.  When a stance is infused, you can used the additional ***Infused*** property that is listed within the stance's description.
 
 ### Rockshaper
-When you reach 9th level, your bond has grown strong enough that you can begin to shape rock and stone beyond their natural limits and the third ideal comes to you:
+###### 9th-level Stoneward feature
+Through your trials together, the bond with your spren has grown strong enough that you can begin to shape rock and stone beyond their natural limits and the third ideal comes to you:
 
 > *I will not fall even in defeat*
 
 And as you speak those words, your attunement with the earth grows further allowing you to cast Move Earth, Stone Shape, or Transmute Rock by expending four, five, or four stormlight charges respectively.  Additionally you are immune to all magical and nonmagical difficult terrain created by rocks, stones, gems, and other similar materials
 
 ### Stoneheart
-At 13th level, you become a master of stone and rock as the fourth ideal comes to you:
+###### 13th-level Stoneward feature
+You become a master of stone and rock as the fourth ideal comes to you:
 
 > *I will fall for those I love*  
 
@@ -1879,7 +2272,8 @@ In speaking the fourth ideal, your attunement with the earth expands as you gain
 **Earth Glide**  As an action spend one stormlight charge to gain the ability to burrow through nonmagical unworked earth and stone for 1 minute.  While doing so, you don't disturb the material you move through and don't require air to breathe.[^stoneward2]
 
 ### One with the Earth
-At 18th level you have become the epitome of strength, stability and dependability.  The fifth and final ideal is built from your connection to the earth:
+###### 18th-level Stoneward feature
+You have become the epitome of strength, stability and dependability.  The fifth and final ideal is built from your connection to the earth:
 
 > *I will never fail to rise when I am needed*
 
@@ -1898,7 +2292,7 @@ As an action, you can transform yourself to become one with the earth as the Her
 
 ## New Weapons
 
-The weapons listed here are primarily for use with the Herald class but may be adapted or used in anyway by other classes, although balance is not guaranteed.
+The weapons listed here are primarily for use with the Herald class but may be adapted or used by other classes, although balance is not guaranteed.
 
 ### Weapon Mastery
 
@@ -2107,14 +2501,15 @@ Weapon Types: Any melee weapon
 #### Lifestance
 *Lifestance, unlike all other stances, focuses on negating and protecting rather than aggressive actions.  It's lack of weaponry is made up for by it's powerful protection and distraction features which can greatly help allies stay healthy and in the fight*  
 Weapons: None
-* You gain the ability to transform your shardblade into a Shield. (note can't use two shields at once, RAW)
+* You gain the ability to transform your shardblade into a Shield. 
+  * Note: you cannot gain the benefits of a second shield if you are already wielding a shield
 * While in lifestance, you can't take any actions that would cause damage.
 * Until the start of your next turn, you gain either the Protector or Improved Interceptor fighting style.
 * You gain a +5 to your AC.
 * **Distract** As an action, choose any number of allies within 5 feet to protect until the end of your next turn.  While these allies are within 5 feet of you, and protected.  All attack rolls against them are made with disadvantage.
 * [Infused] You gain the ability to use the Help Action as a Bonus Action.
-* [Infused] The range at which you can protect allies increases from 5 feet to 10 feet.
-* [Infused] Until the start of your next turn, you gain the Protector and Improved Interceptor fighting styles and they do not require your reaction in order to use.
+* [Infused] The range at which you can protect allies increases with by using the Improved Interceptor, Protector, or Dexterous Protector fighting style increases by 5 feet.
+* [Infused] Until the start of your next turn, you gain the Protector and Improved Interceptor fighting styles and you regain any reaction you expend by using these fighting styles (or Dexterous Protector) after the triggering attack resolves.
 
 #### Oilstance
 *Oils are known to be an extremely dangerous yet powerful utility for shardbearers.  They can deal great amounts of damage, but wielding them brings great danger to the user as well*  <!-- *The rebounding nature of strike and pause created by oilstance synergizes well with the use of applying oils to shardblades midfight, although oils can react poorly when elemental effects are mixed* -->  
@@ -2137,6 +2532,48 @@ Available Weapons: Any weapon with the thrown property
   * If a creature you are targeting is within 5 ft, or beyond your weapon's normal range you still make those attack rolls at disadvantage (unless you have a feat or ability that says otherwise such as crossbow expert or sharpshooter)
 * [Infused] There is no limit to the number of creatures you can target with *Piercing Attack*, but each target must still intersect with the line drawn originating from you out to your weapon's max range.
 * [Infused] Creatures targeted by your *Piercing Attack* gain no benefit of cover from physical or magical obstructions
+
+### Weapon Mastery to Vorin Stances Lookup Table
+| Weapon | Windstance | Smokestance | Flamestance | Vinestance | Ironstance | Stonestance | Bloodstance | Lifestance | Oilstance | Gemstance |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Club | x | | | | | | x | | x | |
+| Dagger | x | x | | | | | x | | x | x |
+| Greatclub | | | x | | x | | x | | x | |
+| Handaxe | x | | | | | | x | | x | x |
+| Javelin | | | | | | | x | | x | x |
+| Light Hammer | x | | | | | | x | | x | x |
+| Mace | | | | | | | x | | x | |
+| Quarterstaff | | | x | | | | x | | x | |
+| Sickle | x | | | | | | x | | x | |
+| Spear | | | x | | | | x | | x | x |
+| Crossbow, Light | | | | | | | | | | |
+| Dart | | | | | | | | | | x |
+| Shortbow | | | | | | | | | | |
+| Sling | | | | | | | | | | |
+| Battleaxe | | | x | | | | x | | x | |
+| Flail | | | | | | | x | | x | |
+| Glaive | | | x | x | x | x | x | | x | |
+| Greataxe | | | x | | x | x | x | | x | |
+| Greatsword | | | x | | x | x | x | | x | |
+| Halberd | | | x | x | x | x | x | | x | |
+| Lance | | | x | x | x | x | x | | x | |
+| Longsword | | | x | | | | x | | x | |
+| Maul | | | x | | x | x | x | | x | |
+| Morningstar | | | | | | | x | | x | |
+| Pike | | | x | x | x | x | x | | x | |
+| Rapier | | x | | | | | x | | x | |
+| Scimitar | x | | | | | | x | | x | |
+| Shortsword | x | x | | | | | x | | x | |
+| Trident | | | x | | | | x | | x | x |
+| War Pick | | | x | | | | x | | x | |
+| Warhammer | | | x | | | | x | | x | |
+| Whip | | | | x | | | x | | x | |
+| Blowgun | | | | | | | x | | x | |
+| Crossbow, Hand | | | | | | | | | | |
+| Crossbow, Heavy | | | | | | | | | | |
+| Longbow | | | | | | | | | | |
+| Musket | | | | | | | | | | |
+| Pistol | | | | | | | | | | |
 
 
 ### Oils:
@@ -2175,7 +2612,7 @@ When you hit a creature with a weapon that has oil on it, you deal an additional
 
 ## New Spells
 
-The spells listed here are primarily for use with the Herald class but may be adapted or used in anyway by other classes, although balance is not guaranteed.
+The spells listed here are primarily for use with the Herald class but may be adapted or used by other classes, although balance is not guaranteed.
 
 ### Hand of Judgment
 *5th-level transmutation*
@@ -2207,28 +2644,6 @@ You weave from thin air a weapon of horror[^illusory_onslaught1] that strikes fe
 The spell creates more than one illusory weapon when you reach higher levels: two weapons at 5th level, three weapons at 11th level, and four weapons at 17th level.  You can direct the weapons at the same or different targets.  Make a separate attack roll for each weapon.
 
 Creatures who have truesight or who can naturally see through illusions are immune to this spell.
-
-### Army of the Mind
-*9th-level illusion*
-
-* **Casting Time:** 1 action
-* **Range:** 90 ft.
-* **Component:** V, S
-* **Duration:** Concentration, up to 1 minute.
-
-You reach into the ethereal plane and pull from magic in the air to weave an army of illusory warriors at a point you choose within range.
-
-When you cast the spell you may designate any number of creatures within a 30-foot-radius, 60-foot-high cylinder centered on that point to be protected by the illusory army.  When a creature is protected they gain the following benefits:
-
-* 10 temporary hit points
-* An illusory bodyguard
-  * When a protected creature is targeted by an attack, roll any single die, on an even value, the illusory bodyguard becomes the target of the attack, the duplicate has an AC of 10.  On an odd value you remain the target of the attack.  If an attack hits a bodyguard, the bodyguard is destroyed.
-
-As a bonus action on subsequent turns you can move the spell up to 60 feet to a space you can see and refresh the effects of your spell.  When you refresh the spell, creatures you designate in the spell's current area are protected and gain 10 temporary hit points and an illusory bodyguard if they don't already have one.  Creatures who were previously protected by the spell do not lose their protection when the spell is refreshed even if they are not currently in the spell's area.
-
-A creature attacking a target of this spell is unaffected by the illusory bodyguard if it can perceive illusions as false, as with truesight.
-
-When the spell ends, the illusory army, bodyguards, and temporary hit points are destroyed.
 
 ### Army of the Mind
 *9th-level illusion*
@@ -2308,6 +2723,36 @@ The spell's damage increases when you reach certain levels.  At 5th level, the m
   
 If you have no hideaway designated when you use this feature, you are instead teleported to a location of your DM's choice, typically a random location on a random plane of existence.
 
+### Shadesmar Storm
+*9th-level conjuration*
+
+* **Casting Time:** 1 action
+* **Range:** 90 ft.
+* **Component:** V, S
+* **Duration:** Concentration, up to 1 minute.
+
+You lift your hand as you open a rift between the material plane and shadesmar.  Choose a point you can see within range to summon an up to 90 ft. tall, 40ft. radius cylinder.  When you summon the Shadesmar storm and as a bonus action on future turns, you can choose to agitate the storm.  When you agitate the storm, randomly choose up to two different creatures who are within the storm to be struck by the storm.
+
+* If the targeted creature is an ally who has not been struck by the storm, they gain 8d12 temporary hit points.  
+* If the targeted creature is an ally who has been struck by the storm, randomly choose a different creature.
+* If the targeted creature is not an ally, they must make a Dexterity saving throw or take 8d12 damage.  Choose one of the d12s.  The number rolled on that die determines the attack's damage type, as shown below:
+
+#### Random Damage Table
+| d12 | Damage Type |
+| --- | --- |
+| 1 | Magical bludgeoning, piercing, or slashing |
+| 2 | Lightning |
+| 3 | Cold |
+| 4 | Acid |
+| 5 | Poison |
+| 6 | Fire | 
+| 7 | Radiant |
+| 8 | Psychic |
+| 9 | Force | 
+| 10 | Thunder |
+| 11 | Necrotic |
+| 12 | Your choice |
+
 ### Terran Strike
 *Transmutation cantrip*
 
@@ -2323,6 +2768,52 @@ The spell's damage and effects increase when you reach certain levels.  At 5th l
 *Inspiration Source: [u/arllll on r/dndnext](https://www.reddit.com/r/dndnext/comments/d7uyq0/homebrew_weapon_attack_cantrips_in_the_vein_of/)*
 
 
+
+## New Tools
+
+The tools listed here are primarily for use with the Herald class but may be adapted or used by other classes, although balance is not guaranteed.
+
+### Fortune Telling Tools
+Fortune teller’s tools take many different forms, with each fortune telling practitioner using the tools that work best for them, but common variations include stones of fortune (polished stones thrown onto a table that are read via their positioning), divination powder (powder dropped into liquid or thrown into fire, generating patterns or remains that the fortune teller interprets), and decks of divination (decks of cards, each with their own meaning, that are dealt onto a table to be interpreted).
+
+Proficiency with fortune teller’s tools is required to attempt fortune telling. Proficiency with fortune teller’s tools allows you to add your proficiency bonus to any ability check you make while using them. If you are proficient with the tools and are already adding your proficiency bonus to the ability check from a skill or other proficiency, then using the tools gives you advantage on the check instead.
+
+* ***Insight.*** You can use fortune teller’s tools on Wisdom (Insight) checks that involve predicting how someone might behave in the future.
+* ***Intimidation, Persuasion.*** You can use fortune teller’s tools to help convince someone to take a different course of action in the hopes (or fear) of finding a better future when you make a Charisma (Intimidation or Persuasion) check.
+* ***Investigation.*** Fortune telling requires interpreting signs and symbols to divine the future. You can use fortune teller’s tools to gain additional insight on Intelligence (Investigation) checks that involve symbols, signs, or omens about the future.
+
+*All credit goes to [Erin Roberts'](http://linktr.ee/erinroberts) article "Magic for the People" found in MCDM's [Arcadia 30](https://shop.mcdmproductions.com/collections/arcadia/products/arcadia-complete-bundle-issues-1-30) for the rules on Fortune Telling Tools.  I was inspired by it and then realized she had written something better than I could have so I just decided to use hers*
+
+## Attributions:
+I've tried to list sources and links next to the content I borrowed, was inspired by, or outright copied but I'll list them right here as well.
+
+First off out of the way, I'm not trying to steal or claim credit for the original ideas of most of the theme of this class, or specific abilities where I mention I used another source of material.  I'm pleading the 'fair use' argument and continuing on the traditions of TTRPGs of, when you see something cool, you're free to take it and use it with proper attributions.  I don't see any value in re-inventing the wheel for certain features just for the sake of "originality".
+
+Sources: 
+* [Brandon Sanderson](https://www.brandonsanderson.com/)
+  * Obviously, the class/subclass names and feature ideas, everything is inspired by the Stormlight Archive series that he's written.  I will argue my 5e implementation of said abilities is unique and my own (the game design element of it), but this project would not be possible without Sanderson's vision and world.  I love his stories and this is just how I want to spend more time thinking about his world.
+* [The Coppermind](https://coppermind.net/wiki/Coppermind:Welcome)
+  * An invaluable resource that I've used literally hundreds of times while writing up this class.
+  * Specifically I will say many of the descriptions of spren and the radiant orders are often lifted word for word, or minorly re-worded entries from the coppermind.  Again, they've done a very good job of aptly describing these things, it seems silly to write it again just for the sake of originality.
+  * Thank you Coppermind team and contributors, couldn't have created this without you.
+* [The Surgebinder](https://www.reddit.com/r/UnearthedArcana/comments/kwjqhd/class_the_surgebinder_v30_join_the_knights/) by `u/xMartu`
+  * For sparking my inspiration in going and creating this class.  I fell in love with the idea after seeing their creation of a 5e radiant knight.
+  * I just had some different ideas about design than them so I decided to create my own as I felt I could do it better for how I envisioned it
+  * I don't believe I've taken any ability word for word, but I have used their work as inspiration for abilities in this class and similarities are expected:
+  * Known similarities.  I don't know if I used them for inspiration or if I independently came up with the idea myself so I'm listing possible similarities here:
+    * Herald 9th Level Windrunner Feature Full Lashing ~= Surgebinder 6th Level I'll protect those who can't protect themselves
+    * Herald 13th Level Windrunner Feature: Shardplate ~= Surgebinder 14th Level Windrunner Protection Bulwark
+    * Herald 6th & 9th Level Skybreaker Features: Clarity of Intent & Undeterred Conviction ~= Surgebinder 14th Level Skybreaker High Resilience
+    * Herald 6th Level Lightweaver Malleable Illusions ~= Surgebinder 6th Level Lightweaver Malleable Illusions
+      * Pretty sure we both just took this from 5e's Illusion wizard feature of the same name lol.
+    * Herald 13th Level Elsecaller Shadesmar Hideaway ~= Surgebinder 14th Level Elsecaller Realmatic Conjunction
+      * We probably both were inspired by RoW's introduction of Jasnah having a boat in Shadesmar where she could go if she was hurt or in danger, but including here just as a note for their similarity.
+* [Erin Roberts'](http://linktr.ee/erinroberts) article in MCDM's [Arcadia 30](https://shop.mcdmproductions.com/collections/arcadia/products/arcadia-complete-bundle-issues-1-30)
+  * I was inspired by it then realized that they just had better rules than I could've written so I've used it with attribution.
+* [u/arllll on r/dndnext](https://www.reddit.com/r/dndnext/comments/d7uyq0/homebrew_weapon_attack_cantrips_in_the_vein_of/)
+  * I knowingly went out to see if anybody had created any good gish-style melee weapon cantrip spells and *u/arllll* had, so I took them, slightly modified some of them and have linked them here.  Thank you.
+
+If I've missed any other attributions, hit me up at `skaarf@duck.com` or on Discord at `skaarf.`
 
 
 [^herald1]: [Herald 1]: While there are instances of spren in the story giving help to characters (like Shallan using pattern as way to overhear conversations, or mimic speech), they create massive balancing headaches and so none of the classes are built around using them.  If your DM wants to include them, they may, but that is their decision and burden.
@@ -2355,7 +2846,11 @@ The spell's damage and effects increase when you reach certain levels.  At 5th l
 
 [^skybreaker1]: [Skybreaker 1]: Also known as the Ideal of Crusade, it requires that a skybreaker undertake a personal quest and complete it to the satisfaction of their highspren. In this case, Szeth from the Stormlight Archive books takes up his oath to kill the leaders of his old civilization who banished and made him truthless (essentially a slave) for foretelling a true future they didn't wish to know.
 
-<!-- <a href="#skybreaker1b">↩︎</a> --><!-- <p id="lightweaver1"></p> -->
+<!-- <a href="#skybreaker1b">↩︎</a> -->
+
+[^truthwatcher1]: [Truthwatcher 1]: Rules for inspiration can be found on page 143 of the PHB.  In short, when you make a d20 check, before you roll you can choose to use inspiration to gain advantage on that roll.  You can only have one inspiration at a time.
+
+<!-- <p id="lightweaver1"></p> -->
 
 [^lightweaver1]: [Lightweaver 1]: Some examples of "truths" from the Stormlight Archives.
     Example 1: Shallan in the corner of her visions began to see creepy shapes appearing in the corners of her vision that continued to follow her.  Eventually she was cornered in her room and the creatures were closing in on her when one of them spoke to her, "What are you" to which she responds "What am I? I'm terrified" which on its surface makes sense because she's scared of the monster's in her vision but also, it relates to her drawing abilities, her naivety towards trying to save her family, and trying to steal from a powerful scholar.  She's been putting on a facade of a scholar, of somebody who her brothers can count on to save their family, as somebody who knows what she's doing, when in reality, she's over her head, on the path to destruction and failure, and ultimately, terrified which is a powerful truth about the fact that she isn't who she wants to be and who she needs to be for her family and for herself.

@@ -215,6 +215,16 @@ td {
   padding-top: 7px;
 }
 
+.markdown h6 {
+  font-size: 0.9em;
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  color: #656568
+  /* margin-top: 4px; */
+  /* padding-top: 7px; */
+}
+
 .markdown blockquote {
     color: #21e2e2;
     border-left: 4px solid #21e2e2;
@@ -403,7 +413,7 @@ li .head4 {
 .markdown th,
 .markdown td,
 .markdown i {
-  font-size: 14 px;
+  font-size: 14px;
 }
 
 .markdown ul {
@@ -455,6 +465,11 @@ a[href="#skybreaker-order"] {
 
 a[href="#elsecaller-order"] {
   color: #4493bf;
+  font-weight: 600;
+}
+
+a[href="#truthwatcher-order"] {
+  color: #125738;
   font-weight: 600;
 }
 
