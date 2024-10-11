@@ -1,5 +1,6 @@
 # Herald
-##### Version: *v0.6.0* 
+##### Version: *v0.7.1*, *October 11th, 2024* [See Changelog Here](#changelog) 
+
 ## Base Herald Class
 
 To begin upon the path of herald, you must be chosen by a spren.  The spren for each order is different, but they are the beings that grant you your powers.  These powers that your spren bequeath to you, must be unlocked by speaking a series of five Ideals.  These five ideals are often powerful statements of purpose and dedication which align your goals with those of your order.
@@ -33,90 +34,10 @@ Together the heralds act as a coalition of knights, often called the Knights Rad
 | 20th | +6 | [Stormlight Regeneration](#stormlight-regeneration) | 40 |
 
 ### Basic Features:
-Hit Points, Proficiencies, and Equipment are based on your [Radiant Order](#radiant-order)
+Hit Points, Proficiencies, and Equipment are based on your [Radiant Order](#radiant-order).  Additionally, any armor or weapon proficiencies gained through any feature other than your subclass cannot be used in conjunction with your class features.  If you use a weapon or armor proficiency from a source that isn't your subclass, you cannot gain the benefits of any feature granted by the herald class or your subclass.[^herald1]
 
-### Spren
-A spren is a small sliver of the gods.  Each spren is a sentient creature with varying appearances, characteristics, and levels of intelligence.  There are thousands of different types of spren, each associated with a different type of phenomenon such as glory, ink, wind, anger, flames, cultivation, gravity, and many more.  There are a small subset of spren classified as True Spren which can form a Nahel Bond, which grants a creature the powers of surgebinding and allows them to join a Radiant Order.
-
-Most spren can be viewed when events correlated to their type occur.  For example, windspren are visible on windy days, angerspren can be found rising from the ground around people who are angry, logicspren are more rare, but can appear around good and well thought out arguments.  The existence or non-existence of a spren around any given event is not directly correlated or indicative of the true nature of any situation, but generally events of certain types tend to attract their associated spren.
-
-#### Roleplay Information for Spren
-A spren is an creature who grants you your powers.  Each spren that chooses to connect and eventually form a Nahel Bond with a creature is a unique and sentient creature.  They have their own name, ideas, personalities, and feelings and are different for every Herald, even within the same order.
-
-They can be material or immaterial, and visible or invisible to you and/or others.  You should talk to your DM about what your spren would look like in their world.  Additionally, you should decide how much they will integrate into the story.  There are multiple ways you and your DM could roleplay the spren.  A spren could be a major character whom you talk to often and could have deep interesting personalities.  Conversely, if an additional constant NPC is too much work for your DM (which is completely valid), they could be realized as a spirit that lives within your shardblade speaking to you only when you speak your ideals, and remaining silent or speaking only when spoken to.  Or possibly, maybe you never see them at all and they come to you in your dreams and speak telepathically to you, but they have no visual manifestation.
-
-Regardless, spren manifestations (other than as a shardblade) are not intended to give any tactical advantages, ie combat/scouting/distraction etc.[^herald1]  The subclasses are balanced around the assumption that they are for lore and roleplay reasons only.
-
-Seriously, make sure to talk to your DM before playing your Herald to ensure that you are both on the same page about what to expect in terms of story and roleplay from your spren.
-
-#### Beginning a Connection with a Spren
-True Spren are attracted to creatures who exemplify the ideals of the order they are associated with.  When a True Spren finds a creature who they see as a capable candidate for becoming a surgebinder, they can begin to form a connection with that creature.  As you progress and begin to exemplify the tenets of the Knights Radiant, the spren will eventually reach out to you, often manifesting in the material plane near you, to offer you a [Nahel Bond](#nahel-bond).  Before you reach the state of achieving a Nahel Bond with a spren, you will begin to gain some benefits from stormlight as the spren's basic connection begins to empower your survivability and health.
-
-Each Radiant Order requires a different spren, and the spren of your order is listed in the table below.
-
-### Nahel Bond
-When you are offered a Nahel Bond with a spren, you speak the [First Ideal of the Knights Radiant](#first-ideal) and form a powerful spiritual connection between you and your spren.  This connection once formed is not easily broken, and in doing so will kill the spren.
-
-#### Breaking a Nahel Bond
-At any time, a creature can choose to break their Nahel Bond with a spren.  But doing so is not a simple act, nor one that should be taken lightly.  When you break a Nahel Bond with a spren, the spren is killed and their soul turned [deadeye](https://coppermind.net/wiki/Deadeye), their corpse aimlessly wandering the Astral Sea for eternity.  You lose all features granted to you by the Herald Class and your Radiant Order subclass except for Hit Points, Proficiencies, and Equipment.  Additionally, you gain a Long-Term Madness as decided by your DM that is permanent and can only be cured by the Wish spell, or at your DM's discretion by reforming a Nahel Bond.
-
-When you break a Nahel Bond, all spren are aware of this transgression against their kind and will likely never appear to you again, and it is extremely rare for any other True Spren to bond with you again, likely noting your history of killing your previous spren.  Talk to your DM about what options you may have for re-classing or creating a new character in the circumstances in which you Break your Nahel Bond.
-
-#### Muting a Nahel Bond
-Muting a Nahel Bond is typically caused by an external presence, forcing the spren to become muted, such as a specific anti-spren magic item, such as a suppression fabrial; or by an internal decision, intentional or not, to act in a manner contrary to the Oaths that they have sworn.
-
-**External Factors:** When you are muted due to some external factor such as a spren suppression device (or an anti-magic field, or some other effect at your DM's discretion), you lose many of your features as a Herald and typically can no longer speak to your spren.  When you speak the 4th Ideal at 13th level, you and your spren become immune to the effects of anti-magic fields and other spren suppression devices as your bond is too strong to be separated.
-
-Ending the muting caused by an external factor is typically only possible by either swearing the 4th ideal or by removing the source of the suppression (killing the beholder, destroying the suppression device)
-
-The table below describes what features you have access to while you are Muted depending on your Radiant Order.
-
-**Internal Factors:** When you are muted because of internal factors, the effects are typically more specific and can vary more drastically overtime at the discretion of your DM.
-
-For example if you were to do something against your sworn ideals, on your first transgression you may not be muted at all, but receive a warning or a cry of pain from your Spren as you strain your Nahel Bond.  On future breaches of your Ideals, at your DM's discretion you may begin to become Muted as you lose features granted to you by the Herald Class and Radiant Order subclass.
-
-If you are muted for a long enough period of time, or commit an act that breaks your ideals, especially one done without repentance can result in you [Breaking your Nahel Bond](#breaking-a-nahel-bond) with your spren.
-
-At your DM's discretion, a muting caused by internal crisis' of faith, belief, hope or willingness to follow their ideals, doesn't have to result in a full muting of the heralds abilities, some ideas for how to begin to mute a herald are given below:
-* Removing abilities granted by certain ideals, typically in reverse order of how they were earned
-  * A Windrunner who has sword the third ideal and is becoming muted might lose some or all of their gravitational Adhesion abilities, only losing abilities granted by their second ideal if transgressions continue or repentance is not sought.
-* The total amount of stormlight a herald could draw could be halved
-* The amount regenerated by [Font of Stormlight](#font-of-stormlight) could be reduced or even eliminated.
-* They could be unable to summon their shardblade
-* They could have reduced or no healing from their Stormlight Regeneration ability.
-* In the most tenuous of circumstances, one where the Bond is close to breaking permanently, all abilities as described in the table below could be muted.
-
-| Order | Class features that can be used while Muted | Disabled class features while Muted |
-| --- | --- | --- |
-| All Heralds | [Expertise](#expertise); Hit Points, Proficiencies, and Equipment granted by your Order | Communication with your Spren, [Stormlight Restoration](#stormlight-restoration), any abilities granted by your 1st, 2nd, or 3rd Ideal not listed below, [Shardblade](#shardblade), [Font of Stormlight](#font-of-stormlight) |
-| Windrunners | [Weapon Mastery](#windrunner-weapon-mastery), [Fighting Style](#windrunner-fighting-style), Extra Attack granted by [Combat Prowess](#combat-prowess) | All other features |
-| Skybreakers | [Weapon Mastery](#skybreaker-weapon-mastery), [Fighting Style](#windrunner-fighting-style), Extra Attack granted by [Ideal of Justice](#ideal-of-justice) | All other features |
-| Edgedancer | [Elusive Defense](#elusive-defense), [Fighting Style](#edgedancer-fighting-style) | All other features |
-| Truthwatcher | [Truthwatcher Cantrips](#truthwatcher-spellasting) | All other features |
-| Lightweaver | [Lightweaver Cantrips](#lightweaver-spellcasting) | All other features |
-| Elsecaller | [Elsecaller Cantrips](#elsecaller-spellcasting) | [Inkspren Archive](#inkspren-archive), All other features |
-| Stoneward | [Weapon Mastery](#stoneward-weapon-mastery), [Fighting Style](#stoneward-fighting-style), Extra Attack granted by [Ideal of Justice](#shifting-earth), [Vorin Stances](#vorin-stances), [Earthly Essence](#earthly-essence) | All other features |
-
-*If you are of the 4th ideal or higher, you are immune to external sources of muting a described by your [Unbreakable Bond](#unbreakable-bond) feature.*
-
-#### Reforming a Nahel Bond
-There are two scenarios where you would reform a Nahel Bond.  When you have no current Nahel Bond and when you are repairing a muted Nahel Bond.
-
-**Repairing a Muted Nahel Bond:** Some examples of methods to repair a muted Nahel bond are:
-* Taking actions in accordance with your order's ideals
-* Seeking guidance and absolution from another member of your order, or possibly a different order under the correct circumstances
-* Traveling to a place of worship or divine power associated with your order if those exist and performing acts to rebuild trust.
-* In examples of very tenuous or muted bonds, swearing a new ideal may be necessary in order to repair what has been broken.
-
-**Reforming a New Nahel Bond:** Reforming a New Nahel bond after killing a previous Spren is extremely difficult and not something most spren would agree to for fear of their own life, or perhaps out of solidarity for their fallen sibling.
-
-When you reform a New Nahel Bond it can be with either a new Spren or at your DM's discretion in notable circumstances, with a previously killed deadeye spren.  Typically if you were to reform with a deadeye spren it would be with the spren who you yourself killed.
-
-The actions required to reform a new Nahel bond are very similar to the ones required to repair and muted nahel bond and form a Nahel Bond in the first place.  Assuming a spren finds you worthy enough of their Nahel Bond, you can reform a Nahel Bond.
-
-At your DM's discretion, if you are at a higher level when you reform a new Nahel Bond, you may return to your Radiant Order while Muted instead of at full capacity.  Then as you swear your new ideals, regain your new abilities as if you were progressing through the order, while still keeping your hit points and proficiency bonus at levels respective to your herald level.
-
-When you reform a new Nahel Bond, it does not need to be in the same Order as your previous Order, but if you choose a different order, you will need to recalculate your hit points and reassign proficiencies according to your new order.
+### Spren 
+Spren are an integral part of being a herald.  They grant you your powers, and are guide you on your oaths.  For more information on Spren regarding roleplaying, creating your connection to your spren, your oaths, how they can be muted, destroyed and reforged, and how that impacts your gameplay, see the [Spren Information](#spren-information) section at the bottom of the document.
 
 ### Radiant Order
 In becoming a Knight Radiant you must decide your order.  When you decide your order you agree to dedicate yourself completely to your order.  This means if you take levels in herald you are not allowed to deviate from your order and multiclass.  Additionally, if you have levels in another class you cannot take levels in herald until you lose the levels in the other class(es).
@@ -127,7 +48,7 @@ Each order also has an ability score, tool and spren, each of which are used to 
 | --- | --- | --- | --- | --- | --- |
 | [Windrunner Order](#windrunner-order) | I will protect | Dexterity | Navigation Tools | [Honorspren](https://coppermind.net/wiki/Honorspren) | A fighter based around protecting others with powers to create storms and fly |
 | [Skybreaker Order](#skybreaker-order) | I will seek justice | Strength | Forgery Kit | [Highspren](https://coppermind.net/wiki/Highspren) | An enforcer of laws using stormlight to administer justice |
-| [Dustbringer Order] | I will seek self-mastery | Intelligence | Tinker's Tools | [Ashspren](https://coppermind.net/wiki/Ashspren) | A tinkerer who utilizes arcane fabrials which destroy to allow for creations anew |
+| [Dustbringer Order](#dustbringer-order) | I will seek self-mastery | Intelligence | Tinker's Tools | [Ashspren](https://coppermind.net/wiki/Ashspren) | A tinkerer who utilizes arcane fabrials which destroy to allow for creations anew |
 | [Edgedancer Order](#edgedancer-order) | I will remember | Wisdom | Herbalism Kit | [Cultivationspren](https://coppermind.net/wiki/Cultivationspren) | A graceful healer and slippery combatant |
 | [Truthwatcher Order](#truthwatcher-order) | I will seek truth | Intelligence or Wisdom | [Fortune Telling Tools](#fortune-telling-tools) | [Mistspren](https://coppermind.net/wiki/Mistspren) | A scholarly and wise sage with the ability to foretell and heal |
 | [Lightweaver Order](#lightweaver-order) | I will speak my truth | Charisma | Thieves' Tools | [Cryptic](https://coppermind.net/wiki/Cryptic) | A wielder of illusions to deceive and discover |
@@ -286,7 +207,7 @@ As a windrunner, the spren you bond with is an Honorspren.  They are the childre
 * **Hit Points at 1st Level:** 10 + your Constitution modifier
 * **Hit Points at Higher Levels:** 1d10 (or 6) + your Constitution modifier (minimum of 1) per herald level after 1st
 
-### Proficiencies:
+### Proficiencies
 ###### 1st-level Windrunner feature
 
 * **Armor:** Light armor, medium armor, shields
@@ -295,7 +216,7 @@ As a windrunner, the spren you bond with is an Honorspren.  They are the childre
 * **Saving Throws:** Dexterity, Intelligence
 * **Skills:** Choose two skills from Acrobatics, Athletics, History, Medicine, Investigation, Perception, Stealth, Survival
 
-### Equipment:
+### Equipment
 ###### 1st-level Windrunner feature
 
 * (a) chain shirt or (b) leather armor
@@ -315,7 +236,7 @@ Some Windrunner abilities and spells will require your Windrunner DC which is ca
 
 Your training as a windrunner allows you to use the Mastery property of two kinds of weapons which you are proficient with.  Whenever you level up, you can change the weapons that you have mastery with.  You gain an additional weapon mastery at 4th and 10th level.
 
-### Windrunner Fighting Style:
+### Windrunner Fighting Style
 ###### 1st-level Windrunner feature
 
 As windrunners are naturally protectors, you automatically gain the *Dexterous Protector* fighting style.  
@@ -326,7 +247,7 @@ Additionally, at 1st level, you adopt a style of fighting as your specialty.  Ch
 
 * **Defense:** You gain a +1 bonus to AC.
 * **Dueling:** When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
-* **Improved Interception:** When you use your *Dexterous Protector* fighting style feature but the creature you protect is still hit by the attack, you can reduce the damage the creature takes by 1d10 + your proficiency bonus + your Dexterity modifier (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this feature.
+* **Improved Interception:** When you use your *Dexterous Protector* fighting style feature but the creature you protect is still hit by the attack, you can reduce the damage the creature takes by 1d10 + your proficiency bonus + your Dexterity modifier (to a minimum of 0 damage). You must be wielding a shield, a simple, or martial weapon to use this feature.
 * **Skylancer:** On your turn, if you are under the effects of your [Basic Lashing](#basic-lashing) and you make an attack with a skylance, you can regain 1 stormlight charge.  Additionally on your turn, you can disengage from the creature you target with your skylance (no action required).  Finally, if you use [Stormlight Tempo](#stormlight-tempo) before making an attack with a skylance, each charge you expend adds an additional damage dice to your skylance attack instead of allowing extra attacks.[^windrunner1]
 <!-- * <sup><a id="windrunner4b" href="#windrunner4">[4]</a></sup> -->
 * **Superior Technique:** You can learn one maneuver of your choice from among those available to the Battle Master archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). 
@@ -423,7 +344,7 @@ As a skybreaker, the powers that grant you the power of justice are derived from
 * **Hit Points at 1st Level:** 10 + your Constitution modifier
 * **Hit Points at Higher Levels:** 1d10 (or 6) + your Constitution modifier (minimum of 1) per herald level after 1st
 
-### Proficiencies:
+### Proficiencies
 ###### 1st-level Skybreaker feature
 
 * **Armor:** Light armor, medium armor, heavy armor, shields
@@ -432,7 +353,7 @@ As a skybreaker, the powers that grant you the power of justice are derived from
 * **Saving Throws:** Strength, Wisdom
 * **Skills:** Choose two skills from Acrobatics, Athletics, History, Insight, Intimidation, Investigation, Perception, Persuasion, Religion
 
-### Equipment:
+### Equipment
 ###### 1st-level Skybreaker feature
 
 * (a) a martial weapon and a shield or (b) two martial weapons
@@ -452,7 +373,7 @@ Some Skybreaker abilities and spells will require your Skybreaker DC which is ca
 
 Your training as a skybreaker allows you to use the Mastery property of two kinds of weapons which you are proficient with.  Whenever you level up, you can change the weapons that you have mastery with.  You gain an additional weapon mastery at 4th and 10th level.
 
-### Skybreaker Fighting Style:
+### Skybreaker Fighting Style
 ###### 1st-level Skybreaker feature
 
 As skybreaker are naturally protectors, you automatically gain the *Gravitational Repositioning* fighting style.  
@@ -465,7 +386,7 @@ Additionally, at 1st level, you adopt a style of fighting as your specialty.  Ch
 * **Defense:** You gain a +1 bonus to AC.
 * **Dueling:** When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
 * **Great Weapon Fighting:** When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
-* **Improved Interception:** When you use your *Dexterous Protector* fighting style feature but the creature you protect is still hit by the attack, you can reduce the damage the creature takes by 1d10 + your proficiency bonus + your Wisdom modifier (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this feature.
+* **Improved Interceptor:** When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus + your Strength or Dexterity modifier (your choice) (to a minimum of 0 damage). You must be wielding a shield, a simple, or martial weapon to use this reaction.
 * **Protection:** When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.
 * **Superior Technique:** You can learn one maneuver of your choice from among those available to the Battle Master archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). 
 
@@ -557,6 +478,353 @@ As a bonus action you become the Paragon of Justice for 1 minute and gain the fo
 
 Once you use this feature, you can't use it again until you finish a long rest.
 
+## Dustbringer Order
+The Dustbringers are a misunderstood order amongst most.  They are seen as bringers of destruction and ruin, which is why some seek to be called Releasers instead.  Regardless, dustbringers recognize the danger of entropy that exists in everyday life and seek to build a strong sense of self mastery in order to control it rather than be moved by the forces of the world.  They tend to attract tinkerer's, those who wish to understand how things work whether it be the internals of a gadget or the psyche of a person, so that they can better understand them, and control them.
+
+### Spren
+Ashspren are the spren that Dustbringers bond and gain their power from.  They appear as cracks on surfaces or even through the air, although when they move they seem to burn the paths they travel like the singed spines of a leaf.  They are often distrustful of most humans as they have been betrayed many times before during their history.
+
+### Hit Points
+###### 1st-level Dustbringer feature
+
+* **Hit Die:** 1d8 per dustbringer level
+* **Hit Points at 1st Level:** 8 + your Constitution modifier
+* **Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier (minimum of 1) per herald level after 1st
+
+### Proficiencies
+###### 1st-level Dustbringer feature
+
+* **Armor:** Light armor, medium armor, shields
+* **Weapons:** Simple melee weapons, martial melee weapons, firearms
+* **Tools:** Tinker's Tools
+* **Saving Throws:** Constitution, Intelligence
+* **Skills:** Choose three skills from Arcana, Athletics, Deception, History, Insight, Intimidation, Investigation, Persuasion, Slight of Hand
+
+### Equipment
+* (a) chain mail or (b) leather armor
+* (a) a longsword or (b) any martial weapon
+* (a) a burglar's pack or (b) a scholar's pack
+* a dagger and tinker's tools
+
+### Dustbringer Weapon Mastery
+###### 1st-level Dustbringer feature
+Your lifestyle of training and practice with weapons allows you to use the Mastery property of three kinds of Simple or Martial melee weapons of your choice.  Whenever you long rest, you can practice weapon drills and change one weapon of your choice out for another.    
+
+When you reach certain dustbringer levels, you gain the ability to use the Mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the dustbringer table.
+
+### Dustbringer Fighting Style
+###### 1st-level Dustbringer feature
+
+At 1st level, you adopt a style of fighting as your specialty.  Choose one of the following options.  You can't take a Fighting Style option more than once, even if you later get to choose again.
+
+* **Blind Fighting:** You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you. 
+* **Defense:** You gain a +1 bonus to AC.
+* **Dueling:** When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
+* **Great Weapon Fighting:** When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
+* **Improved Interceptor:** When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus + your Strength or Dexterity modifier (your choice) (to a minimum of 0 damage). You must be wielding a shield, a simple, or martial weapon to use this reaction.
+* **Protection:** When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.
+* **Superior Technique:** You can learn one maneuver of your choice from among those available to the Battle Master archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). 
+
+  You gain one superiority die, which is a d6 (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest.
+* **Thrown Weapon Fighting:** You can draw a weapon that has the thrown property as part of the attack you make with the weapon. In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll.
+* **Two Weapon Fighting:** When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.
+
+### Dustbringer Level Table
+###### 1st-level Dustbringer feature
+| Level | Weapon Mastery | Asheons Known | 1st | 2nd | 3rd | 4th | 5th |
+| ---- | - | - | - | - | - | - | - |
+| 1st  | 3 | -  | 
+| 2nd  | 3 | -  | 
+| 3rd  | 3 | 4  | 2 
+| 4th  | 4 | 4  | 3 
+| 5th  | 4 | 4  | 4 | 2
+| 6th  | 4 | 6  | 4 | 2
+| 7th  | 4 | 6  | 4 | 3
+| 8th  | 4 | 6  | 4 | 3
+| 9th  | 4 | 8  | 4 | 3 | 2
+| 10th | 5 | 8  | 4 | 3 | 2
+| 11th | 5 | 8  | 4 | 3 | 3
+| 12th | 5 | 10 | 4 | 3 | 3
+| 13th | 5 | 10 | 4 | 3 | 3 | 1
+| 14th | 5 | 10 | 4 | 3 | 3 | 1
+| 15th | 5 | 12 | 4 | 3 | 3 | 2
+| 16th | 5 | 12 | 4 | 3 | 3 | 2
+| 17th | 5 | 12 | 4 | 3 | 3 | 3 | 1
+| 18th | 5 | 14 | 4 | 3 | 3 | 3 | 1
+| 19th | 5 | 14 | 4 | 3 | 3 | 3 | 2
+| 20th | 5 | 14 | 4 | 3 | 3 | 3 | 2
+
+#### Basic Surge of Division
+As a dustbringer, you learn the [Division](#division) cantrip along with Control Flames and Produce Flame.
+
+### Dustbringer Spellcasting
+###### 3rd-level Dustbringer feature
+
+#### Spell Slots
+
+The Dustbringer Spellcasting table shows how many spell slots you have to cast your dustbringer spells of 1st level or higher.  To cast one of these spells, you must expend a slot of the spell's level or higher.  You regain all expended spell slots when you finish a long rest
+
+You start with two 1st-level spell slots at dustbringer level 3, and gain more as you gain more dustbringer levels.
+
+#### Preparing and Casting Spells
+
+The dustbringer table shows how many spell slots you have to cast your dustbringer spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+
+You prepare the list of dustbringer spells that are available for you to cast, choosing from the dustbringer spell list. When you do so, choose a number of dustbringer spells equal to your Intelligence modifier + half your dustbringer level rounded down (minimum of one spell). The spells must be of a level for which you have spell slots. Preparing a new list of dustbringer spells requires time spent in meditation: at least 1 minute per spell level for each spell on your list.
+
+You can change your list of prepared spells when you finish a long rest. 
+
+#### Spellcasting Ability
+
+Intelligence is your spellcasting ability for your dustbringer spells.  You use your Intelligence whenever a spell refers to your spellcasting ability.  In addition, you can use your Intelligence modifier when setting the saving throw DC for a dustbringer spell you cast and when making an attack roll with one.
+
+**Spell save DC** = 8 + your proficiency bonus + your Intelligence modifier
+
+**Spell attack modifier** = your proficiency bonus + your Intelligence modifier
+
+#### Spellcasting Focus
+
+You can use your Shardblade as a spellcasting focus for casting dustbringer spells.
+
+### Fabrials
+###### 3rd-level Dustbringer feature
+Dustbringers are known for their ability to take take things apart to better understand them and control those things.  As a fledgling dustbringer you gain the ability to create fabrials.  Fabrials are weapons and other items which have been augmented by an *Asheon*[^dustbringer1], which grants boons when they are infused with stormlight. *Asheon's* are typically made of wire and gemstones which can be placed around and on weapons in order to grant that weapon extra features.  A weapon or item can only have one *Asheon* attached to it at any time.  Equipping or unequipping a *Asheon* from an object takes 1 minute.  
+
+#### Asheons Known
+When you gain this feature, pick three dustbringer *Asheons* to learn.  You learn additional *Asheons* of your choice when you reach certain levels in this class, as shown in the Asheons Known column of the Dustbringer Table.  Whenever you gain a level in this class, you can replace one of the dustbringer Asheons you learned with a new one.
+
+#### Creating Asheons
+An Asheon can be created by spending 1 hour tinkering and working carefully to create a temporary housing for stormlight.  They require only basic materials such as wire and a few small gemstones which should not be hard to find.  There is no limit to the number of Asheons a dustbringer can create, but remember, only the dustbringer who created an Asheon can infuse it.
+
+#### Infusing Asheons
+Asheons only work if they are given stormlight as a power source.  When a dustbringer finishes a short or long rest, they can choose to expend two stormlight to give an Asheon they can touch, a 1st level infusion.  They can do this to any number of Asheons that they have created within a rest.  An Asheon infused with stormlight stays infused until the infusion is lost as the gemstones fracture (see rules for Fracturing below), or until the dustbringer who infused the Asheon finishes a short or long rest.
+
+~~If the item requires attunement, you can attune yourself to it the instant you infuse the item. If you decide to attune to the item later, you must do so using the normal process for attunement.~~
+
+#### Infused Features
+While an asheon is infused and attached to an appropriate object (which creates a fabrial), the wielder of the fabrial gains the infused property of the Asheon while they are wielding it.  Additionally, they can use the *Signature Feature* of their Asheon a number of times listed in the Asheon's description per short rest while the asheon is infused.
+
+#### Fracturing
+When you start your turn with an equipped fabrial, equip a fabrial during combat, or meaningfully use your fabrial outside of combat[^dustbringer2], you need to roll a fracture check against the fracture DC of the Asheon used to make that fabrial.  On success the Asheon continues to operate normally, on failure the fabrial breaks and is no longer infused and must be repaired (see Repairing an Asheon below).  The base object of the fabrial still operates normally even if the asheon attached to it is fractured unless noted otherwise.  A fracture check is made by rolling a d20 with no additional modifiers.
+
+#### Repairing an Asheon
+Repairing an Asheon can be done over the course of a short rest and involves reforging any pieces that broke and replacing the small (now fractured) gemstones that held stormlight with new unfractured gemstones.  You can repair any number of Asheons that you created over the course of as short rest.
+
+### Quick Division
+###### 6th-level Dustbringer feature
+With your first order specific oath as a dustbringer, in order to understand how and why things fall apart, you need to master your friction, your vices, the things in this world that could cause you to slip, and lose control.
+
+> *I will seek self-mastery, for if I falter innocents may die*
+
+* **Negligible Air Resistance:** Your attacks now ignore air resistance and as such you can attack twice, rather than once, whenever you take the Attack action on your turn. Additionally, your base movement speed increases by 10 feet.
+* **Friction of the Mind:** You've learned how to talk to people to better understand them and as such, you are better at slipping into their conscious without them noticing.  Whenever you make an Insight or Intimidation skill, you can make it as an Intelligence check even if it normally uses a different ability.
+* **No Failures Yet:** When you see a creature using a fabrial you created (including yourself) fail a fracture roll, you can expend 2 stormlight to cause them to succeed instead. You can use this feature a number of times equal to your proficiency bonus per long rest.
+
+### Long Division
+###### 9th-level Dustbringer feature
+You've begun to control the surge of division, and when you can't you've learned how to use abrasion to redirect the danger and make the eventual destruction go more smoothly.  As such you've gained the following features upon speaking your third oath.
+
+> *I will not let my destructions cause harm to others*
+
+* **Improved Fabrials:** Your Asheons become more stable and efficient allowing for them to house more stormlight and create more powerful effects.  When you infuse an Asheon, you can choose to expend 3 stormlight instead of 2 to give your Asheon a 2nd level infusion.
+* **Predicted Destruction:** When an attacker that you can see hits you with an attack, you can use your reaction to expend 2 stormlight to halve the attack's damage against you.
+<!-- If DPS feels low, add the below feature -->
+<!-- * **Searing Friction:** Once pur turn, when you hit with a weapon attack, you can add an extra 1d12 fire damage as your weapon creates intense heat from friction igniting your target. -->
+
+### Scientific Process
+###### 13th-level Dustbringer feature
+As you've grown as a Dustbringer, you've failed and stood up again more times than most do in their lives.  This gives you a unique perspective and experience on failure, allowing you to accept it as a part of life, that everything falls apart but perhaps it can be in the way you desire.
+
+> *I accept entropy and that there are things I cannot stop and must let go of*
+
+* **Well Tested Fabrials:** You've honed your skill as a tinkerer and inventor.  As such, your Asheons have become quite strong.  When you infuse an Asheon, you can choose to expend 4 stormlight instead of 2 to give your Asheon a 3rd level infusion.
+* **Documented Failures:** You've studied your Asheon's greatly and have begun to understand their common failure points.  Your number of uses for your *No Failures Yet* feature now are restored on short rest instead of long rest.
+
+### Destroyer of Worlds
+###### 18th-level Dustbringer feature
+Bringing dust into this world is what you were made to do, and how it happens is at your command.  You swear the 5th ideal from the ashes of all that stood before you
+
+> *I will destroy all that is necessary to release a better world from it's ashes*
+
+* You gain the ability to innately cast Meteor Swarm once per long rest.[^dustbringer3]
+  
+### Dustbringer Weapons
+| Simple Melee Weapons               | Asheon                     | Martial Melee Weapons          | Asheon                     |
+|------------------------------------|----------------------------|--------------------------------|----------------------------|
+| Club                               | [Shattering](#shattering)  | Battleaxe                      | [Whirlwind](#whirlwind)   |
+| Dagger                             | [Splintering](#splintering)| Flail                          | [Bypass](#bypass)         |
+| Greatclub                          | [Shattering](#shattering)  | Glaive                         | [Assault](#assault)       |
+| Handaxe                            | [Dimensional](#dimensional)| Greataxe                       | [Whirlwind](#whirlwind)   |
+| Javelin                            | [Mighty](#mighty)          | Greatsword                     | [Strong](#strong)         |
+| Light Hammer                       | [Dimensional](#dimensional)| Halberd                        | [Protecting](#protecting) |
+| Mace                               | [Breaching](#breaching)    | Lance                          | [Skyward](#skyward)       |
+| Quarterstaff                       | [Dazing](#dazing)          | Longsword                      | [Pommel](#pommel)         |
+| Sickle                             | [Jagged](#jagged)          | Maul                           | [Crushing](#crushing)     |
+| Spear                              | [Frontline](#frontline)    | Morningstar                    | [Smite](#smite)           |
+|                                    |                            | Pike                           | [Turret](#turret)         |
+|                                    |                            | Rapier                         | [Nimble](#nimble)         |
+|                                    |                            | Scimitar                       | [Dancing](#dancing)       |
+|                                    |                            | Shortsword                     | [Readied](#readied)       |
+|                                    |                            | Trident                        | [Harpooning](#harpooning) |
+|                                    |                            | War Pick                       | [Mutilating](#mutilating) |
+|                                    |                            | Warhammer                      | [Concussive](#concussive) |
+
+| Simple Ranged Weapons | Asheon |  Martial Ranged Weapons | Asheon |
+| ---   | --- | ---   | --- |
+| Crossbow, light | N/a | Blowgun         | N/a |
+| Dart            | N/a | Crossbow, hand  | N/a |
+| Shortbow        | N/a | Crossbow, heavy | N/a |
+| Sling           | N/a | Longbow         | N/a |
+|                 |     | Net             | N/a |
+
+| Firearms | Asheon |
+| ---   | --- |
+| Six-Shooter                  | [Cowboy](#cowboy)        |
+| Long Rifle                   | [Sniper](#sniper)        |
+| Suppressed Palm Pistol       | [Assassinate](#assassinate)   |
+| Mortar                       | [Artillery](#artillery)     |
+| Bazooka                      | [Buster](#buster)        |
+| Sawed-Off Shotgun            | [Inaccurate](#inaccurate)    |
+| Slug Shotgun                 | [Maim](#maim)          |
+| Hand Cannon                  | [Trickshot](#trickshot)     |
+| Gattling Gun                 | [Revving](#revving)       |
+
+### Dustbringer Spell List
+| **1st Level Spells**       | **2nd Level**              | **3rd Level**              | **4th Level**              | **5th Level**            |
+|----------------------------|----------------------------|----------------------------|----------------------------|--------------------------|
+| Absorb Elements            | Aganazzar's Scorcher       | Animate Dead               | Banishment                 | Animate Objects          |
+| Alarm                      | Arcane Lock                | Bestow Curse               | Blight                     | Antilife Shell           |
+| Armor of Agathys           | Barkskin                   | Blinding Smite             | Death Ward                 | Banishing Smite          |
+| Burning Hands              | Blindness/Deafness         | Dispel Magic               | Elemental Bane             | Cloudkill                |
+| Catapult                   | Blur                       | Feign Death                | Ice Storm                  | Contagion                |
+| Cause Fear                 | Branding Smite             | Fireball                   | Shadow of Moil             | Danse Macabre            |
+| Chaos Bolt                 | Cloud of Daggers           | Hunger of Hadar            | Sickening Radiance         | Destructive Wave         |
+| Chromatic Orb              | Continual Flame            | Life Transference          | Staggering Smite           | Dispel Evil and Good     |
+| Create or Destroy Water    | Darkness                   | Lightning Bolt             | Storm Sphere               | Dominate Person          |
+| Detect Magic               | Darkvision                 | Melf's Minute Meteors      | Vitriolic Sphere           | Enervation               |
+| Faerie Fire                | Earthbind                  | Speak with Dead            | Wall of Fire               | Flame Strike             |
+| False Life                 | Find Traps                 | Spirit Shroud              |                            | Immolation               |
+| Feather Fall               | Flame Blade                | Vampiric Touch             |                            | Maelstrom                |
+| Grease                     | Gust of Wind               | Water Walk                 |                            | Negative Energy Flood    |
+| Identify                   | Heat Metal                 |                            |                            | Passwall                 |
+| Inflict Wounds             | Kinetic Jaunt              |                            |                            | Reincarnate              |
+| Jump                       | Knock                      |                            |                            |                          |
+| Mage Armor                 | Levitate                   |                            |                            |                          |
+| Magic Missile              | Magic Weapon               |                            |                            |                          |
+| Ray of Sickness            | Melf's Acid Arrow          |                            |                            |                          |
+| Searing Smite              | Pyrotechnics               |                            |                            |                          |
+| Shield                     | Ray of Enfeeblement        |                            |                            |                          |
+| Snare                      | Rime's Binding Ice         |                            |                            |                          |
+| Tasha's Caustic Brew       | Scorching Ray              |                            |                            |                          |
+| Tenser's Floating Disk     | Shadow Blade               |                            |                            |                          |
+| Thunderous Smite           | Shatter                    |                            |                            |                          |
+| Thunderwave                | Spider Climb               |                            |                            |                          |
+| Witch Bolt                 | Wither and Bloom           |                            |                            |                          |
+| Wrathful Smite             |                            |                            |                            |                          |
+| Zephyr Strike              |                            |                            |                            |                          |
+
+  
+
+<!-- Go to sheets document for table to markdown converter -->
+<!-- https://docs.google.com/spreadsheets/d/1pRugXSKm7y7Y59pcuRdO9NSNGdU5Ru2oLlzS8cZDexE/edit#gid=0 -->
+
+<!-- 
+60 possible, 20 explicitly, 40 magic item, 12 known, 6 infused (1/2 all the way)
+Known: 4->6->8->10->12
+infus: 2->3->4->5->6
+
+battlemaster
+23 possible, 3->5->7->9 known, always infused
+
+30ish weapons
+-> 10 by level 18
+2 every level?, start 3 with 3? then go up 2 every ideal?
+
+* Infusing a fabrial
+* Number infused
+* Cost of infusing 
+
+* Guns, they can just make guns (or fabrial devices they'll be reskinned as)
+* Weapons w/ augments
+  * They have a certain number of known augments from a list ( list is maybe 2 for each weapon?, use Jake's 1/short rest ideas as possible solutions)
+* They are a half-caster with artificer like spells
+* The abilities of the weapon augments get better over time (as they level up)
+
+IF MISFIRE
+* a bunch of different guns have misfire mechanics
+* As they level up, they can put "mastery points" (idk), into the weapons, reducing their chances of mis-fire thus allowing them to specialize
+  * BUT, eventually, the weapon will fail from mis-fire and then they'll have to swap to another weapon with a greater mis-fire chance
+    * Make misfire reduction cost more "points" , so going from misfire <5 to <4 is like 1 point, but from <2 to <1 is like 3 points... idk
+
+Ok -> 
+    how do we incorporate stormlight into this:
+
+    How do we make them want to take short rests:
+        Each weapon an only be fixed on short rest
+            (problem with this is that if weapon doesn't break, then no reason to short rest, so at higher levels... no short rest)
+        Each weapon augment can only be used a fixed number of times
+            (problems: giving a weapon augment that can be x # of attacks per short rest is going to be hard to balance.  Like, what can you do 3x a short rest vs 1x/ a short rest is a very different power question.)
+                SOLUTION: -> 
+                    Each "BIG" power is 1x/short rest, any more and it gets too powerful imo.
+                    Then, each weapon(fabrial) will also be infused for {prof} # of attacks a short rest, 
+                        A weapon needs to be infused in order to use its "big" feature 1x/short rest.
+                    placing an augment on a weapon causes strain to accumulate on that weapon in the form of stormlight.
+            could be prof bonus number of times?
+
+-->
+
+<!--
+
+Current Design:
+* db (dust bringer) is going to have access to any weapon at any time (shardblade things)
+* Not going to do below option, it'll be a free action swap fabrials when you summon your shardblade
+  * BA is just too restrictive, spending your BA to have the opportunity to do your cool thing is lame as shit, especially considering you might do it more than once a combat (where BA rage is at least a LITTLE understandable, and newer features grant extra bonuses to it, this is just BA to have the PRIVILEGE (oh wow) to use your features, yeah, not great design)
+~~* So, they will as a BA be able to swap out one fabrial for another when they change their weapon's type ->~~
+* Each Fabrial is tied to a base weapon
+* The db knows X different fabrial designs
+* There are Y (where Y >> X) number of fabrial designs for them to chose from (think of infusions or eldrtich invocations)
+* the db infuses Z where Z is subset of X fabrial designs every short rest 
+  * the DB will use stormlight when they finish a short rest.
+    * If they are at max say, and then finish a short rest, they CAN NOT infused before short-rest ends in order to get back their lost stormlight.
+  * Infuse fabrials only stay infused until the next short rest
+    * THIS MEANS THE db will always be down a bit of stormlight at the start
+    * Stormlight infusions cost less at the beginning, maybe only 1 at level 1
+    * But increase at higher levels (especially once the fabrials get better)
+* TODO: Infusing has some benefit
+* Each Fabrial design has a "signature move" associated with it.
+  * (great for custom items now)
+* Each Fabrial's design can only use its signature move once per short rest
+* Since switching weapons costs nothing, and the more fabrials you can pick up, the more opportunity for weapon switching you have, 
+
+-->
+<!--
+
+Two separate thoughts:
+* GUNS
+  * These are like, new custom items
+  * Can't be used by anybody else, requires their expert knowledge
+* Weapon Augments
+  * These are built on the existing list of weapons
+  * Can't be transferred
+
+
+2nd ideal
+> I will seek self mastery to protect myself from the ones I love.
+
+TODO:
+* benefits of infusing beyond being able to use them? maybe a +1 or something? or a -1 reduction to misfire 
+  * But wait, misfire only triggers on the signature move...
+  * HMM, maybe infusing grants a d4 but has misfire chance?
+    * -> is that mathematically worth it though?
+    * -> then why pick the smaller weapon, so each weaopn is jsut
+    * Maybe infusing grants a small power bonus to each one
+      * War-pick has + 1to armored opponents.
+      * Long-sword works in a duel
+
+-->
+
+
+
 ## Edgedancer Order
 
 Edgedancers channel the surges of Abrasion and Progression.  Abrasion allowing them to move elegantly and manuever around battlefields, rooftops, or farm fields without a single misstep, while Progression grants them the power to grow and heal the world by curing wounds, blooming flowers, and restoring life. They attract the most refined and articulate of people, and yet they rarely pay any attention to politics or high society, instead focusing on and listening the ordinary people of the world.  Whether it be recounting the tales of traditions to the children of a village, or remembering the face of enemy as he takes his final breath under an edgedancer's blade.
@@ -571,7 +839,7 @@ As an edgedancer, you gain your powers through your bond with Cultivationspren. 
 * **Hit Points at 1st Level:** 8 + your Constitution modifier
 * **Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier (minimum of 1) per herald level after 1st
 
-### Proficiencies:
+### Proficiencies
 ###### 1st-level Edgedancer feature
 
 * **Armor:** Light armor, shields
@@ -580,7 +848,7 @@ As an edgedancer, you gain your powers through your bond with Cultivationspren. 
 * **Saving Throws:** Dexterity, Charisma
 * **Skills:** Choose two skills from Acrobatics, Athletics, History, Medicine, Nature, Religion, Perception, Stealth
 
-### Equipment:
+### Equipment
 ###### 1st-level Edgedancer feature
 
 * (a) shortbow and quiver of 20 arrows or (b) any simple weapon
@@ -593,7 +861,12 @@ Alternatively, you can ignore the equipment from your class and background, and 
 ### Elusive Defense
 Beginning at 1st level, while you are wearing no armor, your AC equals 10 + your Dexterity modifier + your Wisdom modifier. 
 
-### Edgedancer Fighting Style:
+### Edgedancer Weapon Mastery
+###### 1st-level Edgedancer feature
+
+Your training as an edgedancer allows you to use the Mastery property of two kinds of weapons which you are proficient with.  Whenever you level up, you can change the weapons that you have mastery with.  You gain an additional weapon mastery at 4th and 10th level.
+
+### Edgedancer Fighting Style
 ###### 1st-level Edgedancer feature
 
 At 1st level, you adopt a style of fighting as your specialty.  Choose one of the following options.  You can't take a Fighting Style option more than once, even if you later get to choose again.
@@ -603,7 +876,7 @@ At 1st level, you adopt a style of fighting as your specialty.  Choose one of th
 * **Defense:** You gain a +1 bonus to AC.
 * **Druidic Warrior:** You learn two cantrips of your choice from the druid spell list. They count as edgedancer spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the druid spell list. 
 * **Dueling:** When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
-* **Improved Interceptor:** When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus + your Wisdom modifier (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction.
+* **Improved Interceptor:** When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus + your Wisdom modifier (to a minimum of 0 damage). You must be wielding a shield, a simple, or martial weapon to use this reaction.
 * **Thrown Weapon Fighting:** You can draw a weapon that has the thrown property as part of the attack you make with the weapon. In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll.
 * **Two Weapon Fighting:** When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.
 * **Unarmed Fighting:** Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier on a hit. If you aren't wielding any weapons or a shield when you make the attack roll, the d6 becomes a d8.
@@ -935,7 +1208,7 @@ In general they are curious; the idea of seeing something through a new perspect
 * **Hit Points at 1st Level:** 6 + your Constitution modifier
 * **Hit Points at Higher Levels:** 1d6 (or 4) + your Constitution modifier (minimum of 1) per herald level after 1st
 
-### Proficiencies:
+### Proficiencies
 ###### 1st-level Truthwatcher feature
 
 * **Armor:** None
@@ -1300,16 +1573,16 @@ As a lightweaver, you gain your powers through Cryptics.  Cryptics are creatures
 * **Hit Points at 1st Level:** 8 + your Constitution modifier
 * **Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier (minimum of 1) per herald level after 1st
 
-### Proficiencies:
+### Proficiencies
 ###### 1st-level Lightweaver feature
 
 * **Armor:** Light armor
 * **Weapons:** Simple melee weapons
-* **Tools:** Thieves' Tools, and choose two from calligrapher's supplies, glassblower's tools, jeweler's tools, painter's supplies, potter's tools, weaver's tools, woodcarver's tools, or any musical instrument
+* **Tools:** Thieves' Tools, and choose two from calligrapher's supplies, glassblower's tools, jeweler's tools, painter's supplies, poisoner's kit, potter's tools, weaver's tools, woodcarver's tools, or any musical instrument
 * **Saving Throws:** Wisdom, Charisma
 * **Skills:** Choose three skills from Deception, Insight, Investigation, Performance, Persuasion, Slight of Hand, Stealth
 
-### Equipment:
+### Equipment
 ###### 1st-level Lightweaver feature
 
 * (a) a component pouch or (b) an arcane focus
@@ -1481,26 +1754,25 @@ You learn the spell [Army of the Mind](#army-of-the-mind), it is a lightweaver s
 
 | Cantrips | 1st Level | 2nd Level | 3rd Level | 4th Level | 
 | --- | --- | --- | --- | --- |
-|Bladeward  |Bane  |Alter Self  |Bestow Curse  |Charm Monster  |
-|Dancing Lights  |Cause Fear  |Blindness/Deafness  |Blink  |Compulsion  |
-|Friends  |Charm Person  |*Blur*  |Daylight  |Confusion  |
-|Gust  |*Color Spray*  |Borrowed Knowledge  |Enemies Abound  |Dominate Beast  |
-|*[Illusory Onslaught](#illusory-onslaught)*  |Command  |Darkness  |Fast Friends  |*Grater Invisibility*  |
-|Light  |Comprehend Languages  |Enthrall  |*Fear*  |*Hallucinatory Terrain*  |
-|Mage Hand  |*Disguise Self*  |Hold Person  |Feign Death  |*Phantasmal Killer*  |
-|Message  |Dissonant Whispers  |*Invisibility*  |House of Cards  |Raulothim's Psychic Lance  |
-|*Minor Illusion*  |*Distort Value*  |*Magic Mouth*  |*Hypnotic Pattern*  ||
-|Prestidigitation  |Faerie Fire  |*Mirror Image*  |Incite Greed  ||
-|Thaumaturgy  |False Life  |*Nathair's Mischief*  |*Major Image*  ||
-|True Strike  |Fog Cloud  |*Nystul's Magic Aura*  |Motivational Speech  ||
-|Vicious Mockery  |*Illusory Script*  |Pass Without Trace  |*Phantom Steed*  ||
-||Mage Armor  |*Phantasmal Force*  |Sending  ||
-||*Silent Image*  |*Shadow Blade*  |||
-||*Unearthly Chorus*  |Shatter  |||
-||Unseen Servant|*Silence*  |||
-|||Skywrite  |||
-|||Spray of Cards  |||
-|||Web  |||
+| Bladeward  | Bane  | Alter Self  | Bestow Curse  | Charm Monster  |
+| Dancing Lights  | Cause Fear  | Blindness/Deafness  | Blink  | Compulsion  |
+| Friends  | Charm Person  | *Blur*  | Daylight  | Confusion  |
+| *[Illusory Onslaught](#illusory-onslaught)*  | Command  | Darkness  | Fast Friends  | *Grater Invisibility*  |
+| Light  | Comprehend Languages  | Enthrall  | *Fear*  | *Hallucinatory Terrain*  |
+| Mage Hand  | *Disguise Self*  | Hold Person  | Feign Death  | *Phantasmal Killer*  |
+| Message  | Dissonant Whispers  | *Invisibility*  | House of Cards  | Raulothim's Psychic Lance  |
+| *Minor Illusion*  | *Distort Value*  | *Magic Mouth*  | *Hypnotic Pattern*  ||
+| Prestidigitation  | Faerie Fire  | *Mirror Image*  | Incite Greed  ||
+| Thaumaturgy  | False Life  | *Nathair's Mischief*  | *Major Image*  ||
+| True Strike  | Fog Cloud  | *Nystul's Magic Aura*  | Motivational Speech  ||
+| Vicious Mockery  | *Illusory Script*  | Pass Without Trace  | *Phantom Steed*  ||
+|              | Mage Armor  | *Phantasmal Force*  | Sending  ||
+|              | *Silent Image*  | *Shadow Blade*  |||
+|              | *Unearthly Chorus*  | Shatter  |||
+|              | Unseen Servant | *Silence*  |||
+|              |              | Skywrite  |||
+|              |              | Spray of Cards  |||
+|              |              | Web  |||
 
 | 5th Level | 6th Level | 7th Level | 8th Level | 9th Level |
 | --- | --- | --- | --- | --- |
@@ -1669,7 +1941,7 @@ With oily black skin and angular features, Inkspren are the spren behind the Nah
 * **Hit Points at 1st Level**: 6 + your Constitution modifier
 * **Hit Points at Higher Levels:** 1d6 (or 4) + your Constitution modifier (minimum of 1) per herald level after 1st
 
-### Proficiencies:
+### Proficiencies
 ###### 1st-level Elsecaller feature
 
 * **Armor:** Light armor
@@ -1678,7 +1950,7 @@ With oily black skin and angular features, Inkspren are the spren behind the Nah
 * **Saving Throws:** Intelligence, Wisdom
 * **Skills:** Choose three skills from Arcana, Deception, History, Insight, Investigation, Medicine, Religion, Slight of Hand
 
-### Equipment:
+### Equipment
 ###### 1st-level Elsecaller feature
 * (a) a quarterstaff or (b) a dagger
 * (a) a component pouch or (b) an arcane focus
@@ -2147,7 +2419,7 @@ The spren of the stonewards are Peakspren, they tend to appear as rocks or stone
 * **Hit Points at 1st Level:** 12 + your Constitution modifier
 * **Hit Points at Higher Levels:** 1d12 (or 7) + your Constitution modifier (minimum of 1) per herald level after 1st
 
-### Proficiencies:
+### Proficiencies
 ###### 1st-level Stoneward feature
 
 * **Armor:**  Light armor, medium armor, heavy armor, shields
@@ -2156,7 +2428,7 @@ The spren of the stonewards are Peakspren, they tend to appear as rocks or stone
 * **Saving Throws:** Strength, Constitution
 * **Skills:** Choose two skills from Animal Handling, Athletics, History, Intimidation, Nature, Persuasion, Survival
 
-### Equipment:
+### Equipment
 ###### 1st-level Stoneward feature
 
 * (a) chain mail or (b) leather armor
@@ -2176,7 +2448,13 @@ Beginning at 1st level, while you are wearing no armor and not wielding a shield
 
 Additionally, you learn the Mold Earth cantrip if you don't know it already  
 
-### Stoneward Fighting Style:
+### Stoneward Weapon Mastery
+###### 1st-level Stoneward feature  
+Your lifestyle of training and practice with weapons allows you to use the Mastery property of three kinds of Simple or Martial melee weapons of your choice.  Whenever you long rest, you can practice weapon drills and change one weapon of your choice out for another.    
+
+When you reach certain Stoneward levels, you gain the ability to use the Mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Stoneward table.
+
+### Stoneward Fighting Style
 ###### 1st-level Stoneward feature
 
 At 1st level, you adopt a style of fighting as your specialty.  Choose one of the following options.  You can't take a Fighting Style option more than once, even if you later get to choose again.
@@ -2186,20 +2464,14 @@ At 1st level, you adopt a style of fighting as your specialty.  Choose one of th
 * **Druidic Warrior:** You learn two cantrips of your choice from the druid spell list. They count as stoneward spells for you, and Constitution is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the druid spell list. 
 * **Dueling:** When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
 * **Great Weapon Fighting:** When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
-* **Improved Interceptor:** When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus + your Constitution modifier (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction.
+* **Improved Interceptor:** When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus + your Constitution modifier (to a minimum of 0 damage). You must be wielding a shield, a simple, or martial weapon to use this reaction.
 * **Protection:** When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.
 * **Thrown Weapon Fighting:** You can draw a weapon that has the thrown property as part of the attack you make with the weapon. In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll.
 * **Two Weapon Fighting:** When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.
 * **Unarmed Fighting:** Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier on a hit. If you aren't wielding any weapons or a shield when you make the attack roll, the d6 becomes a d8.  
 At the start of each of your turns, you can deal 1d4 bludgeoning damage to one creature grappled by you. 
 
-### Stoneward Weapon Masteries:
-###### 1st-level Stoneward feature  
-Your lifestyle of training and practice with weapons allows you to use the Mastery property of three kinds of Simple or Martial melee weapons of your choice.  Whenever you long rest, you can practice weapon drills and change one weapon of your choice out for another.    
-
-When you reach certain Stoneward levels, you gain the ability to use the Mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Stoneward table.
-
-### Stoneward Table:
+### Stoneward Level Table
 | Level | Vorin Stances | Infusions | Weapon Mastery |  
 | ---- | -- | - | - |
 |  1st |  - | - | 3 |
@@ -2207,33 +2479,33 @@ When you reach certain Stoneward levels, you gain the ability to use the Mastery
 |  3rd |  2 | - | 3 |   
 |  4th |  2 | - | 4 |
 |  5th |  2 | - | 4 |
-|  6th |  4 | 1 | 4 |
-|  7th |  4 | 1 | 4 |
-|  8th |  4 | 1 | 4 |
-|  9th |  6 | 2 | 4 |
-| 10th |  6 | 2 | 5 |
-| 11th |  6 | 2 | 5 |
-| 12th |  6 | 2 | 5 |
-| 13th |  8 | 3 | 5 |
-| 14th |  8 | 3 | 5 |
-| 15th |  8 | 3 | 5 |
-| 16th |  8 | 3 | 5 |
-| 17th |  8 | 3 | 5 |
-| 18th | 10 | 4 | 5 |
-| 19th | 10 | 4 | 5 |
-| 20th | 10 | 4 | 5 |
+|  6th |  3 | 1 | 4 |
+|  7th |  3 | 1 | 4 |
+|  8th |  3 | 1 | 4 |
+|  9th |  4 | 2 | 4 |
+| 10th |  4 | 2 | 5 |
+| 11th |  4 | 2 | 5 |
+| 12th |  4 | 2 | 5 |
+| 13th |  5 | 3 | 5 |
+| 14th |  5 | 3 | 5 |
+| 15th |  5 | 3 | 5 |
+| 16th |  5 | 3 | 5 |
+| 17th |  5 | 3 | 5 |
+| 18th |  6 | 4 | 5 |
+| 19th |  6 | 4 | 5 |
+| 20th |  6 | 4 | 5 |
 
 ### Vorin Stances
 ###### 3rd-level Stoneward feature
-Upon being knighted as a fledgling stoneward, your path begins with the extensive training in the different methods of mastering your shardblade, also known as vorin stances.  Each stance has it's strengths and weaknesses and it is common for different shardbearers to favor one or a few stances, but to be proficient in many, in order to best suit their combat situation.
+Upon being knighted as a fledgling stoneward, your path begins with the extensive training in the different methods of mastering your shardblade, also known as vorin stances.  Each stance has it's strengths and weaknesses and it is common for different shardbearers to favor one or two stances, but to be proficient in many in order to best suit their combat situation.
 
-To begin your training, you learn two vorin stances.  When you swear your greater oaths at higher levels, you will learn additional vorin stances and gain infusions to  upgrade one stance you know (including one you just learned).  How many you have of each is shown in the Vorin Stances and Infusions columns of the Stoneward Table.
+To begin your training, you learn two vorin stances.  When you swear your greater oaths at higher levels, you will learn additional vorin stances and gain infusions to upgrade the stances you know.  How many you have of each is shown in the Vorin Stances and Infusions columns of the Stoneward Table.
 
 You can switch out one stance you know for another one on level up.
 
 ### Shardplate
 ###### 3rd-level Stoneward feature
-As a Bonus Action on your turn, you can expend any number of stormlight to summon stormlight infused shardplate around your body, granting yourself temporary hit points equal to your constitution modifier + a number of d12's equal to the number of stormlight charges you expended.  These temporary hit points disappear after 1 hour or when you finish a short rest.
+As a Bonus Action on your turn, you can expend one stormlight charge to summon stormlight infused shardplate around your body, granting yourself temporary hit points equal to your constitution modifier.  For every additional stormlight charge you expend, add an additional 1d12 temporary hit points to the total gained with this bonus action.  These temporary hit points disappear when you finish a short or long rest.
  
 ### Roots of Stone
 ###### 3rd-level Stoneward feature
@@ -2251,7 +2523,7 @@ Upon speaking the words, you gain the following abilities to help you in combat 
 
 * **Extra Attack:** You can attack twice, instead of once, whenever you take the Attack action on your turn.
 * **Earthen Spells** You gain the ability to cast Maximilian's Earthen Grasp and Erupting Earth by expending one or three stormlight charges respectively.
-* **Infusions** You gain the ability to infuse your vorin stances with stormlight.  Your number of infusions are listed in the Infusions Column in the [Stoneward Table](#stoneward-table).  Over the course of a long rest you can change which stances you infuse.  When a stance is infused, you can used the additional ***Infused*** property that is listed within the stance's description.
+* **Infusions** You gain the ability to infuse your vorin stances with stormlight.  Your number of infusions are listed in the Infusions Column in the [Stoneward Table](#stoneward-table).  Over the course of a short or long rest you can change which stances you infuse by expending 2 stormlight for each infused stance.  When a stance is infused, you can used the additional ***Infused*** properties that are listed within the stance's description.
 
 ### Rockshaper
 ###### 9th-level Stoneward feature
@@ -2294,106 +2566,343 @@ As an action, you can transform yourself to become one with the earth as the Her
 
 The weapons listed here are primarily for use with the Herald class but may be adapted or used by other classes, although balance is not guaranteed.
 
-### Weapon Mastery
-
-*These weapons are pulled from the [Part 5 OneDND playtest](https://media.dndbeyond.com/compendium-images/one-dnd/ph-playtest5/owThVp1CESZ1c91y/UA-2023-PH-Playtest5.pdf?icid_source=house-ads&icid_medium=crosspromo&icid_campaign=playtest5), you can choose to use the updated damage values or 5th edition values.*
-#### Simple Weapons: Melee
-| Weapon | Damage | Properties | Mastery | 
-| --- | --- | --- | --- |
-| Club | 1d4 Bludgeoning | Light | Slow |
-| Dagger | 1d4 Piercing | Finesse, Light, Thrown (Range 20/60) | Nick | 
-| Greatclub | 1d8 Bludgeoning | Two-Handed | Push |
-| Handaxe | 1d6 Slashing | Light, Thrown (Range 20/60) | Vex |
-| Javelin | 1d6 Piercing | Thrown (Range 30/120) | Slow | 
-| Light Hammer | 1d4 Bludgeoning | Light, Thrown (Range 20/60) | Nick | 
-| Mace | 1d6 Bludgeoning | — | Sap |
-| Quarterstaff | 1d6 Bludgeoning | Versatile (1d8) | Flex |
-| Sickle | 1d4 Slashing | Light | Nick | 
-| Spear | 1d6 Piercing | Thrown (Range 20/60), Versatile (1d8) | Flex | 
-
-#### Simple Weapons: Ranged
-| Weapon | Damage | Properties | Mastery | 
-| --- | --- | --- | --- |
-Crossbow, Light | 1d8 Piercing | Ammunition (Range 80/320), Loading, Two- Handed | Slow | 
-Dart | 1d4 Piercing | Finesse, Thrown (Range 20/60) | Vex |
-Shortbow | 1d6 Piercing | Ammunition (Range 80/320), Two-Handed | Vex | 
-Sling | 1d4 Bludgeoning | Ammunition (Range 30/120) | Slow | 
-
-#### Martial Weapons: Melee
-| Weapon | Damage | Properties | Mastery | 
-| --- | --- | --- | --- |
-Battleaxe | 1d8 Slashing | Versatile (1d10) | Topple | 
-Flail | 1d8 Bludgeoning | — | Sap |
-Glaive | 1d10 Slashing | Heavy, Reach, Two-Handed | Graze | 
-Greataxe | 1d12 Slashing | Heavy, Two-Handed | Cleave | 
-Greatsword | 2d6 Slashing | Heavy, Two-Handed | Graze | 
-Halberd | 1d10 Slashing | Heavy, Reach, Two-Handed | Cleave | 
-Lance | 1d10 Piercing | Heavy, Reach, Two-Handed (unless mounted) | Topple |
-Longsword | 1d8 Slashing | Versatile (1d10) | Flex | 
-Maul | 2d6 Bludgeoning | Heavy, Two-Handed | Topple | 
-Morningstar | 1d8 Piercing | — | Sap | 
-Pike | 1d10 Piercing | Heavy, Reach, Two-Handed | Push | 
-Rapier | 1d8 Piercing | Finesse | Vex | 
-Scimitar | 1d6 Slashing | Finesse, Light | Nick | 
-Shortsword | 1d6 Piercing | Finesse, Light | Vex | 
-Trident | 1d8 Piercing | Thrown (Range 20/60), Versatile (1d10) | Topple | 
-War Pick | 1d8 Piercing | Versatile (1d10) | Flex | 
-Warhammer | 1d8 Bludgeoning | Versatile (1d10) | Flex | 
-Whip | 1d4 Slashing | Finesse, Reach | Slow | 
-Blowgun | 1 Piercing | Ammunition (Range 25/100), Loading | Vex | 
-
-#### Martial Weapons: Ranged
-| Weapon | Damage | Properties | Mastery | 
-| --- | --- | --- | --- |
-Crossbow, Hand | 1d6 Piercing | Ammunition (Range 30/120), Light, Loading | Vex | 
-Crossbow, Heavy | 1d10 Piercing | Ammunition (Range 100/400), Heavy, Loading, Two-Handed | Push | 
-Longbow | 1d8 Piercing | Ammunition (Range 150/600), Heavy, Two- Handed | Slow | 
-Musket | 1d12 Piercing | Ammunition (Range 40/120), Loading, Two- Handed | Slow | 
-Pistol | 1d10 Piercing | Ammunition (Range 30/90), Loading | Vex | 
-
-#### Mastery Properties
-Each weapon now has a Mastery property, as shown in the weapon tables above. That property is usable only by a character who has a feature, such as Weapon Mastery, that unlocks the property for the character. Here are descriptions of each Mastery property. The properties are provided in alphabetical order. If a game feature lets you replace a weapon's Mastery property with another one, that weapon must meet any prerequisite specified for the new property.
-
-**Cleave**  
-*Prerequisite: Melee Weapon, Heavy Property*  
-If you hit a creature with a melee attack using this weapon, you can make an attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon's damage, but don't add your ability modifier to that damage, unless that modifier is negative. You can make this extra attack only once per turn.
-
-**Flamestance**  
+### Flamestance [Weapon Mastery]
 *Prerequisite: Wielding the weapon while in Flamestance*  
 If your attack roll with this weapon misses a creature and you are not disarmed, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can't be increased in any way, other than increasing the ability modifier.  Additionally, when you take the Attack action on your turn and attack with a weapon while in Flamestance, you can make one extra attack as a Bonus Action later on the same turn.
 
-**Flex**  
-*Prerequisite: Versatile Property*  
-When you hit with a melee attack using this weapon, you deal its Versatile damage even if you're wielding it with one hand.
+### Asheons
+Throughout the Asheon sections you may see numbers in the format of X/Y/Z where x/y/z may be damage dice, number of uses, DCs or any other value.  X, the first value what you should use for a 1st level infusion, Y, the second value is used when the Asheon has a 2nd level infusion, and Z is the value that should be used with a 3rd level infusion.
 
-**Graze**  
-*Prerequisite: Melee Weapon, Heavy Property*  
-If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can't be increased in any way, other than increasing the ability modifier.
+#### Artillery
+* Signature Attack: *Justice From Above* (0/1/2 uses per short rest)
+  * You must use an action, bonus action, and any movement you have to load 4/5/6 shots into the Mortar.  Then, you can make that many attack rolls against any creatures within range.  Each time you hit a target during this barrage, the next attack against that target deals an extra 1d4.  This effect can stack multiple times against the same target.
+* Infused Property: 
+  * This weapon cannot target anything within 20 feet, additionally there needs to be at least vertical space equal to half the horizontal distance you are targeting.  Finally, attacks made this weapon target creatures by using a vertical arc instead of a direct line towards the target so when making attacks with this weapon, the line of effect for determining cover should be an arc.  Finally, anytime you hit a creature, a 5ft square within that creature's space becomes difficult terrain for 1 minute.
+* Fracture Number: 6/5/4
 
-**Nick**  
-*Prerequisite: Light Property*  
-When you make the extra attack of the Light property, you can make it as part of the Attack action, instead of as a Bonus Action. You can still make this extra attack only once per turn.
+#### Assassinate
+* Signature Attack: *Toxic Payload* (1/2/3 uses per short rest)
+  * As a part of the attack action, you can apply a poison to the fabrial which makes the current attack gain the benefits as if it were coated in poison.
+* Infused Property: 
+  * Attacking with this weapon makes no audible sound and does not end the hidden condition of a creature if they have that condition when they make an attack with this weapon
+* Fracture Number: 3/2/1
 
-**Push**  
-*Prerequisite: Heavy, Two-Handed, or Versatile Property*  
-If you hit a creature with this weapon, you can push the creature up to 10 feet away from you if it is no more than one size larger than you.
+#### Assault
+* Signature Attack: *Weeb Leap* (1/1/2 uses per short rest)
+  * You move faster than the human eye.  You can replace one attack with a teleporting attack.  Choose a creature you can see within 60 feet, you teleport to an unoccupied space within 5 feet of that target, and then make one melee weapon attack.  For this attack your weapon deals force damage and if you hit, you add 2d10/4d10/6d10 force damage to the attack's damage roll.
+* Infused Property:
+  * While wielding a glaive, once per turn you can jump 30 feet horizontally and/or 15 ft vertically by expending 10 feet of movement.  Additionally, any attacks you make after jumping at least 10 ft in the air gains a +2/+4/+6 bonus to the damage roll.
+* Fracture Number: 6/5/4
 
-**Sap**  
-*Prerequisite: No Other Properties*  
-If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.
+#### Breaching
+* Signature Attack: *Armor Crush* (3/4/5 uses per short rest)
+  * When you hit a creature that is wearing armour with a this weapon, the target's AC decreases by 1 until that creature takes a short rest.
+* Infused Property: 
+  * You have advantage against any creature that is made of metal or is wearing armor made of metal
+* Fracture Number: 5/4/4
 
-**Slow**  
-*Prerequisite: None*  
-If you hit a creature with this weapon and deal damage to the creature, you can reduce its Speed by 10 feet until the start of your next turn. If you hit the creature more than once with this property, the Speed reduction doesn't exceed 10 feet.
+#### Buster
+* Signature Attack: *Demolish* (2/3/4 uses per short rest)
+  * You can load a stormlight bomb into the weapon, causing the next attack that hits a structure or object to explode in a 15 ft radius at the point of impact, forcing a dexterity saving throw equal to the Dustbringer DC of the dustbringer who made this fabrial.  On fail, affected creatures and objects take 4d6/6d6/8d6 force damage, or half on success.
+* Infused Property:
+  * When targeting a structure or Larger or larger object, you always hit.  Additionally this weapon counts as a Siege Weapon, meaning it deals double damage to objects and structures.
+* Fracture Number: 5/4/4
 
-**Topple**  
-*Prerequisite: Heavy, Reach, or Versatile Property*  
-If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw with a DC equal to 8 + your Proficiency Bonus + the ability modifier you used to make the attack roll. On a failed save, the creature has the Prone condition.
+#### Bypass
+* Signature Attack: *Momentum Bypass* (3/4/5 uses per short rest)
+  * You can attempt to completely disable the shields of the targeted creature by locking it in place with your flail.  When you hit a creature, you can make it a disabling strike, which targets the source of their AC bonuses, whether its their shield, the shortsword they parry with or their spellcasting components.  The creature must make a Strength saving throw or become "disabled" until the start of your next turn.  While disabled, the targeted creature can no longer use any action, bonus action, or reaction to increase their AC.
+* Infused Property:
+  * A flails specialized design allows you to strike your opponents even when they might try to improve their defenses.  Any creature you target with a flail can gain no benefit to their AC from shields, the Shield spell or other features that increase the target's AC through some reaction (such as parry).  Other creatures that attack your foe are still affected by AC bonuses granted by shields etc.
+* Fracture Number: 4/4/3
 
-**Vex**  
-*Prerequisite: Ammunition, Finesse, or Light Property*  
-If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.  
-  ### Skylance 
+#### Concussive
+* Signature Attack: *Concussion* (1/2/3 uses per short rest)
+  * When you hit a creature with the warhammer and they succeed on a concentration check, they must make Concentration (Constitution) saving throw against your Dustbringer DC, on failure gaining the dazed condition and losing concentration on any effects they are concentrating on.
+* Infused Property:
+  * The warhammer's head is weighted for maximum impact.  When you roll a 1, you can treat the value rolled as a 2/3/3.  If you already have this feature from a fighting style like Great Weapon Fighting, then when you roll a 2 or lower, you can treat the rolled value as a 3/4/4.
+* Fracture Number:
+  * 3/3/2
+
+#### Cowboy
+* Signature Attack: *Fan the Hammer* (1/2/3 uses per short rest)
+  * Shoots 6 bullets in a cone in front of you, make 6 attack rolls, split amongst any number of creatures, but no more than 3 bullets can go to one creature.
+* Infused Property:
+  * When you roll a damage die with this weapon, if the value rolled on the die is a 6, you may roll two additional d6's which can also be recursively affected by this feature.
+* Fracture Number:
+  * 4/3/2
+
+#### Crushing
+* Signature Attack: *Crushing Blow* (1/2/2 uses per short rest)
+  * When you hit a creature you can choose to make the attack a crushing blow.  They make a Constitution saving throw, on failure you roll a d4 to determine what effect they gain based on the table below: 1 (movement speed -10 until the end of their next turn), 2 (prone and their movement speed is 0 until end of their next turn), 3 (dazed), 4 (stunned)
+* Infused Property:
+  * You gain a +1/+2/+3 to attack and damage rolls against creatures who are larger than you
+* Fracture Number: 
+  * 4/3/3
+
+#### Dancing
+* Signature Attack: *Blade Dance* (1/2/3 uses per short rest)
+  * You can replace one of your weapon attacks to make a distracting feint.  Choose a creature within 15 feet who you can see.  They must make an Wisdom saving throw, on success no effect.  On failure you have advantage on all melee weapon attack rolls against that creature until the end of your next turn.
+* Infused Property:
+  * While wielding two scimitars you have a +1/+2/+3 to your AC against attacks that originate from a creature that is not holding a weapon to attack.
+* Fracture Number: 
+  * 5/4/3
+
+#### Dazing
+* Signature Attack: *Dazing Bonk* (1/2/3 uses per short rest)
+  * When you hit a creature with this weapon, if they are concentrating on an effect, they must subtract a d4/d6/d8 from their concentration saving throw.
+* Infused Property:
+  * When you land a critical hit with this weapon, the creature must make a Constitution saving throw or become dazed until the start of your next turn.
+* Fracture Number: 4/3/3
+
+
+#### Dimensional
+* Signature Attack: *Dimensional Hatchet* (1/2/3 uses per short rest)
+  * When this weapon is used to make a ranged attack, you can choose to teleport into the ethereal plane (shadesmar) as a part of the action used to attack.  You can target a creature or an object within range.  If you target an object, you teleport a point you choose within 5 feet of the object you targeted.  If you target a creature, you make the ranged attack as normal and appear in an unoccupied space within 5 feet of your target if you hit the target, or in the location where the weapon lands if you miss (GM determines where weapon lands).  In either case, you appear with the weapon in your hand.  You can use this feature once per short rest.  
+  
+    A 2nd level infusion grants two uses per short rest and a 3rd level infusion grants three uses per short rest.
+* Infused Property:
+  * When you throw the weapon, you can ignore any cover including total cover.  You also don't have disadvantage on attack rolls that are in your "far distance" range.
+* Fracture Number: 5/4/3
+
+#### Disarming
+* Signature Attack: *Nonlethal Disarming* (1/2/2 uses per short rest)
+  * You can replace one of your weapon attacks to try to disarm a creature within reach.  Use the disarming rules found on page 271 of the 2014 DMG.  When you attempt to disarm a creature that is one size larger than you, they do not gain advantage on the ability check.
+* Infused Property:
+  * You can use your whip to grapple a target within your whip's reach instead of a free hand.  Additionally, you can use make a Dexterity (Acrobatics) check instead of a Strength (Athletics) check for your portion of the grapple contest
+* Fracture Number:
+  * 2/1/1
+
+#### Frontline
+* Signature Attack: *Charge* (2/3/4 uses per short rest)
+  * You lower your spear and prepare to charge.  If you move at least 20 feet in a straight line towards a target and hit with an attack roll against that target, the target takes an additional 2 damage dice of piercing damage, and must make a strength saving throw, or be grappled and restrained on the end of your spear.  creatures who are one size larger than you make the saving throw with advantage, and creatures 2 or more sizes larger than you automatically succeed on the saving throw.
+* Infused Property:
+  * As a bonus action, you can enter a defensive stance that lasts until the start of your next turn, while in a defensive stance, you can make opportunity attacks without using your reaction.  You exit the defensive stance if you are no longer holding this weapon.
+* Fracture Number: 3/2/1
+
+#### Harpooning
+* Signature Attack: *Fishing* (2/3/4 uses per short rest)
+  * When you hit a creature with a thrown weapon attack with a trident, they must make a Strength saving throw, on failure they are pulled 15 feet towards you.
+* Infused Property:
+  * When you hit a restrained creature with a trident, your critical strike range increases by 2/4/6, and you roll an additional weapon damage die when determining the damage for a critical hit.
+* Fracture Number: 
+  * 3/3/2
+
+#### Inaccurate
+* Signature Attack: *Blindfire* (1/2/3 uses per short rest)
+  * You wildly point the weapon in front of you when you pull the trigger.  All creatures within a 15ft cone must make a Dexterity saving throw or take 4d8/6d8/8d8 piercing damage as you unload blindly in front of you.
+* Infused Property:
+  * You do not have disadvantage on ranged attack rolls while enemies are within your reach (as you typically would with ranged weapons).  Additionally one target next to a creature you attack with this weapon takes damage equal to your ability modifier used to make the attack roll, as some shrapnel hits them in the crossfire.
+* Fracture: 4/3/2
+
+#### Jagged
+* Signature Attack: *Jagged Gash* (1/2/3 uses per short rest)
+  * You make a strike against a target which deals an additional 1d12 slashing damage, they must make a dexterity saving throw or gain the "bleeding" condition.  At the start of their turn, they take 1d6/2d6/3d6 slashing damage until someone uses the help action on them or they take an action to staunch the bleeding, or they regain hit points.
+* Infused Property: The first time you hit a creature with this weapon, their movement speed is reduced by 10 ft and they cannot make opportunity attacks against you.
+* Fracture Number: 4/4/3
+
+#### Maim
+* Signature Attack: *Cripple* (2/3/4 uses per short rest)
+  * When you are about to make a weapon attack, you can choose to make it a crippling strike.  If the attack hits, they become *Crippled* and, their burrowing, climbing, swimming, and walking speeds are reduced by 30 ft. to a minimum of 5 ft., and their flying speed is reduced by 60 ft., to a minimum of 5 ft.  A creature is *Crippled* for 1 minute or until it regains hit points, and can only be *Crippled* by one effect at a time.
+* Infused Property:
+  * You have advantage on attack rolls against creatures that are burrowing, climbing, flying, or swimming.
+* Fracture Number: 4/4/3
+
+#### Mighty
+* Signature Attack: Mighty Throw (2/3/4 uses per short rest)
+  * If you move 10 feet in a straight line towards your target before you throw, the target is pushed back 5/10/15 feet for every 25 feet you threw the weapon, and the target must make a Strength saving throw against your Dustbringer DC or be knocked prone.
+* Infused Property: 
+  * The range of the Javelin is (100/300)/(150/450)/(200/600)
+* Fracture Number:
+  * 3/3/2
+
+#### Mutilating
+* Signature Attack: *Gore* (2/3/4 uses per short rest)
+  * When you critically strike a target with a warpick, you can fatally wound the target.  Until the end of your next turn, they have disadvantage on saving throws, attack rolls and ability checks that use their Strength, Dexterity and Constitution.
+* Infused Property:
+  * You gain an additional +1/2/3 to attack and damage rolls against creatures who's AC is categorized as "Natural Armor"
+* Fracture Number:
+  * 4/4/3
+
+#### Nimble
+* Signature Attack: *Riposte* (1/2/3 uses per short rest)
+  * When you are hit by a melee attack, you can riposte as a reaction, allowing you to make one weapon attack against the creature who hit you.  You gain a +5 to the attack and damage rolls of this next strike.
+* Infused Property:
+  * You gain a +1/+2/+3 to AC against attacks that originate from a creature that is holding a weapon to attack.
+* Fracture Number: 4/3/3
+
+#### Pommel
+* Signature Attack: *Pommel Strike* (1/2/3 uses per short rest)
+  * You can replace one of your weapon attacks with a pommel strike.  When you make a pommel strike, you deal the weapon's damage as normal and the target must make a Constitution saving throw or become Dazed (saves end target's turn)
+* Infused Property:
+  * You gain a +1/2/3 to damage with this weapon.
+* Fracture Number:
+  * 4/3/2
+
+#### Protecting
+* Signature Attack: *Guarding Retaliation* (1/2/3 uses per short rest)
+  * When an ally within your reach is hit by a weapon attack, you can disengage and move up to your speed while remaining in reach of that ally and the attacker, then force the attacker to re roll the attack roll against you with disadvantage.
+* Infused Property:
+  * You have a +1/+2/+3 to attack and damage rolls against creatures who are at the maximum range of your reach.
+* Fracture Number: 3/3/2
+
+#### Readied
+* Signature Attack: *Parry* (1/2/3 uses per short rest)
+  * When you are hit by an attack you can add your Dexterity modifier to your AC for that attack, potentially causing it to miss you.  This feature does not use your reaction, but cannot be used in conjunction with any other feature that requires a reaction
+* Infused Property:
+  * Shortswords are great for surprise combat encounters.  As such before initiative is rolled, you may forgo your interact object action on your first turn to draw and ready your shortsword to end the surprised condition.  (this means you cannot draw another weapon or change your shardblade into a different weapon on the first round of combat).  You regain the ability to use your interact object action at the start of your second turn.  
+* Fracture Number: 4/3/2
+
+#### Shattering
+* Signature Attack: *Shattering Force* (1/2/3 uses per short rest)
+  * When you hit you deal 2d8/3d8/4d8 extra bludgeoning damage.  
+* Infused Property:
+  * Your critical hit range increases by 3/4/4
+* Fracture Number:
+  * 6/6/5
+
+#### Skyward
+* Signature Attack: *Skylance Flight* (1/2/3 uses per short rest)
+  * You gain a fly speed of 60 feet for 1/2/3 round(s), and this weapon becomes a [Skylance](#skylance).
+* Infused Property:
+  * You don't have disadvantage on attack rolls while not mounted while using a lance, as it floats lighter than air
+* Fracture Number:
+  * 5/5/4
+
+#### Smite
+* Signature Attack: *Stormlight Smite* (1/2/3 uses per short rest)
+  * When you hit a creature with this weapon, you can choose to expend stormlight stored within the weapon.  You add 2d8/3d8/4d8 force damage to the damage roll of this weapon
+* Infused Property:
+  * As a bonus action, you can coat this weapon with holy water, alchemists fire, oil, or any contact or injury poison.  A creature hit by a weapon coated in holy water, alchemists fire, or oil takes the same effects as if they were hit by a ranged attack of the same item. The pike remains coated for 1 minute or until an attack creature is hit by an attack with the coated weapon. Additionally, you can treat any 1's as 2's on the damage dice when determining the damage dealt by the applied coating.
+* Fracture Number: 3/2/1
+
+#### Sniper
+* Signature Attack: *Hollow-point Round* (0/2/3 uses per short rest)
+  * You can load a special type of bullet into your weapon which causes the next attack you make deal 0d12/4d12/4d12 piercing damage.
+* Infused Property:
+  * You have disadvantage on any attack rolls you make with this weapon if there is an enemy within 20 feet of you.
+* Fracture Number: 5/4/3
+
+#### Revving
+* Signature Attack: *Fusillade* (0/1/2 uses per short rest)
+  * You can choose to reroute the heat created by the weapon back into it's ammunition, causing all damage dice of this weapon to be maximized until the end of this turn.  Once you do this, the weapon overheats and you must wait 1 minute for the energy to recharge before it can be used again.
+* Infused Property:
+  * Additionally to use this weapon, you or another creature that can use Heavy weapons without detriment must use a Magic action to rev the barrel up to speed.  Once the weapon is up to speed, whenever you take the Attack action with this weapon, you can make twice as many attacks as you can normally take with this weapon.  Additionally, it can be used for up to 4/5/6 rounds consecutively, but you may only move a maximum of 5 ft on your turn.  Regardless of if you use it for the maximum number of rounds, you must wait 1 minute for the weapon's energy to recharge before it can be used again after it has been revved up to speed.
+* Fracture Number: 12/10/8
+
+#### Splintering
+* Signature Attack: 
+  * When you make a thrown weapon attack with this dagger, the Asheon splits the dagger into 3/4/5 daggers instead of 1. Make 3/4/5 thrown weapon attacks with this dagger's statistics.   The dagger reforms into 1 dagger after all the attacks resolve.
+* Infused Property:
+  * While wielding in your offhand, gain a + 1/2/3 to damage.
+* Fracture Number:
+  * 4/3/2
+
+#### Strong
+* Signature Attack: *Shoulder Tackle* (1/1/2 uses per short rest)
+  * By leaning into an attack, you attempt to throw your attacker off balance.  When you are targeted by a melee attack, you can use your reaction to make an athletics check against a DC of the attacker's attack roll.  On a success, you are resistant to the attack's damage and the attacking creature cannot make any more attacks for the rest of their turn.  If your athletics roll fails by 10 or more, the attacking creature's attack roll automatically hits you.
+* Infused Property: 
+  * While wielding the greatsword, you have a +2/+3/+4 to Strength saving throws, and have advantage on saving throws for effects that would push or move you against your will.
+* Fracture Number: 7/5/3
+
+#### Trickshot
+* Signature Attack: *Called-Shot* (2/3/4 uses per short rest)
+  * You can choose to take a -5 to your next attack roll and target a weakpoint of the creature you're targeting.  If your attack roll lands, you treat the attack as if it were a critical hit.
+* Passive Feature:
+  * When this weapon fractures, the wielder needs to make a DC 16/14/12 constitution saving throw or be deafened until the end of their next turn.
+* Fracture Number: 10/8/6
+
+#### Turret
+* Signature Attack: *Shield Wall* (1/2/3 uses per short rest)
+  * As an action, your pike transforms into a weapon to attack all who would approach you.  You can make a weapon attack against all creatures who are at the maximum value of your pike's reach.
+* Infused Property:
+  * If you didn't move on the previous turn and haven't used any movement on this turn, you can reduce your speed this turn to 0 to gain 1d4/1d6/1d8 to all damage rolls made with the pike until the start of your next turn.
+* Fracture Number: 4/3/2
+
+#### Whirlwind
+* Signature Attack: *Whirlwind Strike* (1/2/3 uses per short rest)
+  * Replace one weapon attack to make a Whirlwind attack.  A whirlwind attack forces all enemies within 10 feet to make a Dexterity saving throw, or on fail, take damage equal to 3 rolls of the damage dice plus your ability score modifier, half damage on success.
+* Infused Property:
+  * When you hit a creature with this weapon, you can choose to deal your ability modifier damage to another creature within your reach and within 5 feet of the creature you hit
+* Fracture Number: 5/5/4
+
+### Firearms
+Firearms are the brainchild of inventive dustbringers.  Additionally, firearms are not weapons on their own, they are fabrials that are completely composed of a relevant Asheon.  Due to their design, they must infused with stormlight in order to work as a weapon, and if the Asheon ever becomes fractured, the firearm becomes unusable until it is repaired.  Due to firearms requiring stormlight and Asheon's to function, they all have no gold cost.  They additionally cannot be used underwater.
+
+#### 6-Shooter
+**Description:** A six barreled weapon of destruction that hurts when it lands a lucky shot
+* **Damage:** 1d6 piercing
+* **Weight:** 2 lb
+* **Properties:** Finesse, light, (range 30/90)
+* **Mastery:** Nick
+* **Asheon:** [Cowboy](#cowboy)
+
+#### Long Rifle
+**Description:** The ultimate weapon for long range engagement
+* **Damage:** 1d12 piercing
+* **Weight:** 7 lb
+* **Properties:** Finesse, two-handed, (range 1000/3000)
+* **Mastery:** Slow
+* **Asheon:** [Sniper](#sniper)
+
+#### Suppressed Palm Pistol
+**Description:** A weapon used by those who wish to make attacks unnoticed
+* **Damage:** 1d4 piercing
+* **Weight:** 1 lb
+* **Properties:** Finesse, light, (range 20/60)
+* **Mastery:** Sap
+* **Asheon:** [Assassinate](#assassinate)
+
+#### Mortar
+**Description:** A weapon of mass destruction when utilized correctly
+* **Damage:** 3d4 bludgeoning
+* **Weight:** 15 lb
+* **Properties:** Finesse, heavy, two-handed, (range 100/400)
+* **Mastery:** Topple
+* **Asheon:** [Artillery](#artillery)
+
+#### Bazooka
+**Description:** Destruction of property is it's primary objective
+* **Damage:** 2d6 bludgeoning
+* **Weight:** 10 lb
+* **Properties:** Finesse, heavy, two-handed, (range 20/200)
+* **Mastery:** Push
+* **Asheon:** [Buster](#buster)
+
+#### Sawed-Off Shotgun
+**Description:** A cobbled together weapon that hurts anybody that gets too close
+* **Damage:** 1d8 piercing
+* **Weight:** 8 lb
+* **Properties:** Finesse, (range 20/20), versatile (1d10)
+* **Mastery:** Graze
+* **Asheon:** [Inaccurate](#inaccurate)
+
+#### Slug Shotgun
+**Description:** A hunter's dream
+* **Damage:** 1d8 piercing
+* **Weight:** 10 lb
+* **Properties:** Finesse, (range 40/120), special,
+* **Mastery:** 
+* **Special:** You do not have disadvantage on ranged attack rolls while enemies are within your reach (as you typically would with ranged weapons).
+* **Asheon:** [Maim](#maim)
+
+#### Hand Cannon
+**Description:** For the bold and the stupid
+* **Damage:** 1d12 piercing
+* **Weight:** 5 lb
+* **Properties:** Finesse, (range 60/240),
+* **Mastery:** Graze
+* **Asheon:** [Trickshot](#trickshot)
+
+#### Gattling Gun
+**Description:** Slow to enable, but deadly once it is engaged
+* **Damage:** 1d4 piercing
+* **Weight:** 40 lb
+* **Properties:** Finesse, heavy, (range 60/120), two-handed
+* **Mastery:** Slow
+* **Asheon:** [Revving](#revving)
+
+
+### Skylance 
 
 **Description:** Skylances are a specialized weapon wielded by fighters of the sky, most notably Windrunners.  Nothing is more terrifying than the sight of a Windrunner divebombing their enemy, using the weight of gravity to drive their skylance through their foe's chest.
 
@@ -2452,7 +2961,7 @@ Available Weapons: Any melee weapon with the Versatile or Two-Handed property.
   * For example, a 1d12 greataxe would become a 1d10 greataxe.
 * You gain a bonus to your attack roll equal to 1 + half your proficiency bonus (rounded down)
 * While in flamestance you can't gain advantage or disadvantage on your attack rolls
-* The weapon you use replaces whatever mastery it has with the Flamestance weapon mastery and you can gain the benefits of the Flamestance weapon mastery regardless of the weapon used.
+* The weapon you use replaces whatever mastery it has with the Flamestance weapon mastery and you can gain the benefits of the [Flamestance](#flamestance-weapon-mastery) weapon mastery regardless of the weapon used.
 * [Infused] The range that you critically fail on attack rolls is reduced to rolls between 1 - 4, from 1 - 5
 * [Infused] When you roll max damage on one of your weapon dice, you can roll that die again adding the additional roll as extra damage, this effect can trigger recursively.
 
@@ -2614,37 +3123,6 @@ When you hit a creature with a weapon that has oil on it, you deal an additional
 
 The spells listed here are primarily for use with the Herald class but may be adapted or used by other classes, although balance is not guaranteed.
 
-### Hand of Judgment
-*5th-level transmutation*
-
-* **Casting Time:** 1 bonus action
-* **Range:** Self
-* **Component:** V, S
-* **Duration:** 1 minute.
-
-You look down upon your hands, and recognize that before you lie two paths of judgment.  Your right, being the hand of waiting, your left being the hand of action.
-
-When you cast this spell, and at the beginning of your turn on future rounds, you can choose whether to use your left or right hand for judgment.  Whichever hand you choose, you gain that hand's benefits until the start of your next turn.
-
-* **Left Hand:** Whenever you are struck by an opponent's melee attack, you can use your reaction to make a melee weapon attack at that opponent.
-* **Right Hand:** Whenever you spend your action dodging in combat, you accumulate one ***judgment***.  
-
-When you make a successful attack while under the effects of the Hand of Judgment spell, you can expend one ***judgment*** to turn that normal hit into a critical hit.  You can expend your ***judgment*** when you are using either hand and stored ***judgments*** disappear when the Hand of Judgment spell ends.
-
-### Illusory Onslaught
-*Illusion cantrip*
-
-* **Casting Time:** 1 action
-* **Range:** Self (5-foot radius) or, 60 feet
-* **Component:** V, S, M(a tool used to create the illusion that frightens the target)
-* **Duration:** Instantaneous
-
-You weave from thin air a weapon of horror[^illusory_onslaught1] that strikes fear into the heart of your target.  Make either a melee spell attack against one creature within 5 feet of you, or a ranged spell attack within 60 ft. as you assail it with your creation.  On a hit, the target takes 1d10 psychic damage.
-
-The spell creates more than one illusory weapon when you reach higher levels: two weapons at 5th level, three weapons at 11th level, and four weapons at 17th level.  You can direct the weapons at the same or different targets.  Make a separate attack roll for each weapon.
-
-Creatures who have truesight or who can naturally see through illusions are immune to this spell.
-
 ### Army of the Mind
 *9th-level illusion*
 
@@ -2695,6 +3173,32 @@ The spell's damage increases when you reach certain levels.  At 5th level, the m
 
 *Inspiration Source: [u/arllll on r/dndnext](https://www.reddit.com/r/dndnext/comments/d7uyq0/homebrew_weapon_attack_cantrips_in_the_vein_of/)*
 
+### Division
+*Evocation cantrip*
+
+* **Casting Time:** 1 action
+* **Range:** Touch
+* **Component:** S, M (a weapon worth at least 1 sp if used against a creature)
+* **Duration:** Instantaneous, up to 8 hours.
+
+When targeting an object you can infuse the surge of division into it allowing you to modify and destroy the object depending on its material.  You can burn intricate designs into the object or create torchlight from the object depending on its material.
+
+You can only have one object infused with the surge of division at a time.  You must maintain concentration while burning intricate designs into an object.  The area you can modify at one time is limited to a 5ft cube.  You must also remain in contact with the object you are burning designs into or creating torchlight with for the duration.  If you lose contact with the object, you can recast this spell to pickup the duration from where it left off.  Once an object has been used for torchlight for its duration the object is disintegrated and cannot be recovered.  Torchlight created by objects sheds bright light for 20 feet and dim light for an additional 20 feet.
+
+| Material | Time to complete burning designs | Torchlight Duration |
+| --- | ---  | --- |
+| Plant Matter | 1 round | 1 Minute |
+| Wood | 1 Minute | 10 Minutes |
+| Earth or Stone | 10 Minutes | 1 Hour |
+| Metal | 1 Hour | 1 Hour |
+| Gems or Crystal | 1 Hour | 8 Hours
+| Adamantine, Mithral, Magical Objects | N/A | N/A
+
+
+When targeting a creature, you make a melee weapon attack against one creature within your reach.  On a hit, the target suffers the weapon attack's normal effects and then becomes infected with the surge of division until the start of your next turn.  Whenever the target *encourages entropy* by using an action, a legendary action, or willingly moves 30ft, the target takes 1d6 necrotic damage as their body begins to fail and decay under the stress of accelerated entropy.
+
+The spell's damage increases when you reach certain levels.  At 5th level, the melee weapon attack does an extra 1d6 necrotic damage, and the damage the target takes for encouraging entropy increases to 2d6.  Both damage rolls increase by 1d6 at 11th level (2d6 and 3d6) and again at 17th level (3d6 and 4d6).
+
 ### Draft of Movement
 *Transmutation cantrip*
 
@@ -2708,6 +3212,61 @@ You brandish the weapon used in the spell's casting and make a melee attack with
 The spell's damage increases when you reach certain levels.  At 5th level, the melee attack deals an extra 1d8 slashing damage to the target on a hit.  This damage roll increases by 1d8 again at 11th and 17th level.
 
 *Inspiration Source: [u/arllll on r/dndnext](https://www.reddit.com/r/dndnext/comments/d7uyq0/homebrew_weapon_attack_cantrips_in_the_vein_of/)*
+
+### Hand of Judgment
+*5th-level transmutation*
+
+* **Casting Time:** 1 bonus action
+* **Range:** Self
+* **Component:** V, S
+* **Duration:** 1 minute.
+
+You look down upon your hands, and recognize that before you lie two paths of judgment.  Your right, being the hand of waiting, your left being the hand of action.
+
+When you cast this spell, and at the beginning of your turn on future rounds, you can choose whether to use your left or right hand for judgment.  Whichever hand you choose, you gain that hand's benefits until the start of your next turn.
+
+* **Left Hand:** Whenever you are struck by an opponent's melee attack, you can use your reaction to make a melee weapon attack at that opponent.
+* **Right Hand:** Whenever you spend your action dodging in combat, you accumulate one ***judgment***.  
+
+When you make a successful attack while under the effects of the Hand of Judgment spell, you can expend one ***judgment*** to turn that normal hit into a critical hit.  You can expend your ***judgment*** when you are using either hand and stored ***judgments*** disappear when the Hand of Judgment spell ends.
+
+### Illusory Onslaught
+*Illusion cantrip*
+
+* **Casting Time:** 1 action
+* **Range:** Self (5-foot radius) or, 60 feet
+* **Component:** V, S, M(a tool used to create the illusion that frightens the target)
+* **Duration:** Instantaneous
+
+You weave from thin air a weapon of horror[^illusory_onslaught1] that strikes fear into the heart of your target.  Make either a melee spell attack against one creature within 5 feet of you, or a ranged spell attack within 60 ft. as you assail it with your creation.  On a hit, the target takes 1d10 psychic damage.
+
+The spell creates more than one illusory weapon when you reach higher levels: two weapons at 5th level, three weapons at 11th level, and four weapons at 17th level.  You can direct the weapons at the same or different targets.  Make a separate attack roll for each weapon.
+
+Creatures who have truesight or who can naturally see through illusions are immune to this spell.
+
+### Lecture
+*Divination cantrip*
+
+* **Casting Time:** 1 action
+* **Range:** 60 feet
+* **Component:** V
+* **Duration:** Instantaneous
+
+You choose a creature within range who can hear you (but need not understand you) and begin to lecture them.  Examples of how you might lecture them could be; You might describe how their fighting stance is wrong, how their armor is improperly equipped, or possibly how their personal hygiene is abysmal.  However you lecture them, the less intelligent they are, the more effective the lecture is.  
+
+The target must make an intelligence saving throw on fail they take psychic damage dependent on their intelligence. (damage dice used based on the target's intelligence)
+
+| Creature's Intelligence | Damage Dice |
+| --- | --- |
+| 1 - 5 | d12 |
+| 6 - 10 | d10 |
+| 11 - 15 | d8 |
+| 15 - 20 | d6 |
+| 20+ | d4 |
+
+The spell's damage increases when you reach certain levels.  At 5th level, you roll 2 damage dice for damage.  You gain a 3rd roll of the damage dice at 11th level, and 4 rolls at 17th level.
+
+*This spell's name was taken from the Surgebinder PDF on reddit, see [Attributions](#attributions)*
 
 ### Shadesmar Hideaway
 *Conjuration cantrip*
@@ -2784,7 +3343,91 @@ Proficiency with fortune teller’s tools is required to attempt fortune telling
 
 *All credit goes to [Erin Roberts'](http://linktr.ee/erinroberts) article "Magic for the People" found in MCDM's [Arcadia 30](https://shop.mcdmproductions.com/collections/arcadia/products/arcadia-complete-bundle-issues-1-30) for the rules on Fortune Telling Tools.  I was inspired by it and then realized she had written something better than I could have so I just decided to use hers*
 
-## Attributions:
+## Spren Information
+A spren is a small sliver of the gods.  Each spren is a sentient creature with varying appearances, characteristics, and levels of intelligence.  There are thousands of different types of spren, each associated with a different type of phenomenon such as glory, ink, wind, anger, flames, cultivation, gravity, and many more.  There are a small subset of spren classified as True Spren which can form a Nahel Bond, which grants a creature the powers of surgebinding and allows them to join a Radiant Order.
+
+Most spren can be viewed when events correlated to their type occur.  For example, windspren are visible on windy days, angerspren can be found rising from the ground around people who are angry, logicspren are more rare, but can appear around good and well thought out arguments.  The existence or non-existence of a spren around any given event is not directly correlated or indicative of the true nature of any situation, but generally events of certain types tend to attract their associated spren.
+
+#### Roleplay Information for Spren
+A spren is an creature who grants you your powers.  Each spren that chooses to connect and eventually form a Nahel Bond with a creature is a unique and sentient creature.  They have their own name, ideas, personalities, and feelings and are different for every Herald, even within the same order.
+
+They can be material or immaterial, and visible or invisible to you and/or others.  You should talk to your DM about what your spren would look like in their world.  Additionally, you should decide how much they will integrate into the story.  There are multiple ways you and your DM could roleplay the spren.  A spren could be a major character whom you talk to often and could have deep interesting personalities.  Conversely, if an additional constant NPC is too much work for your DM (which is completely valid), they could be realized as a spirit that lives within your shardblade speaking to you only when you speak your ideals, and remaining silent or speaking only when spoken to.  Or possibly, maybe you never see them at all and they come to you in your dreams and speak telepathically to you, but they have no visual manifestation.
+
+Regardless, spren manifestations (other than as a shardblade) are not intended to give any tactical advantages, ie combat/scouting/distraction etc.[^herald2]  The subclasses are balanced around the assumption that they are for lore and roleplay reasons only.
+
+Seriously, make sure to talk to your DM before playing your Herald to ensure that you are both on the same page about what to expect in terms of story and roleplay from your spren.
+
+#### Beginning a Connection with a Spren
+True Spren are attracted to creatures who exemplify the ideals of the order they are associated with.  When a True Spren finds a creature who they see as a capable candidate for becoming a surgebinder, they can begin to form a connection with that creature.  As you progress and begin to exemplify the tenets of the Knights Radiant, the spren will eventually reach out to you, often manifesting in the material plane near you, to offer you a [Nahel Bond](#nahel-bond).  Before you reach the state of achieving a Nahel Bond with a spren, you will begin to gain some benefits from stormlight as the spren's basic connection begins to empower your survivability and health.
+
+Each Radiant Order requires a different spren, and the spren of your order is listed in the table below.
+
+### Nahel Bond
+When you are offered a Nahel Bond with a spren, you speak the [First Ideal of the Knights Radiant](#first-ideal) and form a powerful spiritual connection between you and your spren.  This connection once formed is not easily broken, and in doing so will kill the spren.
+
+#### Breaking a Nahel Bond
+At any time, a creature can choose to break their Nahel Bond with a spren.  But doing so is not a simple act, nor one that should be taken lightly.  When you break a Nahel Bond with a spren, the spren is killed and their soul turned [deadeye](https://coppermind.net/wiki/Deadeye), their corpse aimlessly wandering the Astral Sea for eternity.  You lose all features granted to you by the Herald Class and your Radiant Order subclass except for Hit Points, Proficiencies, and Equipment.  Additionally, you gain a Long-Term Madness as decided by your DM that is permanent and can only be cured by the Wish spell, or at your DM's discretion by reforming a Nahel Bond.
+
+When you break a Nahel Bond, all spren are aware of this transgression against their kind and will likely never appear to you again, and it is extremely rare for any other True Spren to bond with you again, likely noting your history of killing your previous spren.  Talk to your DM about what options you may have for re-classing or creating a new character in the circumstances in which you Break your Nahel Bond.
+
+#### Muting a Nahel Bond
+Muting a Nahel Bond is typically caused by an external presence, forcing the spren to become muted, such as a specific anti-spren magic item, such as a suppression fabrial; or by an internal decision, intentional or not, to act in a manner contrary to the Oaths that they have sworn.
+
+**External Factors:** When you are muted due to some external factor such as a spren suppression device (or an anti-magic field, or some other effect at your DM's discretion), you lose many of your features as a Herald and typically can no longer speak to your spren.  When you speak the 4th Ideal at 13th level, you and your spren become immune to the effects of anti-magic fields and other spren suppression devices as your bond is too strong to be separated.
+
+Ending the muting caused by an external factor is typically only possible by either swearing the 4th ideal or by removing the source of the suppression (killing the beholder, destroying the suppression device)
+
+The table below describes what features you have access to while you are Muted depending on your Radiant Order.
+
+**Internal Factors:** When you are muted because of internal factors, the effects are typically more specific and can vary more drastically overtime at the discretion of your DM.
+
+For example if you were to do something against your sworn ideals, on your first transgression you may not be muted at all, but receive a warning or a cry of pain from your Spren as you strain your Nahel Bond.  On future breaches of your Ideals, at your DM's discretion you may begin to become Muted as you lose features granted to you by the Herald Class and Radiant Order subclass.
+
+If you are muted for a long enough period of time, or commit an act that breaks your ideals, especially one done without repentance can result in you [Breaking your Nahel Bond](#breaking-a-nahel-bond) with your spren.
+
+At your DM's discretion, a muting caused by internal crisis' of faith, belief, hope or willingness to follow their ideals, doesn't have to result in a full muting of the heralds abilities, some ideas for how to begin to mute a herald are given below:
+* Removing abilities granted by certain ideals, typically in reverse order of how they were earned
+  * A Windrunner who has sword the third ideal and is becoming muted might lose some or all of their gravitational Adhesion abilities, only losing abilities granted by their second ideal if transgressions continue or repentance is not sought.
+* The total amount of stormlight a herald could draw could be halved
+* The amount regenerated by [Font of Stormlight](#font-of-stormlight) could be reduced or even eliminated.
+* They could be unable to summon their shardblade
+* They could have reduced or no healing from their Stormlight Regeneration ability.
+* In the most tenuous of circumstances, one where the Bond is close to breaking permanently, all abilities as described in the table below could be muted.
+
+| Order | Class features that can be used while Muted | Disabled class features while Muted |
+| --- | --- | --- |
+| All Heralds | [Expertise](#expertise); Hit Points, Proficiencies, and Equipment granted by your Order | Communication with your Spren, [Stormlight Restoration](#stormlight-restoration), any abilities granted by your 1st, 2nd, or 3rd Ideal not listed below, [Shardblade](#shardblade), [Font of Stormlight](#font-of-stormlight) |
+| Windrunners | [Weapon Mastery](#windrunner-weapon-mastery), [Fighting Style](#windrunner-fighting-style), Extra Attack granted by [Combat Prowess](#combat-prowess) | All other features |
+| Skybreakers | [Weapon Mastery](#skybreaker-weapon-mastery), [Fighting Style](#windrunner-fighting-style), Extra Attack granted by [Ideal of Justice](#ideal-of-justice) | All other features |
+| Dustbringers | [Weapon Mastery](#skybreaker-weapon-mastery), [Fighting Style](#windrunner-fighting-style), [Cantrips](#basic-surge-of-division) granted by Basic Surge of Division, Extra Attack granted by [Quick Division](#quick-division) | [Asheons](#asheons), [Fabrials](#fabrials), All other features |
+| Edgedancer | [Elusive Defense](#elusive-defense), [Fighting Style](#edgedancer-fighting-style) | All other features |
+| Truthwatcher | [Truthwatcher Cantrips](#truthwatcher-spellasting) | All other features |
+| Lightweaver | [Lightweaver Cantrips](#lightweaver-spellcasting) | All other features |
+| Elsecaller | [Elsecaller Cantrips](#elsecaller-spellcasting) | [Inkspren Archive](#inkspren-archive), All other features |
+| Stoneward | [Weapon Mastery](#stoneward-weapon-mastery), [Fighting Style](#stoneward-fighting-style), Extra Attack granted by [Shifting Earth](#shifting-earth), [Vorin Stances](#vorin-stances), [Earthly Essence](#earthly-essence) | All other features |
+
+*If you are of the 4th ideal or higher, you are immune to external sources of muting a described by your [Unbreakable Bond](#unbreakable-bond) feature.*
+
+#### Reforming a Nahel Bond
+There are two scenarios where you would reform a Nahel Bond.  When you have no current Nahel Bond and when you are repairing a muted Nahel Bond.
+
+**Repairing a Muted Nahel Bond:** Some examples of methods to repair a muted Nahel bond are:
+* Taking actions in accordance with your order's ideals
+* Seeking guidance and absolution from another member of your order, or possibly a different order under the correct circumstances
+* Traveling to a place of worship or divine power associated with your order if those exist and performing acts to rebuild trust.
+* In examples of very tenuous or muted bonds, swearing a new ideal may be necessary in order to repair what has been broken.
+
+**Reforming a New Nahel Bond:** Reforming a New Nahel bond after killing a previous Spren is extremely difficult and not something most spren would agree to for fear of their own life, or perhaps out of solidarity for their fallen sibling.
+
+When you reform a New Nahel Bond it can be with either a new Spren or at your DM's discretion in notable circumstances, with a previously killed deadeye spren.  Typically if you were to reform with a deadeye spren it would be with the spren who you yourself killed.
+
+The actions required to reform a new Nahel bond are very similar to the ones required to repair and muted nahel bond and form a Nahel Bond in the first place.  Assuming a spren finds you worthy enough of their Nahel Bond, you can reform a Nahel Bond.
+
+At your DM's discretion, if you are at a higher level when you reform a new Nahel Bond, you may return to your Radiant Order while Muted instead of at full capacity.  Then as you swear your new ideals, regain your new abilities as if you were progressing through the order, while still keeping your hit points and proficiency bonus at levels respective to your herald level.
+
+When you reform a new Nahel Bond, it does not need to be in the same Order as your previous Order, but if you choose a different order, you will need to recalculate your hit points and reassign proficiencies according to your new order.
+
+## Attributions
 I've tried to list sources and links next to the content I borrowed, was inspired by, or outright copied but I'll list them right here as well.
 
 First off out of the way, I'm not trying to steal or claim credit for the original ideas of most of the theme of this class, or specific abilities where I mention I used another source of material.  I'm pleading the 'fair use' argument and continuing on the traditions of TTRPGs of, when you see something cool, you're free to take it and use it with proper attributions.  I don't see any value in re-inventing the wheel for certain features just for the sake of "originality".
@@ -2799,7 +3442,6 @@ Sources:
 * [The Surgebinder](https://www.reddit.com/r/UnearthedArcana/comments/kwjqhd/class_the_surgebinder_v30_join_the_knights/) by `u/xMartu`
   * For sparking my inspiration in going and creating this class.  I fell in love with the idea after seeing their creation of a 5e radiant knight.
   * I just had some different ideas about design than them so I decided to create my own as I felt I could do it better for how I envisioned it
-  * I don't believe I've taken any ability word for word, but I have used their work as inspiration for abilities in this class and similarities are expected:
   * Known similarities.  I don't know if I used them for inspiration or if I independently came up with the idea myself so I'm listing possible similarities here:
     * Herald 9th Level Windrunner Feature Full Lashing ~= Surgebinder 6th Level I'll protect those who can't protect themselves
     * Herald 13th Level Windrunner Feature: Shardplate ~= Surgebinder 14th Level Windrunner Protection Bulwark
@@ -2808,17 +3450,325 @@ Sources:
       * Pretty sure we both just took this from 5e's Illusion wizard feature of the same name lol.
     * Herald 13th Level Elsecaller Shadesmar Hideaway ~= Surgebinder 14th Level Elsecaller Realmatic Conjunction
       * We probably both were inspired by RoW's introduction of Jasnah having a boat in Shadesmar where she could go if she was hurt or in danger, but including here just as a note for their similarity.
+    * The Lecture spell is at least in name a copy from xMartu's Surgebinder
 * [Erin Roberts'](http://linktr.ee/erinroberts) article in MCDM's [Arcadia 30](https://shop.mcdmproductions.com/collections/arcadia/products/arcadia-complete-bundle-issues-1-30)
   * I was inspired by it then realized that they just had better rules than I could've written so I've used it with attribution.
 * [u/arllll on r/dndnext](https://www.reddit.com/r/dndnext/comments/d7uyq0/homebrew_weapon_attack_cantrips_in_the_vein_of/)
   * I knowingly went out to see if anybody had created any good gish-style melee weapon cantrip spells and *u/arllll* had, so I took them, slightly modified some of them and have linked them here.  Thank you.
 
-If I've missed any other attributions, hit me up at `skaarf@duck.com` or on Discord at `skaarf.`
+If I've missed any other attributions, hit me up at "<i>skaarf@duck.com</i>" or on Discord at "<i>skaarf.</i>"
+
+## Changelog
+
+### v0.7.1
+### General Changes
+* Formatting of headers and order of some headers
+
+#### Dustbringer Order
+* Organized spell List into table instead of long list
+* Added rules for muting in main herald document
+
+#### Edgedancer Order
+* Got Weapon Masteries!  They originally didn't have them and that doesn't make sense because they're a half-caster they deserve masteries!
+
+### v0.7.0
+#### General Changes
+* New Order: Dustbringer!
+
+#### Dustbringer Order
+* An intelligence half-caster based around destruction and creating weapon augments called asheons which temporarily improve weapons before slowly breaking down over time
+* Added new Divison Spell which is a Dustbringer specific spell.
+
+#### Lightweaver Order
+* Gained the option for proficiency in poisoner's kit at level 1
+* Lost the Gust cantrip as that wasn't an intended lightweaver spell.
+
+### v0.6.1
+#### General Changes
+* Changelog header size has been decreased by 1 across the board (H1's are now H2's) so that the changelog can be placed within the herald markdown view on the website
+* Changelog and last-edited fields are now viewable on the website
+* The spells Lecture has been added as it was missed earlier
+* Across multiple orders, the Improved Interceptor fighting style has been slightly reworded
+* Minor formatting fixes across multiple orders
+* The layout of the Herald section of the markdown file has been reordered to put most of the complicated spren rules near the bottom of the document in order to keep the regular class rules more concise, they've also been expanded upon
+
+#### Stoneward Order
+* The number of vorin stances known no longer comes to include every stance.  This is because I'm deciding to follow the class design of other "similar" subclasses like Battlemaster where the character has to make a decision on which one they want.  Giving out every single stance I believe almost gives too many options, and by reducing the total, it will make the gameplay easier and more fun.
+* Shardplate got a buff lasting until next rest, not for 1 hour an was also reworded to be more clear
+* Infusions can now be changed over a short or long rest but cost 2 stormlight to do so
 
 
-[^herald1]: [Herald 1]: While there are instances of spren in the story giving help to characters (like Shallan using pattern as way to overhear conversations, or mimic speech), they create massive balancing headaches and so none of the classes are built around using them.  If your DM wants to include them, they may, but that is their decision and burden.
 
-<!-- <p id="windrunner1"></p> -->
+### v0.6.0
+#### General Changes
+* All of the subclass features have headers underneath them with the level the feature is unlocked to make it easier to understand what levels grant what class features.
+* New Custom Tools Section Added
+  * Includes Fortune Telling Tools which are used by Truthwatchers
+* The Vorin Stances section had some sections re-written to clarify rules
+  * Lifestance has its shields rules re-written to clarify ruling on dual wielding shields
+  * Also had its Infused properties fixed to work with Windrunner's features
+  * Also fixed a bug in the wording which would've allowed a creature to use two reactions against the same attack.  With updated wording it is now more clear that you can only use Protector or Improved Interceptor fighting style against a single attack, not both.
+  * Added a table of what weapons work with what masteries to the bottom of the document for easy reference.
+
+#### Elsecaller Order
+* Added 18th level ability Shadesmar Storm
+  * Always prepared spell Shadesmar Storm which randomly deals damage to enemies and grants temp hp to allies
+
+#### Herald Class
+* Added Early Subclass links to Dustbringer, Willshaper and Bondsmith
+  * (Not completed yet)
+* Added link to completed Truthwatcher order
+* Started work on Dustbringer, Willshaper and Bondsmith
+* Cleaned Up definition of Order Ability Score vs Order Modifier
+* Reworked 20th level capstone ability to become Stormlight Soul
+  * Instead of constantly regenerating stormlight which could cause large power spikes to some subclasses (such as elsecaller), instead it now grants a 1/long rest the ability to gain 20 stormlight as a BA which is more balanced while still fulfilling the goal of giving the player more stormlight.
+* Added Attributions Section at the bottom of the document
+
+#### Truthwatcher Order
+* A new subclass The Truthwatcher! is released in this version
+* It is a full caster intelligence or wisdom caster who knows many abjuration and divination spells and can cast a few spells from other classes
+* They use their powers to heal, see the future, and use their foresight to protect their allies.
+* It might be very OP, or it might be alright, won't know until it is playtested more.
+
+#### Windrunner Order
+* Buffed Dexterous protector to scale based on what ideal you were on, instead of just having the range you can protect from jump from 5 to 30ft at the 4th ideal.
+* Cleaned up some bad formatting
+* Cleaned up 4th ideal feature Resonant Shardplate
+* Buffed Dexterous Protector improvement gained at 13th level to allow the windrunner the ability to "buy" reactions for dexterous protector using stormlight
+  * In my playtesting this class, one reaction spent a turn protecting was cool and all, but having to be within 5 feet AND using your one reaction for disadvantage was kinda trash and didn't make me feel like I was "protecting" so these buffs are intended to at pre-13th level, make it easier for the windrunner to protect (by increasing the range) an then at 13th level, become a god at protecting in a multitude of ways.
+
+### v0.5.2
+#### Elsecaller
+* Fixed and cleaned up spellcasting table for elsecaller
+
+### v0.5.1
+#### Fixed issues with links and removed outdated TODOs in Elsecaller
+
+### v0.5.0
+#### Herald Class
+* Renamed 17th level ability *Unbreakable Bond* to *Bond Beyond Death*
+* Added new 13th level ability called *Unbreakable Bond* which explains how your spren cannot be muted / affected by anti-magic against your will.
+* Overhauled Spren section
+  * Added More description info
+  * Added Extra roleplay information for spren
+  * Explained how a connection is formed with spren
+  * Defined Nahel Bond
+  * Described how one might break, repair, and reform the nahel bond
+  * Explained how the Nahel bond might be muted (how anti-magic works with stormlight)
+* Added statements of purpose and brief description to each class in subclass link table
+* Shardblade can now be used as arcane focus 
+* Added Elsecaller Order
+
+#### Windrunner Order
+* Moved Resonance to 9th level with DM approval, other classes get teleportation at this level, only seemed fair to give opportunity to windrunners as well.
+* Added *Resonant Shardplate* ability as 4th ideal ability
+  * Grants resonance at 13th level if it wasn't allowed at 9th
+  * Grants ***NEW*** Shardplate ability which allows you to protect allies within 60 feet of you by increasing their AC, additionally it grants an improvement to *Dexterous Protector*, and *Empowered Flight*
+
+#### Skybreaker Order
+* Removed Skylancer fighting style, replaced it with protection, skylancer was never intended, and protection, while unlikely to be used is still an option.
+* Clarified rolls for *Conditional Justice*
+* Reworked *Conditional Justice* table to make it render better and simplify view
+* Slight buff of effective range at higher levels to *Gravitational Law* feature.
+* Actually linked to Hand of Judgement Spell in capstone feature
+
+#### Edgedancer Order
+* Renamed Unarmored Defense to Elusive Defense
+
+#### Lightweaver Order
+* Fix for 19th and 20th levels of lightweaver spellcasting table, had listed wrong number of 5th level spells.
+* Added footnote for *Body of Lies*
+
+#### Elsecaller Order
+***BRAND NEW ORDER***
+* powerful mage class who has an incredible spell list, 
+  * but at higher levels begins losing lower level spell slots to power their higher level ones, the intent is to keep the total number of spells they can cast in check thus eliminating or reducing shield / absorb elements spam which is common at higher levels, instead forcing them to use 2nd, 3rd, or 4th level slots in order to cast shield.
+* 2nd ideal allows for some small spell slot regeneration capabilities
+* 3rd ideal allows for shardblade wielding gish play-style temporarily
+* 4th ideal allows for life-saving teleportation to predetermined safe location.
+* 5th ideal TBD
+
+#### General Changes
+* Fixed MANY spelling mistakes
+
+### v0.4.1
+#### New Format
+* Class information is now hosted at: https://nickarlovich.github.io/dnd/homebrew/herald
+* All future releases will be shown here as its easier to distribute and maintain rather than developing pdf's.  In future, it might be converted to a nicer looking pdf for download.
+
+#### Herald Class
+* Minor formatting changes
+* Added links to Spren via Coppermind
+* Modified order sections appear, subclasses are now above items/weapons/stances/oils etc.
+
+#### Edgedancer Order
+* Minor formatting
+* Spell list is now in table form for more compact viewing
+
+#### Lightweaver Order
+* Minor formatting
+* spells are listed in 2 tables of 5 columns wide for more compact viewing
+
+#### Stoneward Order
+* Minor Formatting
+* Named 18th level ability One with the Earth
+
+#### Windrunner Order
+* Minor formatting
+* Renamed 18th level ability from Nahel Bond to Herald of the Highstorm
+  * Nahel bond applies to all radiants, not just windrunners, doesn't make sense to make it the windrunner 18th level ability name.
+
+#### Custom Weapons/Stances/Spells
+* Skylance had minor formatting changes
+* Skylance had minor wording changes to explain it works while airborne in any capacity, not just if they have a fly speed.
+* Vorin stances had minor formatting changes
+* Weapon mastery had very minor table error fixed
+
+
+### v0.4.0
+#### Herald Class
+* Added link to Skybreaker subclass
+* Added Hand of Judgment Spell, for use by Skybreaker order
+* Switched Order Ability Score of Windrunner to Dexterity
+
+#### Edgedancer Order
+* Fixed typo in Slip from the Mind
+
+#### Skybreaker Order
+* Added new Skybreaker order (in progress)
+* Martial subclass which focuses around laws, and codes, and then using that power in order to smite enemies who break those laws.
+
+#### Stoneward Order
+* Moved text about Ready for Battle feature from Stoneward subclass to Vorin Stances section, as it applies to all vorin stances, not just for the Stoneward subclass
+
+#### Windrunner Order
+* Switched Order Ability Score to Dexterity
+  * Monk's suffered the same design problem by splitting the two DCs so intrinsically, why would we continue to spread the martial/caster divide by making martials MAD while casters only SAD.  Make's a little less sense, but balance wise, its much better and its easily reflavored to dexterity imo.  Now a windrunner can be Int, Wis, or Cha focused, rather than being shoe-horned into Wis.
+* This now means the following abilities scale off Dexterity instead of wisdom
+  * Windrunner DC
+    * Full Lashing (Magnify Gravity and Immovable Object spells)
+    * Nahel Bond (Pulse Wave, and 1/turn ability)
+  * Improved Interceptor fighting style
+  * Stormlight tempo uses per short rest
+  * Reverse Lashing AC bonus
+* Granted the Vorin Stance Lifestance to Windrunners at 13th level.
+
+
+### v0.3.0
+#### Herald Class
+* Added weapon mastery table
+* Added vorin stances descriptions
+* Added oils table
+* Thrown shardblades now return to their users hand after the attack regardless of the attack's outcome
+* Ranged shardblade weapons automatically generate ammunition if required.
+* Weapons absorbed into the shardblade gain the benefits of Awakened, Ascendant, Exalted if they don't already have those properties.
+
+#### Edgedancer Order
+* Finished up development on Edgedancer subclass (version 1, may tweak based on feedback).  Added capstone (18th level) ability.
+
+#### Stoneward Order
+* Developed the stoneward order which who is designed around themes of stone and dependability.  It is a martial class which has stances that the combatants can use to adapt to any situation.  
+
+#### Windrunner Order
+* Added OneDND Weapon Mastery to Windrunner class
+* Removed trident as a learned weapon for Windrunner's
+* Updated Skylance with Mastery property
+* Added implied ruling that dexterity could be used on all types of proficient weapons for windrunners
+* Upgraded Improved Interceptor for windrunners so that it doesn't collide with Dexterous Protector
+* Nahel Bond's windstorm no longer is centered on the windrunner allowing them to move around the windstorm.  Otherwise a 90ft move speed isn't that useful when you can only really move up or down without moving the highstorm with you.
+* Can now also move the highstorm up to 30ft at the beginning of your turn.
+
+#### Lightweaver Order
+* Fixed typo in footnotes
+* Fixed typos in descriptions
+
+### v0.2.2
+
+#### Edgedancer Order
+* Begin Development on the Edgedancer subclass (not finished), an order who focuses on healing allies and remembering the value of a life.  They are known for getting to know everyone they meet and bringing health, joy and good harvests to the cities they frequent.
+
+#### Lightweaver Order
+* Fixed Typo
+* Clarified wording of Intimate Riposte
+
+#### Windrunner Order
+* Fixed Typo
+* Windrunners can now use dex for non-finesse weapons
+  * This was always an intended feature, but it wasn't explicitly stated, so now it is!
+  * This feature is essentially the same as a Monk's martial arts fighting style
+* Upgraded Improved Interception feature so that it doesn't clash with the given Protector feature (now named Dexterous Protector) as they both required a reaction to use, so it was clunky, now if you want to protect, you can actually protect properly which is the point of the fighting style.
+
+#### Herald Class
+* Added Link to Edgedancer Order
+
+### v0.2.1
+
+#### Lightweaver Order
+* Introduced the Lightweaver Subclass, an order of the Knights Radiant who focus on creating powerful and intricate illusions to distract, enthrall and attack their foes!
+* Created Illusory Onslaught Spell, a damaging illusion spell attack cantrip for lightweavers.
+* Created Army of the Mind, an extremely powerful spell representing the ability to summon an army of illusory figures who can help protect allies.
+
+
+#### Windrunner Order
+* Corrected Lore on Honorspren, they are the children of honor, not the splinters of honor, splinters imply that honor was destroyed to create the children.
+* Updated Skylancer fighting technique wording to only apply effects on your turn (which is the intent), there could be some tomfoolery on other turns.
+* Minor grammar changes to Windrunner and Skylance
+
+#### Herald Class
+* Added Link to Lightweaver subclass
+* Added New Spells section to class documentation
+* Added Footnotes Section to the bottom of document with headers for spell notes, weapon notes, and class notes.
+
+### v0.1.2
+
+#### Herald Class
+* Expertise moved to 6th level, 13th level is just too far into the game that it may never come up.
+* Stormlight veins:
+  * Gained an ability at 14th level to give all characters advantage on STR/DEX/CON saving throws, might be a bit strong.  Possibly in the future make it cost a charge or something.
+  * No longer takes an action to reveal/conceal/activate stormlight veins, it was already so niche, it didn't need a stormlight cost.
+* Summoning a shardblade now only takes an interact object instead of an action, it's pretty dumb that it costs an action in general.
+* Gave the ability to use a magic weapon in place of a shardblade which is a buff and allows heralds to benefit from other magical weapons.
+* Renamed Superior Shardblade to Ascendant Shardblade (verbiage)
+
+#### Windrunner Order
+* Added the new weapon **Skylance** used by fighters of the sky
+* Gave proficiency  in skylance to Windrunners.
+* Buffed Windrunners by giving them the Protection Fighting Style for free
+* Introduced the Skylancer fighting style which focuses on allowing a windrunner to build their entire fighting style around the special weapon.
+* Immovable object is now cast at 2nd level for one charge
+* You can now add 3 additional charges, each charge increasing the spell's level by 1.
+* You can now expend one additional charge to cast the spell as a bonus action instead of an action.
+* Minor formatting.
+
+### v0.1.1
+
+#### Herald Class
+* Expertise text said 'at 13th level' when it should've been 14th
+* Adding version number and author attribution text at top of document
+* Stormlight Restoration now takes a bonus action instead of an action to use.
+* Updated wording to better describe order, order ability score, order tool, and spren
+
+#### Windrunner Order
+* Updated formatting
+* Sped up early game progression to make class more interesting / useful / powerful early on
+  * Moved fighting style to 1st level ability instead of 3rd level
+  * Moved Stormlight Tempo from 6th level to 3rd level ability
+  * Added 6th level ability "Empowered Flight" which for 8 charges allows player to cast fly.  ie do the thing that their class is supposed to be good at.
+* Clarified Shardblade shield to ensure you can use the ability even if you are already wearing a shield.
+* Reverse Lashing only costs 2 stormlight instead of 3, we want people to use this and decreasing cost increases likelyhood.
+* Decreased stormlight cost of Resonance ability ie Windwalk to not cripple the player after casting it one time.
+
+### v0.1
+
+#### Herald Class
+Introduced the Herald Class
+
+#### Windrunner Order
+Introduced the Windrunner Subclass
+
+[^herald1]: [Herald 1]: Many of the orders are balanced around them only gaining certain weapon proficiencies.  If a radiant knight with light armour was able to gain longbow proficiency and heavy armor, the character's power level would be much higher than expected.  Obviously, as with all rules in D&D you are allowed to ignore them if your DM approves.  But consider this, there is a reason that I've removed certain armour and weapon proficiencies, and its because each class (should) be fun and balanced to play without those things.
+
+[^herald2]: [Herald 2]: While there are instances of spren in the story giving help to characters (like Shallan using pattern as way to overhear conversations, or mimic speech), they create massive balancing headaches and so none of the classes are built around using them.  If your DM wants to include them, they may, but that is their decision and burden.<!-- <p id="windrunner1"></p> -->
 
 [^windrunner1]: [Windrunner 1]: Not that you could use the extra attacks anyways as the skylance forbids making any additional attacks during the same turn it is used.
 
@@ -2847,6 +3797,12 @@ If I've missed any other attributions, hit me up at `skaarf@duck.com` or on Disc
 [^skybreaker1]: [Skybreaker 1]: Also known as the Ideal of Crusade, it requires that a skybreaker undertake a personal quest and complete it to the satisfaction of their highspren. In this case, Szeth from the Stormlight Archive books takes up his oath to kill the leaders of his old civilization who banished and made him truthless (essentially a slave) for foretelling a true future they didn't wish to know.
 
 <!-- <a href="#skybreaker1b">↩︎</a> -->
+
+[^dustbringer1]: [Dustbringer 1]: Pronounced like ash-shea-on. (it's a play on ash (from a dustbringer's ashspren) and Seon, from elantris).  There's no term for a fabrial attached to a mundane weapon in the stormlight series so I've elected to call a "fabrial" before it's attached to a weapon an *asheon* so that dnd rules can be clearly written.
+
+[^dustbringer2]: [Dustbringer 2]: Some examples of "meaningfully using your fabrial outside of combat" could be using the Dimensional Hatchet feature of a handaxe in order to teleport through a wall, using a skylance to fly, or a whips infused grapple property to stop a target from fleeing.
+
+[^dustbringer3]: [Dustbringer 3]: I'm aware that this is a really lame capstone ability.  It's a placeholder for now, while it's powerful, it's not very flavorful or unique.  Pray that Knights of Wind and Truth gives us more insight into high level division and abrasion surges.
 
 [^truthwatcher1]: [Truthwatcher 1]: Rules for inspiration can be found on page 143 of the PHB.  In short, when you make a d20 check, before you roll you can choose to use inspiration to gain advantage on that roll.  You can only have one inspiration at a time.
 

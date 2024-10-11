@@ -443,6 +443,16 @@ a[href="#windrunner-order"] {
   font-weight: 600;
  }
 
+a[href="#skybreaker-order"] {
+  color: #5F5E65;
+  font-weight: 600;
+}
+
+a[href="#dustbringer-order"] {
+  color: #8d330a;
+  font-weight: 600;
+}
+
 a[href="#edgedancer-order"] {
   color: #A1C19E;
   font-weight: 600;
@@ -453,13 +463,8 @@ a[href="#lightweaver-order"] {
   font-weight: 600;
 }
 
-a[href="#stoneward-order"] {
-  color: #D46424;
-  font-weight: 600;
-}
-
-a[href="#skybreaker-order"] {
-  color: #5F5E65;
+a[href="#truthwatcher-order"] {
+  color: #125738;
   font-weight: 600;
 }
 
@@ -468,8 +473,8 @@ a[href="#elsecaller-order"] {
   font-weight: 600;
 }
 
-a[href="#truthwatcher-order"] {
-  color: #125738;
+a[href="#stoneward-order"] {
+  color: #D46424;
   font-weight: 600;
 }
 
