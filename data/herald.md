@@ -1,5 +1,5 @@
 # Herald
-##### Version: *v0.7.1*, *October 11th, 2024* [See Changelog Here](#changelog) 
+##### Version: *v0.7.3*, *January 16th, 2025* [See Changelog Here](#changelog) 
 
 ## Base Herald Class
 
@@ -14,7 +14,7 @@ Together the heralds act as a coalition of knights, often called the Knights Rad
 | --- | --- | --- | --- |
 | 1st | +2 | [Radiant Order](#radiant-order), [Stormlight](#stormlight) | 2 |
 | 2nd | +2 | [Stormlight Restoration](#stormlight-restoration) | 4 |
-| 3rd | +2 | [First Ideal](#first-ideal), [Shardblade](#shardblade) | 6 |
+| 3rd | +2 | [First Ideal](#first-ideal), [Manifest Spren](#manifest-spren), [Shardblade](#shardblade) | 6 |
 | 4th | +2 | [Ability Score Improvement](#ability-score-improvement) | 8 |
 | 5th | +3 | [Font of Stormlight](#font-of-stormlight) | 10 |
 | 6th | +3 | Second Ideal, [Expertise](#expertise) | 12 |
@@ -131,6 +131,11 @@ At 3rd level you begin your path to becoming a fully fledged Knight Radiant and 
 The following is the first ideal which officially begins you on your path towards becoming a member of the Knights Radiant:
 
 >*Life before death.  Strength before weakness.  Journey before destination.*  
+
+### Manifest Spren
+Upon speaking your first ideal, your connection to your spren has strengthened enough that they can be physically manifested in the physical realm.  When you finish a long rest, you can innately cast Find Familiar requiring no material using the statblock of the owl, but it has the physical characteristics of your spren.  See [The Coppermind](https://coppermind.net/wiki/Coppermind:Welcome) for more information on what your spren looks like.
+
+At 7th level, your spren can innately cast Invisibility on themselves.
 
 ### Shardblade
 At 3rd level, the bond you have with spren has evolved to the point where you gain the ability to summon them in the material plane.  You can use your interact object to summon your Shardblade in your empty hand.  You can choose the form that this weapon takes each time you create it.  The form of the weapon must be a weapon with which you are proficient.  Additionally, this weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.  If your order grants you the power to cast spells, your Shardblade can act as an arcane focus for your Herald spells.
@@ -295,6 +300,7 @@ As the bond to your spren grows even stronger, your ability to bind things toget
 * **Resonance:** [DM Approval Required for use at 9th level, this feature may not fit all campaigns] Your stormlight seems to resonate outwards from you giving you the ability to empower other nearby individuals with basic windrunner flight.  You gain the ability to expend 10 stormlight charges to cast Wind Walk.[^windrunner3]
 
     You and your allies cannot regain stormlight while you Wind Walk in this way.
+* **Child of the Storms:** As a windrunner you've grown become more attuned to the storms that grant you flight and power. As such, you gain the ability to cast Jallarzi's Storm of Radiance by expending 10 stormlight charges.
 
 ### Resonant Shardplate
 ###### 13th-level Windrunner feature
@@ -304,6 +310,7 @@ You become a master within the Order of Windrunners.  The fourth ideal comes to 
 
 You gain a wealth of features upon reaching the fourth ideal.  
 * If you didn't gain the ***Resonance*** feature at 9th level you gain it now.  
+* Your mastery over the gravitation surge has allowed you to manipulate the gravity of larger areas.  You can expend 10 stormlight to cast Reverse Gravity.
 * You also gain your shardplate, a translucent blue glowing set of plate armour that protects you and your allies from attacks.  Your Shardplate grants you an AC bonus equal to half your proficiency bonus rounded down
   * In addition, as a reaction when an ally within 60 feet of you is targeted by an attack, you can transfer your shardplate to that ally.  You lose your bonus to your AC granted by your *Shardplate* and your ally gains that same AC bonus until the start of your next turn. 
 
@@ -311,7 +318,7 @@ Finally, your existing windrunner skills also see some valuable improvements:
 * When you use your [Dexterous Protector](#windrunner-fighting-style) fighting style to protect another creature while you have no reactions left, you can expend one stormlight to gain a reaction in order to impose disadvantage on the attack roll.  Once you regain a reaction in this way, you cannot do so again until the start of your next turn. 
 * Additionally, if the creature you protect with your Dexterous Protector fighting style is still hit by the attack, you can expend one stormlight to reduce the incoming attack's damage by 1d6.
 * Your **Empowered Flight** feature can be used on any willing creature you can touch.
-* You learn how to enter the **infused** voin stance: [Lifestance](#lifestance).
+* You learn how to enter the **infused** vorin stance: [Lifestance](#lifestance).
 
 ### Herald of the Highstorm
 ###### 18th-level Windrunner feature
@@ -1030,30 +1037,30 @@ As an action, you can go into your tree of life form.  While in this form you ga
 | --- | --- | --- | --- | --- |
 |Absorb Elements  |Aid  |Ashardalon's Stride  |Aura of Life  |Antilife Shell  
 |Animal Friendship  |Animal Messenger  |Aura of Vitality  |Aura of Purity  |Awaken  
-|Bane  |Barkskin  |Beacon of Hope  |Charm Monster  |Commune  
-|Beast Bond  |Beast Sense  |Catnap  |Death Ward  |Commune with Nature  
-|Bless  |Blindness/Deafness  |Conjure Animals  |Divination  |Dawn  
-|Catapult  |Borrowed Knowledge  |Conjure Barrage  |Dominate Beast  |Dispel Evil and Good  
-|Ceremony    |Calm Emotions  |Create Food and Water  |Freedom of Movement  |Far Step  
-|Charm Person  |Darkvision  |Daylight  |Giant Insect  |Greater Restoration  
-|Color Spray    |Detect Thoughts  |Dispel Magic  |Grasping Vine  |Hallow  
-|Comprehend Languages    |Enhance Ability  |Fast Friends  |Guardian of Faith  |Holy Weapon  
-|Create or Destroy Water    |Gentle Repose  |Haste  |Guardian of Nature |Legend Lore  
-|Cure Wounds    |Healing Spirit|Life Transference  ||Mass Cure Wounds  
-|Detect Evil and Good  |Kinetic Jaunt  |Mass Healing Word  ||Modify Memory  
-|Detect Poison and Disease  |Lesser Restoration  |Motivational Speech  ||Raise Dead  
-|Divine Favor  |Locate Animals or Plants  |Plant Growth  ||Reincarnate  
-|Earth Tremor  |Moonbeam  |Remove Curse  ||Wrath of Nature 
-|Entangle  |Nathair's Mischief  |Revivify  ||
-|Expeditious Retreat  |Pass Without Trace  |Sending  ||
-|Faerie Fire  |Prayer of Healing  |Speak with Dead  ||
-|Feather Fall  |Protection From Poison  |Speak with Plants  ||
-|Find Familiar  |Spider Climb  |Summon Fey  ||
-|Fog Cloud  |Spike Growth  |Water Walk  ||
-|Goodberry  |Summon Beast  |||
-|Healing Word  |Warding Bond  |||
-|Heroism  |Warding Wind  |||
-|Hunter's Mark  |Web  |||
+|Bane  |Barkskin  |Beacon of Hope  |Charm Monster  |Commune with Nature  
+|Beast Bond  |Beast Sense  |Catnap  |Death Ward  |Dawn  
+|Bless  |Blindness/Deafness  |Conjure Animals  |Divination  |Dispel Evil and Good  
+|Catapult  |Borrowed Knowledge  |Conjure Barrage  |Dominate Beast  |Greater Restoration  
+|Ceremony    |Calm Emotions  |Create Food and Water  |Freedom of Movement  |Hallow  
+|Charm Person  |Detect Thoughts  |Daylight  |Giant Insect  |Holy Weapon  
+|Color Spray    |Enhance Ability  |Dispel Magic  |Grasping Vine  |Insect Plague
+|Comprehend Languages    |Gentle Repose  |Fast Friends  |Guardian of Faith  |Legend Lore  
+|Create or Destroy Water    |Healing Spirit|Haste  |Guardian of Nature |Mass Cure Wounds  
+|Cure Wounds    |Kinetic Jaunt  |Life Transferrence  ||Modify Memory  
+|Detect Evil and Good  |Lesser Restoration  |Mass Healing Word  ||Raise Dead  
+|Detect Poison and Disease  |Locate Animals or Plants  |Motivational Speech  ||Reincarnate  
+|Divine Favor  |Moonbeam  |Plant Growth  ||Wrath of Nature 
+|Earth Tremor  |Nathair's Mischief  |Remove Curse  ||
+|Entangle  |Pass Without Trace  |Revivify  ||
+|Expeditious Retreat  |Prayer of Healing  |Sending  ||
+|Faerie Fire  |Protection From Poison  |Speak with Dead  ||
+|Feather Fall  |Spider Climb  |Speak with Plants  ||
+|Find Familiar  |Spike Growth  |Summon Fey  ||
+|Fog Cloud  |Summon Beast  |Water Walk  ||
+|Goodberry  |Warding Bond  |||
+|Healing Word  |Warding Wind  |||
+|Heroism  |Web  |||
+|Hunter's Mark  ||||
 |Jump  ||||
 |Longstrider  ||||
 |Protection From Evil and Good  ||||
@@ -1357,47 +1364,52 @@ When you start your turn, you can choose to expend 4 stormlight charges to gain 
 
 | Cantrips | 1st Level | 2nd Level | 3rd Level | 4th Level | 
 | --- | --- | --- | --- | --- |
-|Blade Ward|Absorb Elements|Aid|Clairvoyance|Arcane Eye|
-|Control Flames|Alarm|Arcane Lock|Counterspell|Banishment|
-|Dancing Lights|Armor of Agathys|Augury|Dispel Magic|Death Ward|
-|Friends|Beast Bond|Borrowed Knowledge|Glyph of Warding|Divination|
-|Frostbite|Ceremony|Find Traps|Intellect Fortress|Freedom of Movement|
-|Guidance|Color Spray|Fortune's Favor|Magic Circle|Greater Invisibility|
-|[Lecture](#lecture)|Comprehend Languages|Healing Spirit|Mass Healing Word|Locate Creature|
-|Mage Hand|Cure Wounds|Invisibility|Nondetection|Mordenkainen's Private Sanctum|
-|Message|Detect Evil and Good|Lesser Restoration|Protection From Energy|Raulothim's Psychic Lance|
-|Mind Sliver|Detect Magic|Locate Animals or Plants|Remove Curse|Staggering Smite|
-|Minor Illusion|Detect Poison and Disease|Locate Object|Revivify|Stoneskin|
-|Prestidigitation|Dissonant Whispers|Magic Mouth|||
-|Resistance|Gift of Alacrity|Mind Spike|||
-|True Strike|Healing Word|Mirror Image|||
-|Vicious Mockery|Hunter's Mark|Nystul's Magic Aura|||
-||Identify|Protection From Poison|||
-||Mage Armor|See Invisibility|||
-||Protection from Evil and Good|Silence|||
-||Sanctuary|Tasha's Mind Whip|||
-||Shield|Warding Bond|||
-||Shield of Faith||||
-||Silent Image||||
-||Snare||||
+|Blade Ward|Absorb Elements|Aid|Aura of Vitality|Arcane Eye|
+|Control Flames|Alarm|Arcane Lock|Beacon of Hope|Aura of Life|
+|Dancing Lights|Armor of Agathys|Augury|Clairvoyance|Aura of Purity|
+|Friends|Beast Bond|Beast Bond|Counterspell|Banishment|
+|Frostbite|Ceremony|Borrowed Knowledge|Dispel Magic|Death Ward|
+|Guidance|Color Spray|Find Traps|Glyph of Warding|Divination|
+|Lecture|Comprehend Languages|Fortune's Favor|Intellect Fortress|Freedom of Movement|
+|Mage Hand|Cure Wounds|Healing Spirit|Magic Circle|Gate Seal|
+|Message|Detect Evil and Good|Invisibility|Mass Healing Word|Greater Invisibility|
+|Mind Sliver|Detect Magic|Lesser Restoration|Nondetection|Locate Creature|
+|Minor Illusion|Detect Poison and Disease|Locate Animals or Plants|Protection From Energy|Mordenkainen's Private Sanctum|
+|Prestidigitation|Dissonant Whispers|Locate Object|Remove Curse|Otiluke's Resilent Sphere|
+|Resistance|Gift of Alacrity|Magic Mouth|Revivify|Raulothim's Psychic Lance|
+|Spare the Dying|Healing Word|Mind Spike|Sending|Stoneskin|
+|True Strike|Hunter's Mark|Mirror Image|||
+|Vicious Mockery|Identify|Nystul's Magic Aura|||
+||Mage Armor|Prayer of Healing|||
+||Protection from Evil and Good|Protection From Poison|||
+||Sanctuary|See Invisibility|||
+||Shield|Silence|||
+||Shield of Faith|Tasha's Mind Whip|||
+||Silent Image|Warding Bond|||
+||Snare|Warp Sense|||
 ||Speak with Animals||||
+
 
 
 | 5th Level | 6th Level | 7th Level | 8th Level | 9th Level |
 | --- | --- | --- | --- | --- |
-|Antilife Shell|Find the Path|Mordenkainen's Magnificent Mansion|Antimagic Field|Astral Projection|
-|Banishing Smite|Fizban's Platinum Shield|Resurrection|Feeblemind|Foresight|
-|Circle of Power|Forbiddance|Sequester|Mind Blank|Imprisonment|
-|Commune with Nature|Globe of Invulnerability|Simulacrum||Invulnerability|
-|Contact Other Plane|Guards and Wards|Symbol||Mass Heal|
-|Dispel Evil and Good|Heal|||Power Word Heal|
-|Greater Restoration|Primordial Ward|||Prismatic Wall|
-|Legend Lore|Programmed Illusion|||True Resurrection|
-|Mass Cure Wounds|True Seeing|||Weird|
+|Antilife Shell|Find the Path|Power Word Fortify|Antimagic Field|Astral Projection|
+|Circle of Power|Fizban's Platinum Shield|Regenerate|Feeblemind|Foresight|
+|Commune|Forbiddance|Resurrection|Mind Blank|Imprisonment|
+|Commune with Nature|Globe of Invulnerability|Sequester|Telepathy|Invulnerability|
+|Contact Other Plane|Guards and Wards|Simulacrum||Mass Heal|
+|Contingency|Heal|Symbol||Power Word Heal|
+|Dispel Evil and Good|Primordial Ward|||Prismatic Wall|
+|Greater Restoration|Programmed Illusion|||True Resurrection|
+|Hallow|True Seeing|||Weird|
+|Legend Lore|||||
+|Mass Cure Wounds|||||
 |Planar Binding|||||
+|Raise Dead|||||
 |Rary's Telepathic Bond|||||
 |Scrying|||||
-|Synaptic Static||||
+|Synaptic Static|||||
+
 
 
 
@@ -1750,29 +1762,31 @@ As an action you can cast Mirage Arcane and Project Image each once per long res
 You learn the spell [Army of the Mind](#army-of-the-mind), it is a lightweaver spell and it doesn't count against your number known lightweaver spells.
 
 ### Lightweaver Spell List
-*Itallics denotes Illusion Spells*
+*Italics denotes Illusion Spells*
 
 | Cantrips | 1st Level | 2nd Level | 3rd Level | 4th Level | 
 | --- | --- | --- | --- | --- |
-| Bladeward  | Bane  | Alter Self  | Bestow Curse  | Charm Monster  |
-| Dancing Lights  | Cause Fear  | Blindness/Deafness  | Blink  | Compulsion  |
-| Friends  | Charm Person  | *Blur*  | Daylight  | Confusion  |
-| *[Illusory Onslaught](#illusory-onslaught)*  | Command  | Darkness  | Fast Friends  | *Grater Invisibility*  |
-| Light  | Comprehend Languages  | Enthrall  | *Fear*  | *Hallucinatory Terrain*  |
-| Mage Hand  | *Disguise Self*  | Hold Person  | Feign Death  | *Phantasmal Killer*  |
-| Message  | Dissonant Whispers  | *Invisibility*  | House of Cards  | Raulothim's Psychic Lance  |
-| *Minor Illusion*  | *Distort Value*  | *Magic Mouth*  | *Hypnotic Pattern*  ||
-| Prestidigitation  | Faerie Fire  | *Mirror Image*  | Incite Greed  ||
-| Thaumaturgy  | False Life  | *Nathair's Mischief*  | *Major Image*  ||
-| True Strike  | Fog Cloud  | *Nystul's Magic Aura*  | Motivational Speech  ||
-| Vicious Mockery  | *Illusory Script*  | Pass Without Trace  | *Phantom Steed*  ||
-|              | Mage Armor  | *Phantasmal Force*  | Sending  ||
-|              | *Silent Image*  | *Shadow Blade*  |||
-|              | *Unearthly Chorus*  | Shatter  |||
-|              | Unseen Servant | *Silence*  |||
-|              |              | Skywrite  |||
-|              |              | Spray of Cards  |||
-|              |              | Web  |||
+|Bladeward  |Bane  |Alter Self  |Antagonize|Charm Monster  |
+|Dancing Lights  |Cause Fear  |Blindness/Deafness  |Bestow Curse  |Compulsion  |
+|Friends  |Charm Person  |*Blur*  |Blink  |Confusion  |
+|Gust  |*Color Spray*  |Borrowed Knowledge  |Daylight  |Dominate Beast  |
+|*[Illusory Onslaught](#illusory-onslaught)*  |Command  |Darkness  |Enemies Abound  |*Grater Invisibility*  |
+|Light  |*Disguise Self*  |Enthrall  |Fast Friends  |*Hallucinatory Terrain*  |
+|Mage Hand  |Dissonant Whispers  |Gift of Gab|*Fear*  |*Phantasmal Killer*  |
+|Message  |*Distort Value*  |Hold Person  |Feign Death  |Raulothim's Psychic Lance  |
+|*Minor Illusion*  |Faerie Fire  |*Invisibility*  |House of Cards  ||
+|Prestidigitation  |False Life  |*Magic Mouth*  |*Hypnotic Pattern*  ||
+|Thaumaturgy  |Fog Cloud  |*Mirror Image*  |Incite Greed  ||
+|True Strike  |*Illusory Script*  |*Nathair's Mischief*  |*Major Image*  ||
+|Vicious Mockery  |Mage Armor  |*Nystul's Magic Aura*  |Motivational Speech  ||
+||*Silent Image*  |Pass Without Trace  |*Phantom Steed*  ||
+||*Unearthly Chorus*  |*Phantasmal Force*  |Sending  ||
+||Unseen Servant|*Shadow Blade*  |||
+|||Shatter  |||
+|||*Silence*  |||
+|||Skywrite  |||
+|||Spray of Cards  |||
+
 
 | 5th Level | 6th Level | 7th Level | 8th Level | 9th Level |
 | --- | --- | --- | --- | --- |
@@ -1781,13 +1795,14 @@ You learn the spell [Army of the Mind](#army-of-the-mind), it is a lightweaver s
 |*Creation*  |*Mental Prison*  |Forcecage  |Glibness  |Psychic Scream  |
 |Dawn  |Otto's Irresistible Dance  |*Mirage Arcane*  |*Illusory Dragon*  |*Weird*  |
 |*Dream*  |*Programmed Illusion*  |Mordenkainen's Magnificent Mansion  |Maddening Darkness  ||
-|Dominate Person  |Sunbeam  |Mordenkainen's Sword|Maze  ||
+|Dominate Person  ||Mordenkainen's Sword|Maze  ||
 |Geas  ||Prismatic Spray  |||
 |Hold Monster  ||*Project Image*  |||
 |*Mislead*  ||*Simulacrum* |||
 |Modify Memory  |||||
 |*Seeming*  |||||
 |Synaptic Static  |||||
+
 
 
 
@@ -2145,36 +2160,36 @@ You learn the spell [Shadesmar Storm](#shadesmar-storm) which doesn't count agai
 | Cantrips | 1st Level | 2nd Level | 3rd Level | 4th Level |
 | --- | --- | --- | --- | -- |
 | Acid Splash  | Absorb Elements  | Aganazzar's Scorcher  | Ashardalon's Stride  | Banishment  | 
-| [Arctic Gale](#arctic-gale) | Armor of Agathys  | Cloud of Daggers  | Blink  | Blight  | 
+| [Arctic Gale](#arctic-gale)| Armor of Agathys  | Cloud of Daggers  | Blink  | Blight  | 
 | Blade Ward  | Burning Hands  | Continual Flame  | Call Lightning  | Death Ward  | 
 | Booming Blade  | Catapult  | Darkness  | Counterspell  | Dimension Door  | 
-| [Capacitor](#capacitor) | Chaos Bolt  | Dragon's Breath  | Crusader's Mantle  | Evard's Black Tentacles  | 
+| [Capacitor](#capacitor)| Chaos Bolt  | Dragon's Breath  | Crusader's Mantle  | Evard's Black Tentacles  | 
 | Control Flames  | Chromatic Orb  | Dust Devil  | Daylight  | Fire Shield  | 
 | Dancing Lights  | Compelled Duel  | Earthbind  | Dispel Magic  | Freedom of Movement  | 
-| [Draft of Movement](#draft-of-movement) | Divine Favor  | Enhance Ability  | Elemental Weapon  | Gravity Sinkhole  | 
-| Eldritch Blast  | Earth Tremor  | Enlarge/Reduce  | Erupting Earth  | Ice Storm  | 
-| Fire Bolt  | Expeditious Retreat  | Flame Blade  | Fireball  | Mordenkainen's Private Sanctum  | 
-| Frostbite  | Faerie Fire  | Flaming Sphere  | Fly  | Otiluke's Resilient Sphere  | 
-| Green-Flame Blade  | False Life  | Heat Metal  | Glyph of Warding  | Sickening Radiance  | 
-| Light  | Feather Fall  | Kinetic Jaunt  | Haste  | Storm Sphere  | 
-| Lightning Lure  | Find Familiar  | Levitate  | Intellect Fortress  | Vitriolic Sphere  | 
-| Mage Hand  | Fog Cloud  | Magic Weapon  | Life Transference  | Wall of Fire  | 
-| Message  | Frost Fingers  | Maximilian's Earthen Grasp  | Lightning Bolt  | | 
-| Poison Spray  | Guiding Bolt  | Melf's Acid Arrow  | Magic Circle  | | 
-| Produce Flame  | Hellish Rebuke  | Misty Step  | Melf's Minute Meteors  | | 
-| Ray of Frost  | Ice Knife  | Pyrotechnics  | Pulse Wave  | | 
-| Sacred Flame  | Jim's Magic Missile  | Ray of FEnfeeblement  | Sending  | | 
-| Sapping Sting  | Jump  | Rime's Binding Ice  | Slow  | | 
-| Shocking Grasp  | Longstrider  | Rope Trick  | Stinking Cloud  | | 
-| Sword Burst  | Mage Armor  | Scorching Ray  | Thunder Step  | | 
-| [Terran Strike](#terran-strike) | Magic Missile  | Shatter  | Wall of Sand  | | 
-| Thunderclap  | Magnify Gravity  | Snilloc's Snowball Swarm  | Wall of Water  | | 
-| | Ray of Sickness  | Wither and Bloom  | Wind Wall  | | 
-| | Shield  | | | | 
+| [Draft of Movement](#draft-of-movement)| Divine Favor  | Enhance Ability  | Elemental Weapon  | Gravity Sinkhole  | 
+| Eldritch Blast  | Expeditious Retreat  | Enlarge/Reduce  | Fireball  | Ice Storm  | 
+| Fire Bolt  | Faerie Fire  | Flame Blade  | Fly  | Mordenkainen's Private Sanctum  | 
+| Frostbite  | False Life  | Flaming Sphere  | Glyph of Warding  | Otiluke's Resilient Sphere  | 
+| Green-Flame Blade  | Feather Fall  | Heat Metal  | Haste  | Sickening Radiance  | 
+| Light  | Find Familiar  | Kinetic Jaunt  | Intellect Fortress  | Storm Sphere  | 
+| Lightning Lure  | Fog Cloud  | Levitate  | Life Transference  | Vitriolic Sphere  | 
+| Mage Hand  | Frost Fingers  | Magic Weapon  | Lightning Bolt  | Wall of Fire  | 
+| Message  | Guiding Bolt  | Melf's Acid Arrow  | Magic Circle  | | 
+| Poison Spray  | Hellish Rebuke  | Misty Step  | Melf's Minute Meteors  | | 
+| Produce Flame  | Ice Knife  | Pyrotechnics  | Pulse Wave  | | 
+| Ray of Frost  | Jim's Magic Missile  | Ray of Enfeeblement  | Sending  | | 
+| Sacred Flame  | Jump  | Rime's Binding Ice  | Slow  | | 
+| Sapping Sting  | Longstrider  | Rope Trick  | Stinking Cloud  | | 
+| Shocking Grasp  | Mage Armor  | Scorching Ray  | Thunder Step  | | 
+| Sorcerous Burst| Magic Missile  | Shatter  | Wall of Sand  | | 
+| Sword Burst  | Magnify Gravity  | Snilloc's Snowball Swarm  | Wall of Water  | | 
+| [Terran Strike](#terran-strike)| Ray of Sickness  | Wither and Bloom  | Wind Wall  | | 
+| Thunderclap  | Shield  | | | | 
 | | Tasha's Caustic Brew  | | | | 
 | | Thunderwave  | | | | 
 | | Witch Bolt  | | | | 
 | | Zephyr Strike  | | | | 
+
 
 
 
@@ -2183,21 +2198,24 @@ You learn the spell [Shadesmar Storm](#shadesmar-storm) which doesn't count agai
 | Animate Objects  | Arcane Gate  | Crown of Stars  | Abi-Dalzim's Horrid Wilting  | Blade of Disaster  | 
 | Bigby's Hand  | Blade Barrier  | Delayed Blast Fireball  | Dark Star  | Gate  | 
 | Circle of Power  | Chain Lightning  | Finger of Death  | Demiplane  | Imprisonment  | 
-| Cloudkill  | Circle of Death  | Firestorm  | Earthquake  | Invulnerability  | 
-| Cone of Cold  | Contingency  | Mordenkainen's Sword  | Incendiary Cloud  | Meteor Swarm  | 
-| Creation  | Disintegrate  | Prismatic Spray  | Maddening Darkness  | Prismatic Wall  | 
-| Destructive Wave  | Eyebite  | Reverse Gravity  | Telepathy  | Ravenous Void  | 
-| Flame Strike  | Gravity Fissure  | Symbol  | Tsunami  | Time Ravage  | 
-| Immolation  | Globe of Invulnerability  | Teleport  | | Time Stop  | 
-| Maelstrom  | Harm  | Whirlwind | | Wish| 
-| Negative Energy Flood  | Investiture of Flame  | | | | 
-| Planar Binding  | Investiture of Ice  | | | | 
-| Steel Wind Strike  | Investiture of Wind  | | | | 
-| Telekenesis  | Otiluke's Freezing Sphere  | | | | 
-| Teleportation Circle  | Tasha's Otherworldly Guise  | | | | 
-| Temporal Shunt  | Tenser's Transformation  | | | | 
-| Wall of Force  | Wall of Ice  | | | | 
-| Wall of Light | Wall of Thorns  | | | | 
+| Cloudkill  | Circle of Death  | Firestorm  | Incendiary Cloud  | Invulnerability  | 
+| Cone of Cold  | Contingency  | Mordenkainen's Sword  | Maddening Darkness  | Meteor Swarm  | 
+| Creation  | Disintegrate  | Prismatic Spray  | Telepathy  | Prismatic Wall  | 
+| Destructive Wave  | Drawmij's Instant Summons| Reverse Gravity  | Tsunami  | Ravenous Void  | 
+| Far Step| Eyebite  | Symbol  | | Time Ravage  | 
+| Flame Strike  | Gravity Fissure  | Teleport  | | Time Stop  | 
+| Immolation  | Globe of Invulnerability  | Whirlwind | | Wish| 
+| Jallarzi's Storm of Radiance| Harm  | | | | 
+| Maelstrom  | Investiture of Flame  | | | | 
+| Negative Energy Flood  | Investiture of Ice  | | | | 
+| Planar Binding  | Investiture of Wind  | | | | 
+| Steel Wind Strike  | Otiluke's Freezing Sphere  | | | | 
+| Telekenesis  | Tasha's Otherworldly Guise  | | | | 
+| Teleporation Circle  | Tenser's Transformation  | | | | 
+| Temporal Shunt  | Wall of Ice  | | | | 
+| Wall of Force  | Wall of Thorns  | | | |
+| Wall of Light | | | | | 
+
 
 <!-- 
 #### Cantrips
@@ -2522,7 +2540,7 @@ Your bond with your peakspren is beginning to grow allowing you to stand more fr
 Upon speaking the words, you gain the following abilities to help you in combat and as a wielder of the earth
 
 * **Extra Attack:** You can attack twice, instead of once, whenever you take the Attack action on your turn.
-* **Earthen Spells** You gain the ability to cast Maximilian's Earthen Grasp and Erupting Earth by expending one or three stormlight charges respectively.
+* **Earthen Spells** You gain the ability to cast Maximilian's Earthen Grasp, Meld Into Stone, and Erupting Earth by expending one, two, or three stormlight charges respectively.
 * **Infusions** You gain the ability to infuse your vorin stances with stormlight.  Your number of infusions are listed in the Infusions Column in the [Stoneward Table](#stoneward-table).  Over the course of a short or long rest you can change which stances you infuse by expending 2 stormlight for each infused stance.  When a stance is infused, you can used the additional ***Infused*** properties that are listed within the stance's description.
 
 ### Rockshaper
@@ -2539,7 +2557,7 @@ You become a master of stone and rock as the fourth ideal comes to you:
 
 > *I will fall for those I love*  
 
-In speaking the fourth ideal, your attunement with the earth expands as you gain Tremorsense[^stoneward1] out to a range of 30 ft and immunity to the petrified condition.  Additionally you learn to channel your earthen heart to cast Wall of Stone and Flesh to Stone by expending seven or three stormlight charges respectively. Finally you gain the ability to Earth Gilde.
+In speaking the fourth ideal, your attunement with the earth expands as you gain Tremorsense[^stoneward1] out to a range of 30 ft and immunity to the petrified condition.  Additionally you learn to channel your earthen heart to cast Flesh to Stone, Investiture of Stone, and Wall of Stone by expending three, five, or seven stormlight charges respectively. Finally you gain the ability to Earth Glide.
 
 **Earth Glide**  As an action spend one stormlight charge to gain the ability to burrow through nonmagical unworked earth and stone for 1 minute.  While doing so, you don't disturb the material you move through and don't require air to breathe.[^stoneward2]
 
@@ -3351,9 +3369,7 @@ Most spren can be viewed when events correlated to their type occur.  For exampl
 #### Roleplay Information for Spren
 A spren is an creature who grants you your powers.  Each spren that chooses to connect and eventually form a Nahel Bond with a creature is a unique and sentient creature.  They have their own name, ideas, personalities, and feelings and are different for every Herald, even within the same order.
 
-They can be material or immaterial, and visible or invisible to you and/or others.  You should talk to your DM about what your spren would look like in their world.  Additionally, you should decide how much they will integrate into the story.  There are multiple ways you and your DM could roleplay the spren.  A spren could be a major character whom you talk to often and could have deep interesting personalities.  Conversely, if an additional constant NPC is too much work for your DM (which is completely valid), they could be realized as a spirit that lives within your shardblade speaking to you only when you speak your ideals, and remaining silent or speaking only when spoken to.  Or possibly, maybe you never see them at all and they come to you in your dreams and speak telepathically to you, but they have no visual manifestation.
-
-Regardless, spren manifestations (other than as a shardblade) are not intended to give any tactical advantages, ie combat/scouting/distraction etc.[^herald2]  The subclasses are balanced around the assumption that they are for lore and roleplay reasons only.
+At third level you will gain the ability to physically manifest your spren.  You are not required to use this feature and you should talk to your DM about expectations for how your spren appears in the world.  Additionally, you should decide how much they will integrate into the story.  There are multiple ways you and your DM could roleplay the spren.  A spren could be a major character whom you talk to often and could have deep interesting personalities.  Conversely, if an additional constant NPC is too much work for your DM (which is completely valid), they could be realized as a spirit that lives within your shardblade speaking to you only when you speak your ideals, and remaining silent or speaking only when spoken to.  Or possibly, maybe you never see them at all and they come to you in your dreams and speak telepathically to you, but they have no visual manifestation.
 
 Seriously, make sure to talk to your DM before playing your Herald to ensure that you are both on the same page about what to expect in terms of story and roleplay from your spren.
 
@@ -3460,8 +3476,34 @@ If I've missed any other attributions, hit me up at "<i>skaarf@duck.com</i>" or 
 
 ## Changelog
 
+### v0.7.3
+#### Herald Class
+* At 3rd level you can now manifest your spren via the Find Familiar spell, once per long rest.
+  * This is a change from the original intent where spren would not be strategically useful.  I've decided to reverse that decision as spren are a core part of the class and it's not a large power spike.
+
+#### General Changes:
+* Spell lists have been modified for a number of classes
+* Edgedancer
+  * Removed some spells that overlapped too heavily and didn't feel right
+* Elsecaller
+  * Removed stone based spells as those are for stoneward
+  * Added a few new spells from phb 2024
+* Lightweaver
+  * Got a few charm spells
+  * Removed some divine and arcane spells that don't make sense
+* Stoneward
+  * Got more stone-based spells they can use at certain levels
+* Truthwatcher
+  * Got many of the new healing spells which moved into abjuration (from evocation) along with a few divination spells
+* Windrunner
+  * Got Reverse Gravity and Jallarzi's storm of radiance as they are gravity and storm based spells
+
+### v0.7.2
+#### General Changes
+* Modified organization of files on the backend to make development easier
+
 ### v0.7.1
-### General Changes
+#### General Changes
 * Formatting of headers and order of some headers
 
 #### Dustbringer Order
