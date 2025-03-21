@@ -1,5 +1,5 @@
 # Herald
-##### Version: *v0.7.3*, *January 16th, 2025* [See Changelog Here](#changelog) 
+##### Version: *v0.8.0*, *March 21st, 2025* [See Changelog Here](#changelog) 
 
 ## Base Herald Class
 
@@ -46,16 +46,16 @@ Your choice grants you additional capabilities when you choose it at 1st level. 
 Each order also has an ability score, tool and spren, each of which are used to enhance, diversify, and showcase the themes and specializations between each order.
 | Order | Statement of Purpose | Order Ability Score | Order Tool | Spren | Description |
 | --- | --- | --- | --- | --- | --- |
-| [Windrunner Order](#windrunner-order) | I will protect | Dexterity | Navigation Tools | [Honorspren](https://coppermind.net/wiki/Honorspren) | A fighter based around protecting others with powers to create storms and fly |
+| [Windrunner Order](#windrunner-order) | I will protect | Dexterity | Navigation Tools | [Honorspren](https://coppermind.net/wiki/Honorspren) | A fighter who protects others with powers to manipulate gravity and the winds |
 | [Skybreaker Order](#skybreaker-order) | I will seek justice | Strength | Forgery Kit | [Highspren](https://coppermind.net/wiki/Highspren) | An enforcer of laws using stormlight to administer justice |
 | [Dustbringer Order](#dustbringer-order) | I will seek self-mastery | Intelligence | Tinker's Tools | [Ashspren](https://coppermind.net/wiki/Ashspren) | A tinkerer who utilizes arcane fabrials which destroy to allow for creations anew |
 | [Edgedancer Order](#edgedancer-order) | I will remember | Wisdom | Herbalism Kit | [Cultivationspren](https://coppermind.net/wiki/Cultivationspren) | A graceful healer and slippery combatant |
 | [Truthwatcher Order](#truthwatcher-order) | I will seek truth | Intelligence or Wisdom | [Fortune Telling Tools](#fortune-telling-tools) | [Mistspren](https://coppermind.net/wiki/Mistspren) | A scholarly and wise sage with the ability to foretell and heal |
 | [Lightweaver Order](#lightweaver-order) | I will speak my truth | Charisma | Thieves' Tools | [Cryptic](https://coppermind.net/wiki/Cryptic) | A wielder of illusions to deceive and discover |
 | [Elsecaller Order](#elsecaller-order) | I will reach my potential | Intelligence | Cartographer's Tools | [Inkspren](https://coppermind.net/wiki/Inkspren) | A powerful mage with limited potent bursts of arcane energy |
-| [Willshaper Order] | I will seek freedom | Intelligence, Wisdom, or Charisma | Any artisan's tool | [Lightspren](https://coppermind.net/wiki/Lightspren) | A friend of the natural world, working to help creatures become their true selves |
+| [Willshaper Order](#willshaper-order) | I will seek freedom | Intelligence, Wisdom, or Charisma | Special | [Lightspren](https://coppermind.net/wiki/Lightspren) | A friend of the natural world, working to help creatures become their true selves |
 | [Stoneward Order](#stoneward-order) | I will be there when I'm needed | Constitution  | Mason's Tools | [Peakspren](https://coppermind.net/wiki/Peakspren) | A tank with diverse fighting styles and a deep connection to the earth |
-| [Bondsmith Order] | I will unite | Charisma | Calligrapher's Supplies | Unique | A diplomat who can not wield a weapon, instead choosing to seek peace and augment allies to his cause |
+| [Bondsmith Order] | I will unite | Charisma | Calligrapher's Supplies | Unique | A diplomat who can not wield a weapon, instead choosing to seek peace and augment allies to their cause |
 
 *More subclasses coming in the future!*
 <!-- 
@@ -178,7 +178,7 @@ At 11th level your bond with your spren has grown significantly.  Any weapon you
 When you reach 13th level, you achieve a level of dedication to your order that few ever reach, you become a source of inspiration for others in your order.  For your great achievement you gain additional powers according to your [Radiant Order](#radiant-order) -->
 
 ### Expertise
-At 6th level, choose one of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen proficiency.  Additionally you gain expertise in your [Radiant Order's](#radiant-order) Tool.
+At 6th level, choose one of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen proficiency.  Additionally you gain expertise in your [Radiant Order's](#radiant-order) Tool(s).
 
 <!-- ## Exalted Shardblade
 At 15th level your bond with your spren has grown significantly.  Any weapon you create with your Shardblade feature has a +3 bonus to attack and damage rolls. -->
@@ -1641,7 +1641,7 @@ The Lightweaver Spellcasting table shows how many spell slots you have to cast y
 <!-- You start with two 1st-level spell slots at level 1, and gain more as you gain more lightweaver levels. -->
 
 #### Spells Known
-You know three 1st level [lightweaver spells](#lightweaver-spell-list) of your choice.  Additionally you always know the spell *Disguise Self* and it doesn't count against your number of lightweaver spells known.
+You know four 1st level [lightweaver spells](#lightweaver-spell-list) of your choice.  Additionally you always know the spell *Disguise Self* and it doesn't count against your number of lightweaver spells known.
 
 The Spells Known column of the Lightweaver Spellcasting table shows when you learn more lightweaver spells of 1st level or higher.  Each of these spells must be of a level for which you have spell slots.   For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.
 
@@ -2050,8 +2050,6 @@ An inkspren archive doesn't contain cantrips.
 * **Replacing the Archive:**  Your inkspren archive is stored within your spren.  If your previous spren was killed, all knowledge of spells stored within your spren are lost.  Upon bonding a new spren, you could begin rebuilding your archive anew.  Any spells you have prepared can be transcribed into a new archive using the rules for Copying a spell above.
 
 #### Preparing and Casting Spells
-The Elsecaller table shows how many spell slots you have to cast your spells of 1st level and higher.  To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
-
 You prepare the list of elsecaller spells that are available for you to cast. To do so, choose a number of elsecaller spells from your inkspren archive equal to your Intelligence modifier + your elsecaller level (minimum of one spell). The spells must be of a level for which you have spell slots.  
 
 Spells for which you have spell slots are designated by a number (even if that value is 0).  At higher levels you will begin to lose lower level spell slots.  When you lose these spell slots you can still prepare spells of that level you will just likely have to cast them using a higher level slot. [^elsecaller1]
@@ -2079,6 +2077,7 @@ You can cast an elsecaller spell as a ritual if that spell has the ritual tag an
 You can use an arcane focus as a spellcasting focus for your elsecaller spells. 
 
 #### Spell Slots
+The Elsecaller table shows how many spell slots you have to cast your spells of 1st level and higher.  To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
 You know four 1st level [elsecaller spells](#elsecaller-spell-list) of your choice.
 
@@ -2421,6 +2420,624 @@ Time Ravage
 Time Stop
 Wish
 -->
+
+## Willshaper Order
+Amongst all the orders of knights radiant, willshapers are certainly the most unique.  Every one of them is unique, which is somewhat the point, as they seek to free themselves from the expectations and binds that shackles everybody, and then to help others also seek that freedom; whether that is achieved through radical self expression or literally freeing themselves and others from captive societies.  They tend to believe that any laws are a for of oppression and they lean more towards chaotic alignments, which often puts them at odds with Skybreakers.
+
+### Spren
+Lightspren, also known as reachers, are the spren you are bound to when you take up the oaths of a willshaper.  They appear on the material plane as a small orb of light that could be concealed in the palm of a hand, and tend to pulse audibly and visibly to nearby rhythms and music.  They tend to bond to the more monsterous or outcast races in societies such as orcs, bugbear, goblin, etc; but have been known to bond with all races.
+
+### Hit Points
+###### 1st-level Willshaper feature
+
+* **Hit Die:** 1d8 per willshaper level
+* **Hit Points at 1st Level:** 8 + your Constitution modifier
+* **Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier (minimum of 1) per herald level after 1st
+
+
+### Proficiencies
+###### 1st-level Willshaper feature
+
+* **Armor:** Light armor, medium armor, shields
+* **Weapons:** Simple melee weapons, scimitar, shortsword
+* **Tools:** Choose two from Alchemist's Supplies, Brewer's Supplies, Carpenter's Tools, Cobbler's Tools, Cook's Utensils, Glassblower's Tools, Jeweler's Tools, Leatherworker's Tools, Painter's Supplies, Smith's Tools, Weaver's Tools, or Woodcarver's Tools
+* **Saving Throws:** Constitution and your Willshaper Ability Score
+* **Skills:** Choose any three
+
+### Equipment
+###### 1st-level Willshaper feature
+* (a) a shield or (b) any simple melee weapon
+* (a) two scimitars or (b) two short swords
+* Leather armor, an explorer's pack, and a spellcasting focus.
+
+Alternatively, you can ignore the equipment from your class and background, and start with 3d4 x 10 gp.
+
+### Willshaper Freedom
+###### 1st-level Willshaper feature
+
+Every willshaper is unique, more-so than the other orders, especially in how they present themselves.  As such, when you gain a level in the herald class, you can replace any tool or skill proficiencies granted by the willshaper order with another tool or skill proficiency also granted by the willshaper order.
+
+Additionally, at level 1 you choose your spellcasting ability from either Intelligence, Wisdom, or Charisma.  In future sections, when a feature references your "Order Ability Score" or "Willshaper Ability Score" use the ability score you chose here.  Your "Willshaper Modifier" is the modifier associated with your Willshaper Ability Score.
+
+### Willshaper Spellcasting
+###### 1st-level Willshaper feature
+
+| Level | Cantrips Known | Prepared Spells | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+| ---- | - | -- | - | - | - | - | - | - | - | - | - |
+| 1st  | 2 | 4  | 2 | 
+| 2nd  | 2 | 5  | 3 | 
+| 3rd  | 2 | 6  | 4 | 2
+| 4th  | 3 | 7  | 4 | 3
+| 5th  | 3 | 9  | 4 | 3 | 2
+| 6th  | 3 | 10 | 4 | 3 | 3
+| 7th  | 3 | 11 | 4 | 3 | 3 | 1
+| 8th  | 3 | 12 | 4 | 3 | 3 | 2
+| 9th  | 3 | 14 | 4 | 3 | 3 | 3 | 1
+| 10th | 4 | 15 | 4 | 3 | 3 | 3 | 2
+| 11th | 4 | 16 | 4 | 3 | 3 | 3 | 2 | 1 |
+| 12th | 4 | 16 | 4 | 3 | 3 | 3 | 2 | 1 |
+| 13th | 4 | 17 | 4 | 3 | 3 | 3 | 2 | 1 | 1 |
+| 14th | 4 | 17 | 4 | 3 | 3 | 3 | 2 | 1 | 1 |
+| 15th | 4 | 18 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |
+| 16th | 4 | 18 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |
+| 17th | 4 | 19 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1 |
+| 18th | 4 | 20 | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1 |
+| 19th | 4 | 21 | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |
+| 20th | 4 | 22 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 |
+
+#### Cantrips
+You learn two cantrips of your choice from the [Willshaper spell list](#willshaper-spell-list).  You learn additional willshaper cantrips of your choice at higher levels, learning a 3rd cantrip at 4th level and a 4th at 10th level. You can replace one cantrip you know with another from the willshaper spell list when you gain a level in this class.
+
+#### Spell Slots
+The Willshaper Spellcasting table shows how many spell slots you have to cast your willshaper spells of 1st level or higher.  To cast one of these spells, you must expend a slot of the spell's level or higher.  You regain all expended spell slots when you finish a long rest
+
+#### Preparing and Casting Spells
+You prepare the list of willshaper spells that are available for you to cast. To do so, choose a number of willshaper spells from your willshaper spell list equal to the prepared spells column listed in the willshaper table above. The spells must be of a level for which you have spell slots.  
+
+For example, if you are a 3rd-level willshaper, you have four 1st-level and two 2nd-level spell slots. If you prepare the 1st-level spell jump, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
+
+You can also change your list of prepared spells when you finish a long rest. Preparing a new list of willshaper spells requires time spent in retrospection and meditation: at least 1 minute per spell level for each spell on your list.
+
+#### Spellcasting Ability
+
+Your willshaper modifier is your spellcasting ability for your willshaper spells. You use your willshaper modifier whenever a spell refers to your spellcasting ability. In addition, you use your willshaper modifier when setting the saving throw DC for an willshaper spell you cast and when making an attack roll with one.
+
+***Spell save DC*** = 8 + your proficiency bonus + your Willshaper Modifier
+
+***Spell Attack modifier*** = your proficiency bonus + your Willshaper Modifier
+
+#### Ritual Casting
+You can cast a willshaper spell as a ritual if that spell has the ritual tag and you have the spell prepared.
+
+#### Spellcasting Focus
+You can use an any type of spellcasting focus (arcane, clerical, druidic, musical instrument) as a spellcasting focus for your elsecaller spells; though you must use something.
+
+### Willshape
+###### 3rd-level Willshaper feature
+Upon reaching the first ideal of the willshapers, you gain the ability to transform yourself into a creature of your design, freeing yourself from your humanoid form by expending 1 stormlight to use a Bonus Action to shape shift into a new form.  At the moment you initially transform you can choose to expend extra stormlight to customize your willshape with additional features.  See the section titled [Willshape Customization](#willshape-customization) at the end of this order's description for more information.  
+
+You can maintain this form for 1 hour.  Additionally, when your willshape is about to end, you can (no action required) expend a spell slot to extend the duration of your willshape by a number of hours equal to the level of the spell slot that was expended.  Your willshape lasts until you reach its duration and choose not to extend it, finish a long rest, reach 0 hit points, use your bonus action to change into your humanoid form, or willshape into a different form.  You can willshape twice per long rest, and you regain one use when you finish a short rest.
+
+#### Physical Appearance
+Your physical appearance is something you decide when you willshape, but your appearance should be based on the size and creature type you choose when you willshape in addition to any other modifications.  The general rule of thumb is that your appearance shouldn't be more than 50% humanoid (that is the creature type you choose should be the dominant factor in your physical appearance).  
+* Examples:
+  * An owlbear (a monstrosity creature type) does have the general humanoid form (one head, two arms, two legs, can stand on hind legs), but it's appearance is mostly monsterous
+  * A dragonborn character has draconic features like scales and a long snout, but is more humanoid than draconic so appearing as a dragonborn in willshape form would not be in the spirit of the willshaper oaths
+  * A mindflayer generally has a humanoid form, but given their clawed hands, tentacled face and enlarged skull size, they would be more monsterous than humanoid and thus would follow the willshaper ideals
+
+As a radiant knight you have spoken oaths and have honor to follow the spirit of those oaths. If your spren determines that you are often not fully embracing your willshape forms they could begin to mute your abilities.[^willshaper1]
+
+Willshaping is about letting your true form show which often is not a common sight.  The first impression most people in the world will have to your willshapes could be fear, confusion, shock, or surprise given you are likely to look like a monster.  When people hear you speak or they learn you are a willshaper, these perceptions could change, but initial impressions amongst most people are likely not to be the same as if you were a humanoid.  It is likely that if you were to save a town and became local hero's, you could walk around in willshape form in that town with less judgement and potentially adoration or appreciation.
+
+Some willshapers have taken to keeping some physical feature consistent through their willshape forms so that when they willshape into a new or vastly different creature, others can still tell at a glance that they are a person they know.  Some examples of identifying marks could include, obvious tattoos, colored eyes, a piece of clothing like a cape, or distinct fur or skin color patterns.
+
+#### Rules While Transformed
+While in a form, you retain your personality, memories, ability to speak, and the following rules apply:
+* **Temporary Hit Points:** When you assume a willshape form, you gain a number of temporary hit points equal to your herald level. [Willshape customizations](#willshape-customization) may alter this value.
+* **Armor Class:** Your base armor class while willshaped is always 10 + your proficiency bonus. [Willshape customizations](#willshape-customization) may alter this value.  Armor you wear as described in the *Objects* section below may override this.
+* **Retained Features:** When you assume your willshape form, you retain your current hit points (and hit point maximum), hit die; Intelligence, Wisdom, and Charisma scores, class features, languages, base walking speed, and feats.  You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining any proficiencies granted by your [Willshape customizations](#willshape-customization). If a skill or saving throw modifier in your willshape form is greater than your humanoid form, use the value granted to you by your willshape form.
+* **No spellcasting:**  You can't cast spells, but willshaping doesn't break your concentration or otherwise interfere with a spell you've already cast.
+* **Objects.** Your ability to handle objects is determined by the form's limbs rather than your own.  Your new form can only have two appendages in which you can hold or wield objects. In addition, you choose whether your equipment falls in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it's practical for the new form to wear a piece of equipment based on the creature's size and shape. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with the form. Equipment that merges with the form has no effect while you're in that form.
+* Example Rulings:
+  * If you willshape into a tiny hummingbird, it would be reasonable for the DM to say you cannot wear your armor, nor carry/use any of your non-shardblade weapons or magic items (shardblade weapons could be resummoned to fit your size).
+  * If you willshape into a large squid, it would be reasonable for the DM to say you cannot gain the benefits of a ring or boots you were wearing previously.
+  * If you willshape into a mindflayer-esque creature, it would be reasonable to expect your existing plate armor to still benefit your form, but the helmet you were wearing to not benefit your form (because of their large brain size and tentacled faces)
+
+### Shardlimbs
+###### 3rd-level Lightweaver feature
+While in your willshape form, you can mold your shardblade into the shape of natural weapons that your willshape form would have.  If you have an absorbed weapon in your shardblade, you can apply the effects of the weapon to your shard limbs without them needing to be in the shape of the originally absorbed weapon.
+
+### Unrestricted Movement
+###### 6th-level Willshaper feature
+
+Upon swearing the 2nd ideal, you begin to explore freedom beyond the material plane, allowing you to travel short distances unhindered by physical obstructions
+
+>*I will seek freedom for those in bondage*
+
+* You gain the ability to shadewalk.  By expending 1 stormlight on your turn, you can teleport a distance equal to your speed to an unoccupied point you can see within range.  Once you teleport you cannot use your speed to move until the start of your next turn.
+* Your natural weapons while in willshape are treated as magical weapons
+* While you are not willshaped, you can move across any difficult terrain without spending extra movement
+* You cannot be muted by external means (though you can still be muted by internal means).  See [Muting a Nahel Bond](#muting-a-nahel-bond)
+
+### A Fresh Perspective
+###### 9th-level Willshaper feature
+As a willshaper you are ever-changing.  Your third willshaper ideal shows your ability to change and ability to mold yourself into the person you wish to be.
+
+>*I will change my values to fit the world view I believe*
+
+You gain the following features as a third ideal willshaper:
+* When you finish a long rest you can change your willshaper ability score to a different valid willshaper ability score (intelligence, wisdom, or charisma).  Additionally you can re-select your non-constitution saving throw proficiency to be a different option (intelligence, wisdom, or charisma)
+* When you finish a long rest you can swap the numerical values of your mental ability scores.
+  * For example, if your character has an intelligence score of 10, wisdom of 18, and charisma of 13.  After finishing a long rest, you could swap those scores around to have an intelligence of 13, wisdom of 10 and charisma of 18.
+* You are immune to any spell or effect that would alter your form
+
+### Break the Norm
+###### 13th-level Willshaper feature
+The world around you is often too structured, too resistant to change.  The fourth ideal helps you break down those barriers to a better future.
+
+>*I will not be shaped by false values*
+
+As an Action, choose up to 3 creatures within 120 feet.  Each creature must make a DC 25 Constitution saving throw or they lose concentration on any spell they are concentrating on.  You cannot use this feature again until you take another long rest, or expend a 7th level spell slot.
+
+
+### Unrestricted Speech
+###### 18th-level Willshaper feature
+Your freedom and ability to break those chains of others has coalesced into the ideal form and you learn the 5th ideal of the Willshapers
+
+>*I will be free*
+
+You can cast spells while in your willshape form.
+
+
+
+
+
+### Willshaper Customization
+Starting at 3rd level you *know* a number of modifications equal to half the number of prepared spells you have (rounded down) as shown in the Spells Known column of the [Willshaper Spellcasting](#willshaper-spellcasting) table.  When you willshape, you can select modifications to apply to your willshape from the list of modifications you *know*. 
+
+In sections below there are a large number of *modifications*.  All modifications are listed on a table under their category.  Each category will have a set of tags associated with it which will describe how the *modifications* in that category can be added to your *known* list.
+
+#### Category Tags:
+There will always be three tags for each category, which can be any of the following options in any combination
+* [Required/Optional]
+  * [Required] When you willshape, you must select a modification from this category.
+  * [Optional] When you willshape, you are not required to select a modification from this category.
+* [Repeatable/Unique]
+  * [Repeatable] You can select any number of modifications from this category when you willshape
+  * [Unique] You can only select one modification from this category per willshape.  You can *know* multiple modifications from this category, but can only apply one to any given willshape you create.
+* [Grouped/Known/Paired/Single]
+  * [Grouped] Instead of adding one of the modifications from this category to your list of *known* modifications, you instead can add the entire category to your list of *known* modifications which only counts as one *known* modification
+  * [Known] All the modifications in this cateogry are considered *known* by you and do not count against your total number of *known* modifications
+  * [Paired] When you select a modification from this table to add to your *known* list, you can select a second option which does not count against total number of *known* modifications.  If you ever remove the original modification from your *known* list, you also lose knowledge of the second option you chose.
+  * [Single] Every modification in this category requires you to learn it individually.
+
+You can replace one known modification with another over the course of a long rest.  And you can change all known modifications with different modifications when you level up.
+
+#### Tips: Templates
+Given that there can be many options for your willshapes, it is suggested that you write down or keep track of common combinations you use and their cost so you don't need to search through the entire list every time you willshape.
+
+#### Tips: Theming your Willshapes
+Many of the modifications are somewhat generic.  This is done so that the modifications aren't pigeonholed into specific use cases.  I would highly recommend thinking about how you're going to flavor each of the modifications you know.  This is where having a template for creatures you use often can be useful, so you don't have to design a creature on the spot.
+
+Here are some basic examples on different ways you could theme the same abilities to get you started:
+* Otherworldy Aura [Necrotic]
+  * *the dirt around you turns grey as the grass withers, tendrils of necrotic energy seep upwards towards the sky from the ground*
+  * *a plague of beetles and insects flies around you, all sucking the blood from any who dare get close*
+* Truesight
+  * *Eyes that glow blue*
+  * *A creature covered in tens of eyes, some of which on eyestalks which keep an eye in all directions*
+* Deafening Strike
+  * *A creature made of metal that klangs impossibly loudly when it hits it's target*
+  * *A creature with explosive firey energy that seems to emmmenate from its soul, which flies down its arm and into the punch, releasing deafening localized explosions wherever it strikes.*
+  * *Your ooze-like limbs leave behind reside when you strike, targeting the ears of the creature allows you to temporarily deafen them until they can scrape off your goop.*
+
+### Modifications
+
+#### Strength
+* Tags: [Required], [Unique], [Known]
+
+| Feature Name                           | Stormlight Cost | Level Required | Feature                                      |
+|----------------------------------------|-----------------|----------------|----------------------------------------------|
+| Basic Strength                         | 0               | 3              | Strength Score of 10                         |
+| Pig Strength                           | 1               | 3              | Strength Score of 15                         |
+| Bear Strength                          | 2               | 6              | Strength Score of 17                         |
+| Ox Strength                            | 3               | 9              | Strength Score of 19                         |
+| Ape Strength                           | 4               | 13             | Strength Score of 21                         |
+| Yeti Strength                          | 5               | 18             | Strength Score of 23                         |
+
+
+
+#### Dexterity
+* Tags: [Required], [Unique], [Known]
+
+| Feature Name                           | Stormlight Cost | Level Required | Feature                                      |
+|----------------------------------------|-----------------|----------------|----------------------------------------------|
+| Basic Dexterity                        | 0               | 3              | Dexterity Score of 10                        |
+| Hummingbird Dexterity                  | 1               | 3              | Dexterity Score of 15                        |
+| Cat Dexterity                          | 2               | 6              | Dexterity Score of 17                        |
+| Eagle Dexterity                        | 3               | 9              | Dexterity Score of 19                        |
+| Panther Dexterity                      | 4               | 13             | Dexterity Score of 21                        |
+| Velociraptor Dexterity                 | 5               | 18             | Dexterity Score of 23                        |
+
+#### Constitution
+* Tags: [Required], [Unique], [Known]
+
+| Feature Name                           | Stormlight Cost | Level Required | Feature                                      |
+|----------------------------------------|-----------------|----------------|----------------------------------------------|
+| Basic Constitution                     | 0               | 3              | Constitution Score of 10 and gain temporary hit points equal to your level |
+| Crocodile Constitution                 | 1               | 3              | Constitution Score of 15 and gain temporary hit points equal to two times your level |
+| Camel Constitution                     | 2               | 6              | Constitution Score of 17 and gain temporary hit points equal to three times your level |
+| Moose Constitution                     | 3               | 9              | Constitution Score of 19 and gain temporary hit points equal to three times your level |
+| Whale Constitution                     | 4               | 13             | Constitution Score of 21 and gain temporary hit points equal to three times your level |
+| Draconic Constitution                  | 7               | 18             | Constitution Score of 23 and gain temporary hit points equal to four times your level |
+
+#### Size
+* Tags: [Required], [Unique], [Known]
+
+| Feature Name        | Stormlight Cost | Level Required | Feature                      |
+|---------------------|-----------------|----------------|------------------------------|
+| Small Size          | 0               | 3              | Creature Size of Small       |
+| Medium Size         | 0               | 3              | Creature Size of Medium      |
+| Tiny Size           | 2               | 6              | Creature Size of Tiny        |
+| Large Size          | 2               | 6              | Creature Size of Large       |
+| Huge Size           | 4               | 9              | Creature Size of Huge        |
+| Gargantuan Size     | 9               | 13             | Creature Size of Gargantuan  |
+
+#### Creature 
+* Tags: [Required], [Unique], [Known]
+
+| Creature Type        | Stormlight Cost | Level Required | Feature Description                                               |
+|----------------------|-----------------|----------------|-------------------------------------------------------------------|
+| Basic Creature       | 0               | 3              | Creature Type of Beast                                            |
+| Monstrous Creature   | 1               | 6              | Creature Type of Giant, Monstrosity, Ooze, Plant, or Undead      |
+| Otherworldly Creature| 2               | 9              | Creature Type of Aberration, Celestial, Construct, Dragon, Fey, Fiend, or Elemental |
+
+#### Armor Class
+* Tags: [Required], [Unique], [Known]
+
+Armor can come in many forms, while it could be tough skin, or literal armor, it could also come from your dexterity and speed, or a force of personality; or any other way you decide to flavor it.  Do not let typical armor descriptions limit your ideas.
+
+| Feature Name     | Stormlight Cost | Level Required | Feature Description                      |
+|------------------|-----------------|----------------|------------------------------------------|
+| Basic Armor      | 0               | 3              | AC of 10 + your proficiency bonus        |
+| Awakened Armor   | 3               | 6              | AC of 11 + your proficiency bonus        |
+| Ascendant Armor  | 6               | 9              | AC of 12 + your proficiency bonus        |
+| Exalted Armor    | 10              | 13             | AC of 13 + your proficiency bonus        |
+
+#### Intelligence
+* Tags: [Optional], [Unique], [Known]
+
+| Feature Name                           | Stormlight Cost | Level Required | Feature                                      |
+|----------------------------------------|-----------------|----------------|----------------------------------------------|
+| Bee Intelligence                        | 1               | 3              | Intelligence Score of 15                     |
+| Dolphin Intelligence                    | 2               | 6              | Intelligence Score of 17                     |
+| Chimp Intelligence                       | 3               | 9              | Intelligence Score of 19                     |
+| Raven Intelligence                       | 4               | 13             | Intelligence Score of 21                     |
+| Beholder Intelligence                   | 5               | 18             | Intelligence Score of 23                     |
+
+
+
+#### Wisdom
+* Tags: [Optional], [Unique], [Known]
+
+| Feature Name                           | Stormlight Cost | Level Required | Feature                                      |
+|----------------------------------------|-----------------|----------------|----------------------------------------------|
+| Deer Wisdom                            | 1               | 3              | Wisdom Score of 15                           |
+| Hawk Wisdom                            | 2               | 6              | Wisdom Score of 17                           |
+| Tortoise Wisdom                        | 3               | 9              | Wisdom Score of 19                           |
+| Elephant Wisdom                        | 4               | 13             | Wisdom Score of 21                           |
+| Planetar Wisdom                        | 5               | 18             | Wisdom Score of 23                           |
+
+
+#### Charisma
+* Tags: [Optional], [Unique], [Known]
+
+| Feature Name                           | Stormlight Cost | Level Required | Feature                                      |
+|----------------------------------------|-----------------|----------------|----------------------------------------------|
+| Seal Charisma                          | 1               | 3              | Charisma Score of 15                         |
+| Panda Charisma                         | 2               | 6              | Charisma Score of 17                         |
+| Lion Charisma                          | 3               | 9              | Charisma Score of 19                         |
+| Peacock Charisma                       | 4               | 13             | Charisma Score of 21                         |
+| Vampiric Charisma                      | 5               | 18             | Charisma Score of 23                         |
+
+#### Saving Throws
+* Tags: [Optional], [Repeatable], [Known]
+
+| Feature Name                           | Stormlight Cost | Level Required | Feature                                      |
+|----------------------------------------|-----------------|----------------|----------------------------------------------|
+| Proficiency in Strength saving throws         | 4               | 6              | Gain proficiency in Strength saving throws   |
+| Proficiency in Dexterity saving throws | 5               | 6              | Gain proficiency in Dexterity saving throws  |
+| Proficiency in Constitution saving throws | -              | -              | Granted by Willshaper order |
+| Proficiency in Intelligence saving throws | 4               | 6              | Gain proficiency in Intelligence saving throws |
+| Proficiency in Wisdom saving throws    | 5               | 6              | Gain proficiency in Wisdom saving throws     |
+| Proficiency in Charisma saving throws  | 4               | 6              | Gain proficiency in Charisma saving throws   |
+
+#### Elemental Auras and Death Bursts
+* Tags: [Optional], [Unique], [Grouped]
+
+You choose the type of the *elemental damage* each time you willshape.  The *elemental damage* options are: acid, cold, fire, lightning, or thunder.
+
+| Feature Name                     | Stormlight Cost | Level Required | Feature Description                                                                                                                                                                                                                           |
+|-----------------------------------|-----------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Basic Elemental Aura             | 3               | 6              | When a creature starts its turn within 5 feet of you, or is within 5 feet of you when you hit them with a melee attack, they take 1d6 *elemental damage*                                                                                       |
+| Improved Elemental Aura          | 5               | 9              | When a creature starts its turn within 5 feet of you, or is within 5 feet of you when you hit them with a melee attack, they take 2d6 *elemental damage*                                                                                       |
+| Superior Elemental Aura          | 9               | 13             | When a creature starts its turn within 5 feet of you, or is within 5 feet of you when you hit them with a melee attack, they take 3d6 *elemental damage*                                                                                       |
+| Basic Elemental Death Burst      | 3               | 6              | When you reach 0 hit points, you can choose to fail all unused death saves to cause an explosion in a 10ft radius around you. Creatures must make a Dexterity saving throw or take 2d6 *elemental damage* for each death save you choose to fail. Affected creatures take half damage on a successful save. |
+| Improved Elemental Death Burst   | 7               | 9              | When you reach 0 hit points, you can choose to fail all unused death saves to cause an explosion in a 20ft radius around you. Creatures must make a Dexterity saving throw or take 5d6 *elemental damage* for each death save you choose to fail. Affected creatures take half damage on a successful save. |
+| Superior Elemental Death Burst   | 10              | 13             | When you reach 0 hit points, you can choose to fail all unused death saves to cause an explosion in a 30ft radius around you. Creatures must make a Dexterity saving throw or take 8d6 *elemental damage* for each death save you choose to fail. Affected creatures take half damage on a successful save. |
+
+#### Otherworldly Aura 
+* Tags: [Optional], [Unique], [Grouped]
+
+You choose the type of the *otherworldly damage* each time you willshape. The *otherworldly damage* options are: radiant, necrotic, or psychic.
+
+| Feature Name               | Stormlight Cost | Level Required | Feature Description                                                                                                      |
+|----------------------------|-----------------|----------------|--------------------------------------------------------------------------------------------------------------------------|
+| Basic Otherworldly Aura          | 7               | 9              | When a creature starts its turn within 5 feet of you, or is within 5 feet of you when you hit them with a melee attack, they take 1d6 *otherworldly damage*                                                                                    |
+| Improved Otherworldly Aura       | 11              | 13             | When a creature starts its turn within 5 feet of you, or is within 5 feet of you when you hit them with a melee attack, they take 2d6 *otherworldly damage*                                                                                   |
+| Superior Otherworldly Aura       | 15              | 18             | When a creature starts its turn within 5 feet of you, or is within 5 feet of you when you hit them with a melee attack, they take 3d6 *otherworldly damage*                                                                                   |
+| Basic Otherworldly Death Burst   | 5               | 9              | When you reach 0 hit points, you can choose to fail all unused death saves to cause an explosion in a 10ft radius around you. Creatures must make a Dexterity saving throw or take 2d6 *otherworldly damage* for each death save you choose to fail. Affected creatures take half damage on a successful save. |
+| Improved Otherworldly Death Burst| 9               | 13             | When you reach 0 hit points, you can choose to fail all unused death saves to cause an explosion in a 20ft radius around you. Creatures must make a Dexterity saving throw or take 5d6 *otherworldly damage* for each death save you choose to fail. Affected creatures take half damage on a successful save. |
+| Superior Otherworldly Death Burst| 15              | 18             | When you reach 0 hit points, you can choose to fail all unused death saves to cause an explosion in a 30ft radius around you. Creatures must make a Dexterity saving throw or take 8d6 *otherworldly damage* for each death save you choose to fail. Affected creatures take half damage on a successful save. |
+
+#### Damage Resistances
+* Tags: [Optional], [Repeatable], [Single]
+
+| Feature Name                 | Stormlight Cost | Level Required | Feature Description                                             |
+|------------------------------|-----------------|----------------|-----------------------------------------------------------------|
+| Poison Resistance             | 2               | 3              | Gain resistance to poison damage                               |
+| Acid Resistance               | 3               | 6              | Gain resistance to acid damage                                 |
+| Cold Resistance               | 4               | 6              | Gain resistance to cold damage                                 |
+| Fire Resistance               | 5               | 6              | Gain resistance to fire damage                                 |
+| Lightning Resistance          | 4               | 6              | Gain resistance to lightning damage                            |
+| Thunder Resistance            | 4               | 6              | Gain resistance to thunder damage                              |
+| Necrotic Resistance           | 8               | 9              | Gain resistance to necrotic damage                             |
+| Psychic Resistance            | 8               | 9              | Gain resistance to psychic damage                              |
+| Radiant Resistance            | 9               | 9              | Gain resistance to radiant damage                              |
+| Natural Weapon Resistance     | 12              | 13             | Gain resistance to nonmagical bludgeoning, piercing, and slashing damage |
+| Force Resistance              | 10              | 18             | Gain resistance to force damage                                |
+
+
+#### Damage Immunities
+* Tags: [Optional], [Repeatable], [Single]
+
+| Feature Name               | Stormlight Cost | Level Required | Feature Description                                          |
+|----------------------------|-----------------|----------------|--------------------------------------------------------------|
+| Poison Immunity             | 5               | 9              | Gain Immunity to poison damage                               |
+| Acid Immunity               | 13              | 13             | Gain Immunity to acid damage                                 |
+| Cold Immunity               | 13              | 13             | Gain Immunity to cold damage                                 |
+| Fire Immunity               | 13              | 13             | Gain Immunity to fire damage                                 |
+| Lightning Immunity          | 13              | 13             | Gain Immunity to lightning damage                            |
+| Thunder Immunity            | 13              | 13             | Gain Immunity to thunder damage                              |
+| Necrotic Immunity           | 27              | 18             | Gain Immunity to necrotic damage                             |
+| Psychic Immunity            | 27              | 18             | Gain Immunity to psychic damage                              |
+| Radiant Immunity            | 27              | 18             | Gain Immunity to radiant damage                              |
+
+#### Senses
+* Tags: [Optional], [Repeatable], [Paired]
+
+| Feature Name     | Stormlight Cost | Level Required | Feature Description                                             |
+|------------------|-----------------|----------------|-----------------------------------------------------------------|
+| Darkvision       | 1               | 3              | You gain 60ft darkvision                                        |
+| Devil's Sight    | 2               | 6              | You gain 120ft darkvision and your darkvision is not impeded by magical darkness |
+| Echolocation     | 3               | 9              | You gain 30ft blindsight                                        |
+| Tremorsense      | 8               | 13             | You gain 60ft tremorsense                                       |
+| Truesight        | 12              | 18             | You gain 120ft truesight                                        |
+| Firesight        | 1               | 6              | You can see through areas obscured by fire, smoke, and fog without penalty |
+| Snowsight        | 1               | 6              | You can see through areas obscured by snowfall, sleet, rain, and other wintry precipitation without penalty |
+
+#### Walk Speed
+* Tags: [Optional], [Unique], [Grouped]
+
+| Feature Name        | Stormlight Cost | Level Required | Feature Description       |
+|---------------------|-----------------|----------------|---------------------------|
+| Basic Move Speed    | 1               | 3              | Gain 40ft walk speed      |
+| Improved Move Speed | 3               | 6              | Gain 50ft walk speed      |
+| Superior Move Speed | 5               | 9              | Gain 60ft walk speed      |
+
+#### Swim Speed
+* Tags: [Optional], [Unique], [Grouped]
+
+| Feature Name        | Stormlight Cost | Level Required | Feature Description       |
+|---------------------|-----------------|----------------|---------------------------|
+| Basic Swim Speed    | 1               | 3              | Gain 30ft swim speed      |
+| Improved Swim Speed | 2               | 6              | Gain 60ft swim speed      |
+| Superior Swim Speed | 4               | 9              | Gain 120ft swim speed     |
+
+
+#### Climb Speed
+* Tags: [Optional], [Unique], [Grouped]
+
+| Feature Name        | Stormlight Cost | Level Required | Feature Description       |
+|---------------------|-----------------|----------------|---------------------------|
+| Basic Climb Speed   | 1               | 3              | Gain 30ft climb speed     |
+| Improved Climb Speed| 2               | 6              | Gain 60ft climb speed     |
+| Superior Climb Speed| 4               | 9              | Gain 90ft climb speed     |
+
+
+#### Fly Speed
+* Tags: [Optional], [Unique], [Grouped]
+
+| Feature Name        | Stormlight Cost | Level Required | Feature Description       |
+|---------------------|-----------------|----------------|---------------------------|
+| Basic Fly Speed     | 3               | 6              | Gain 20ft fly speed       |
+| Improved Fly Speed  | 6               | 9              | Gain 60ft fly speed       |
+| Superior Fly Speed  | 8               | 13             | Gain 120ft fly speed      |
+
+
+#### Burrow Speed
+* Tags: [Optional], [Unique], [Grouped]
+
+| Feature Name        | Stormlight Cost | Level Required | Feature Description       |
+|---------------------|-----------------|----------------|---------------------------|
+| Basic Burrow Speed  | 1               | 3              | Gain 10ft burrow speed, you do not leave a tunnel behind as you move |
+| Improved Burrow Speed| 2               | 6              | Gain 20ft burrow speed, you leave a tunnel the size of you behind you when you move which is stable for one minute |
+| Superior Burrow Speed| 6               | 9              | Gain 30ft burrow speed, you leave a tunnel the size of you behind you when you move which is stable for one minute |
+
+
+#### Multi Attack
+* Tags: [Optional], [Unique], [Single] <!-- could be grouped... not sure yet-->
+
+| Feature Name       | Stormlight Cost | Level Required | Feature Description     |
+|--------------------|-----------------|----------------|-------------------------|
+| Basic Extra Attack | 2               | 6              | When you take the Attack action, you can make two attacks       |
+| Multi-attack       | 7               | 13             | when you take the Attack action, you can make three attacks  |
+
+#### Basic Monster Features
+* Tags: [Optional], [Repeatable], [Single]
+
+| Feature Name                 | Stormlight Cost | Level Required | Feature Description                                                                                                                                                                      |
+|------------------------------|-----------------|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Basic Spider Features        | 2               | 3              | You gain 60ft darkvision, 30ft climb speed, the ability to know where all creatures are who are in contact with a web you are in contact with, and ignore webs that cause difficult terrain. |
+| Basic Flying Creature        | 4               | 6              | You gain a 20 ft fly speed, take no opportunity attacks when you hit a creature while flying, and gain an extra 2d6 to your next damage roll when you hit a creature after flying at least 10 feet straight towards that creature. |
+| Basic Arctic Creature        | 2               | 6              | You can walk on icy surfaces without slipping, ignore difficult terrain caused by icy terrain and have advantage on checks to resist cold weather.                                         |
+| Basic Desert Creature        | 2               | 6              | You require 1/10th the amount of water typically required to stay hydrated and have advantage on checks to resist hot weather.                                                             |
+| Basic Ocean Creature         | 2               | 3              | You gain 30ft swim speed, 60ft darkvision, and can breathe underwater.                                                                                                                    |
+
+#### Basic Skill Kits
+* Tags: [Optional], [Repeatable], [Single]
+
+| Feature Name              | Stormlight Cost | Level Required | Feature Description                                                                                                                     |
+|---------------------------|-----------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| Hunter Creature           | 1               | 3              | You gain proficiency in the survival skill and have advantage on checks to track creatures.                                                |
+| Stealthy Creature         | 1               | 3              | You gain proficiency in the stealth skill and can hide while lightly obscured.                                                            |
+| Keen Senses               | 2               | 6              | You gain proficiency in the perception skill and have advantage on perception checks that rely on sight or smell.                         |
+| Improved Keen Senses      | 7               | 9              | You gain expertise in the perception skill, 60ft darkvision, and have advantage on perception checks that rely on sight or smell.          |
+| Intimidating Creature     | 1               | 3              | You gain proficiency in the intimidation skill, and can use Strength instead of Charisma for intimidation checks.                         |
+| Investigative Creature    | 1               | 3              | You gain proficiency in the investigation skill.                                                                                           |
+| Strong Creature           | 2               | 3              | You gain proficiency in the athletics skill, your speed isn't halved when it moves a creature it has grappled, and you have double the carrying capacity. |
+| Arcane Creature           | 5               | 9              | You gain proficiency in the arcana skill, and you can innately cast identify.                                                              |
+
+
+#### Condition Afflicting Strikes
+* Tags: [Optional], [Repeatable], [Single]
+
+You can only make one condition afflicting stirke of any type per turn. So if you have extra attack, you can't make a blinding strike and a deafening strike in the same turn, nor could you make two blinding strikes in the same turn.
+
+| Feature Name        | Stormlight Cost | Level Required | Feature Description                                                                 |
+|---------------------|-----------------|----------------|-------------------------------------------------------------------------------------|
+| Blinding Strike     | 4               | 6              | Once per turn when you hit a creature with a melee weapon attack, they must make a Dexterity Saving throw or become Blinded until the start of your next turn. |
+| Deafening Strike    | 2               | 3              | Once per turn when you hit a creature with a melee weapon attack, they must make a Constitution Saving throw or become Deafened until the start of your next turn. |
+| Frightening Strike  | 4               | 9              | Once per turn when you hit a creature with a melee weapon attack, they must make a Wisdom Saving throw or become Frightened until the start of your next turn. |
+| Grappling Strike    | 3               | 6              | Once per turn when you hit a creature with a melee weapon attack, they must make a Dexterity Saving throw or become Grappled until the start of your next turn. |
+| Paralyzing Strike   | 11              | 13             | Once per turn when you hit a creature with a melee weapon attack, they must make a Constitution Saving throw or become Paralyzed until the start of your next turn. |
+| Petrifying Strike   | 16              | 18             | Once per turn when you hit a creature with a melee weapon attack, they must make a Constitution Saving throw or become Petrified until the start of your next turn. |
+| Prone Strike        | 3               | 6              | Once per turn when you hit a creature with a melee weapon attack, they must make a Strength Saving throw or become Prone until the start of your next turn. |
+| Poison Strike       | 7               | 9              | Once per turn when you hit a creature with a melee weapon attack, they must make a Constitution Saving throw or become Poisoned until the start of your next turn. |
+| Restraining Strike  | 6               | 9              | Once per turn when you hit a creature with a melee weapon attack, they must make a Strength Saving throw or become Restrained until the start of your next turn. |
+| Stunning Strike     | 11              | 13             | Once per turn when you hit a creature with a melee weapon attack, they must make a Constitution Saving throw or become Stunned until the start of your next turn. |
+
+#### Unique Strikes
+* Tags: [Optional], [Repeatable], [Single]
+
+| Feature Name        | Stormlight Cost | Level Required | Feature Description                                                                                                                                                                                                                                            |
+|---------------------|-----------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Swallow             | 12              | 9              | As an action, you can deal 6d6 acid damage to a creature you have grappled, and swallow them. A swallowed creature has total cover to all effects outside you. Whenever you take damage, you must make a d20 test with no modifiers; on a roll of 11 or greater, nothing happens; 10 or lower you regurgitate the creature you have swallowed. You can only have one creature swallowed at a time. When a creature starts its turn swallowed, it takes another 6d6 acid damage. |
+| Pounce              | 1               | 3              | As an action, you can move 20 feet towards a creature you can see and make a melee weapon attack. If it hits, the target must make a DC 10 Strength saving throw or be knocked prone, and you can make an extra attack against that creature for free.                                                                                                           |
+| Dive Attack         | 2               | 3              | Once per turn, if you are flying and move at least 30 feet and hit with an attack, you deal an extra 3d6 damage of the weapon's type.                                                                                                                                                                       |
+
+#### Bestial Features
+* Tags: [Optional], [Repeatable], [Single]
+
+| Feature Name        | Stormlight Cost | Level Required | Feature Description                                                                                                                                                                                                                                                                                                     |
+|---------------------|-----------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Ink Cloud           | 2               | 3              | While underwater, as an Action, you can expel an ink cloud in a 30ft radius around you which makes the area heavily obscured to all creatures other than you. Any creature who ends its turn there must make a Constitution saving throw or take 2d6 poison damage. At level 9, you can choose to expend 4 extra stormlight to prepare the improved version of this which increases the radius of effect to 60ft and the damage inflicted to 3d10. |
+| Bloodlust          | 5               | 9              | When you reduce a creature to 0 hit points with a melee attack, you can use your Bonus Action to move up to half your speed and make another melee attack.                                                                                                                                                                |
+| Hover               | 2               | 9              | Gain the (hover) property on your fly speed                                                                                                                                                                                                                                                                            |
+| Flyby               | 5               | 9              | You don't provoke opportunity attacks while flying out of an enemy's reach                                                                                                                                                                                                                                             |
+| Blood Frenzy        | 4               | 6              | Once per turn, you can gain advantage on a weapon attack roll you make against a creature that does not have all their hit points.                                                                                                                                                                                    |
+| Agile Landing       | 2               | 6              | When calculating fall damage, calculate the damage as if you fell from a height (up to) 40 feet lower, to a minimum of 0 feet.                                                                                                                                                                                       |
+| Watchful            | 4               | 6              | You have advantage on initiative rolls and cannot be surprised.                                                                                                                                                                                                                                                         |
+| Mimicry             | 1               | 3              | You can mimic simple sounds you have heard such as a person whispering, a baby crying, or an animal chittering. Other creatures can make a DC 12 Wisdom (Insight) check to perceive it as mimicry.                                                                                                                   |
+| Natural Camouflage  | 1               | 3              | You have advantage on Dexterity (Stealth) checks                                                                                                                                                                                                                                                                        |
+| Nimble              | 3               | 6              | You gain the ability to use a Bonus Action to take the Disengage or Dash Action.                                                                                                                                                                                                                                        |
+| Anaerobic Nature    | 1               | 3              | You don't require air to breathe                                                                                                                                                                                                                                                                                         |
+| Natural Hider       | 4               | 6              | Choose one of the following environments (forest, desert, shadows, underwater, snow, mountain, swamp, grassland), you can hide as a Bonus Action when you are in that environment.                                                                                                                                    |
+| Steady     | 2               | 3              | You have advantage against getting knocked prone.                                                                                                                                                                                                                                                                        |
+
+#### Monstrous Features
+* Tags: [Optional], [Repeatable], [Single]
+
+| Feature Name            | Stormlight Cost | Level Required | Feature Description                                                                                                                                                                                                                                   |
+|-------------------------|-----------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Adhesive                | 8               | 13             | Anything that touches you, you can choose to adhere to. A creature that is your size or smaller that is adhered to you is also grappled by you (escape DC equal to your willshaper DC).                                                                |
+| Amorphous               | 2               | 6              | You can move through a space as narrow as 1 inch wide without squeezing.                                                                                                                                                                               |
+| Barbed Hide             | 1               | 3              | At the start of your turn, you deal 1d10 piercing damage to any creature grappling you or any creature you grapple.                                                                                                                                     |
+| Corrode Metal           | 2               | 6              | Non-magical weapons that hit you take a -1 to their damage rolls. When it gets to -5, the weapon is destroyed.                                                                                                                                         |
+| False Appearance        | 5               | 9              | Pick a common object. While you remain motionless, you are indistinguishable from that object.                                                                                                                                                           |
+| Fey Ancestry            | 2               | 6              | You have advantage on saving throws to avoid the charmed condition and can't be put to sleep.                                                                                                                                                           |
+| Stench                  | 2               | 6              | Any creature other than yourself must make DC 12 Constitution saving throw or be poisoned until the start of your next turn. On save, a creature is immune to this effect for 1 hour.                                                                 |
+| Reflective Carapace     | 23              | 18             | When you are targeted by magic missile or a line or ranged attack roll, roll a d6. On a 1-5 you are unaffected. On a 6, you are unaffected and the spell's target becomes the caster.                                                                 |
+| Telepathic Shroud       | 9               | 9              | You are immune to any effect that would sense your emotions or read your thoughts, as well as all divination spells.                                                                                                                                    |
+| Siege Monster           | 1               | 3              | You deal double damage to objects and structures.                                                                                                                                                                                                      |
+| Two Headed              | 9               | 13             | You have advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.                                                                                           |
+| Charged Skin            | 16              | 13             | When hit by lightning damage, you take no damage. Instead, your next melee attack gains an additional 2d6 lightning damage.                                                                                                                             |
+| Slippery                | 7               | 9              | You have advantage to avoid or end the grappled or restrained conditions.                                                                                                                                                                              |
+| Slowing Aura            | 5               | 9              | All spaces in a 15ft aura around you become difficult terrain.                                                                                                                                                                                         |
+
+#### Recharge Abilities
+* Tags: [Optional], [Unique], [Single]
+
+All of these abilities can be used once per short rest.
+
+| Feature Name                          | Stormlight Cost | Level Required | Feature Description                                                                                                                                                                                                                           |
+|---------------------------------------|-----------------|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Adhesive Pull                         | 3               | 3              | As an action, you can target one creature within 30 feet. They must make a Dexterity saving throw, on failure, the target is pulled 25 feet towards you until they are within 5 feet.                                                            |
+| Mind Blast                            | 5               | 6              | As an action, you expel energy in a 30-foot cone. All creatures in the cone must make an Intelligence saving throw, on failure, taking 4d8 psychic damage, half on success.                                                                        |
+| Greater Mind Blast                    | 11              | 18             | As an action, you expel energy in a 60-foot cone. All creatures in the cone must make an Intelligence saving throw, on failure, taking 6d8 psychic damage and becoming stunned for 1 minute, repeating save at the end of their turn, half damage on success. |
+| Wyrmling Elemental Cone Breath        | 4               | 3              | As an action, you expel energy in a 15-foot cone, dealing 4d6 *elemental damage*, half on success.                                                                                                                                               |
+| Young Elemental Cone Breath           | 9               | 9              | As an action, you expel energy in a 30-foot cone, dealing 12d6 *elemental damage*, half on success.                                                                                                                                               |
+| Adult Elemental Cone Breath           | 19              | 18             | As an action, you expel energy in a 60-foot cone, dealing 18d6 *elemental damage*, half on success.                                                                                                                                               |
+| Basic Electricute                     | 3               | 3              | As an action, you send waves of lightning energy to a creature within 5 feet of you. They make a Constitution saving throw, on failure they take 4d6 lightning damage, half on success. If you are in water, all creatures (other than you) within 10 feet take 4d6 lightning damage. |
+| Greater Electricute                   | 8               | 6              | As an action, you send waves of lightning energy to a creature within 5 feet of you. They make a Constitution saving throw, on failure they take 8d6 lightning damage, half on success. If you are in water, all creatures (other than you) within 20 feet take 8d6 lightning damage. |
+| Superior Electricute                  | 12              | 13             | As an action, you send waves of lightning energy to a creature within 5 feet of you. They make a Constitution saving throw, on failure they take 12d6 lightning damage and are paralyzed, half damage on success and they are not paralyzed, repeat save at end of creature's turn. If you are in water, all creatures (other than you) within 10 feet take 12d6 lightning damage. |
+| Frightening Presence                  | 2               | 6              | As an action, each creature of your choice within 30 feet of you must make a Wisdom saving throw or become frightened for 1 minute. They repeat the save at the end of their turn. Once they succeed, they are immune to your frightful presence for 24 hours. |
+| Unleash Void                          | 11              | 18             | As an action, you tear a rift in the material plane, causing all creatures within a 30ft radius sphere within 60 feet of you to make an Intelligence saving throw. On failure, a creature takes 4d8 cold and 4d8 psychic damage and is stunned for 1 minute, repeating the save at the end of their turn. |
+
+#### Arcane Properties
+* Tags: [Optional], [Repeatable], [Single]
+
+| Feature Name             | Stormlight Cost | Level Required | Feature Description                                                                                      |
+|--------------------------|-----------------|----------------|----------------------------------------------------------------------------------------------------------|
+| Magic Resistance         | 10              | 9              | You have advantage on saving throws against spells or magical effects.                                    |
+| Limited Magic Immunity   | 16              | 13             | You can't be affected or detected by spells of 3rd level or lower.                                        |
+
+### Willshaper Spell List
+
+| Cantrips | 1st Level | 2nd Level | 3rd Level | 4th Level | 
+| --- | --- | --- | --- | --- |
+|Create Bonfire|Create or Destroy Water|Air Bubble|Call Lightning|Conjure Minor Elementals|
+|Druidcraft|Ensnaring Strike|Alter Self|Conjure Animals|Conjure Woodland Beings|
+|Infestation|Hail of Thorns|Animal Shapes|Sleet Storm|Control Water|
+|Gust|Jump|Barkskin|Summon Fey|Freedom of Movement|
+|Magic Stone|Longstrider|Darkvision|Summon Lesser Demons|Gate Seal|
+|Mold Earth|Purify Food and Drink|Earthbind|Summon Undead|Grasping Vine|
+|Primal Savagery||Enhance Ability|Tidal Wave|Polymorph|
+|Shape Water||Enlarge/Reduce|Water Breathing|Stoneskin|
+|Shillelagh||Gaseous Form|Water Walk|Summon Aberration|
+|Starry Wisp||Gust of Wind||Summon Construct|
+|Thorn Whip||Spider Climb||Summon Elemental|
+|||Summon Beast||Summon Greater Demon|
+|||Vortex Warp||Watery Sphere|
+
+
+
+| 5th Level | 6th Level | 7th Level | 8th Level | 9th Level |
+| --- | --- | --- | --- | --- |
+|Awaken|Conjure Fey|Conjure Celestial|Animal Shapes|Gate Seal|
+|Conjure Elemental|Create Homunculus|Draconic Transformation|Control Weather|Shapechange|
+|Control Winds|Druid Grove|Etherealness|Gate|Storm of Vengeance|
+|Fabricate|Heroes' Feast|Plane Shift|Mighty Fortress|True Polymorph|
+|Insect Plague|Investiture of Flame|Teleport|Tsunami||
+|Planar Ally|Investiture of Ice||||
+|Summon Celestial|Investiture of Stone||||
+|Summon Draconic Spirit|Investiture of Wind||||
+|Summon Dragon|Move Earth||||
+|Tree Stride|Scatter||||
+||Summon Fiend||||
+||Tasha's Bubbling Cauldron||||
+||Transport Via Plants||||
+
 
 ## Stoneward Order
 The Stonewards are seen as the infantry and ground troops of the Knights Radiants alongside Windrunners.  They tended to attract people interested in warfare, but also challenge, prowess with weapons and athleticism.  Throughout the world, they were widely known for being dependable, strong and filled with resolve.
@@ -3476,6 +4093,10 @@ If I've missed any other attributions, hit me up at "<i>skaarf@duck.com</i>" or 
 
 ## Changelog
 
+### v0.8.0
+#### Willshaper Order
+* Introducing the 9th order of radiant knights, the willshaper, which is a druid-like class which focuses on customization of their willshapes to create bestial and monstrous forms who's only limits are the imagination of the willshaper
+
 ### v0.7.3
 #### Herald Class
 * At 3rd level you can now manifest your spren via the Find Familiar spell, once per long rest.
@@ -3863,6 +4484,9 @@ Introduced the Windrunner Subclass
     Said another way, you can only have one regained spell slot from the Stormlight Exchange feature at any given time.
 
 [^elsecaller3]: [Elsecaller 3]: This does mean you could restore a 1st level spell slot even when you may not have one naturally.  For example, an 8th level elsecaller doesn't have any available 1st level spell slots but they could regain one through this feature.. but they could not gain a 5th level spell slot because they don't have the power to cast 5th level spells (nor do they meet the level requirement for this feature).  *You always contain the power to cast 1st level spells at 1st level, but possibly not the spell slots*
+
+
+[^willshaper1]: [Willshaper 1]: To the DM who would be making this decision, don't be a jerk about this.  The spren is an ally and teammate of the willshaper.  This option is only left here so if a willshaper is being a mechanical nuisance for other players in the party.  I mention it here so you have the option to apply muting features to the player in extreme scenarios but this should be a last resort.  Talking to the player out of session should always come before this.
 
 <!-- <p id="stoneward1"></p> -->
 
