@@ -458,13 +458,13 @@ a[href="#edgedancer-order"] {
   font-weight: 600;
 }
 
-a[href="#lightweaver-order"] {
-  color: #8a0221;
+a[href="#truthwatcher-order"] {
+  color: #125738;
   font-weight: 600;
 }
 
-a[href="#truthwatcher-order"] {
-  color: #125738;
+a[href="#lightweaver-order"] {
+  color: #8a0221;
   font-weight: 600;
 }
 
@@ -473,11 +473,20 @@ a[href="#elsecaller-order"] {
   font-weight: 600;
 }
 
+a[href="#willshaper-order"] {
+  color: #751D7B; 
+  font-weight: 600;
+ }
+
 a[href="#stoneward-order"] {
   color: #D46424;
   font-weight: 600;
 }
 
+a[href="#bondsmith-order"] {
+  color: #F7BD62; 
+  font-weight: 600;
+ }
 
 a[href^="http"]::after,
 a[href^="https://"]::after
